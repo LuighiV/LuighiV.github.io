@@ -8,6 +8,7 @@
 {% assign slugs = site.data.generated.slug -%}
 {% assign strings = site.data.generated.string -%}
 
+<div class="skills-list">
 {% for category in site.data.generated.skill_category %}
 {%- assign category_name = strings[category.category_name] -%}
 
@@ -18,14 +19,14 @@
 {%- capture content -%}
 {% assign selected_skills = site.data.generated.skill | where: "category_id",
 category.category_id %}
-<ul>
+<ul class="enumerate">
 {% for skill in selected_skills %}
 
 {% assign skill_name = site.data.generated.string[skill.skill_name] %}
 {% assign slug = site.data.generated.slug[skill.skill_name] %}
-<li>
+<li >
 <a href="{{ page.lang }}/skills#{{ slug[page.lang] }}">
-{{ skill_name[page.lang] }}
+{{- skill_name[page.lang] -}}
 </a>
 </li>
 
@@ -39,4 +40,5 @@ category.category_id %}
 -%}
 
 {% endfor %}
+</div>
 </div>

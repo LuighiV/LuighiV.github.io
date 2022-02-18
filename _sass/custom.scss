@@ -9,3 +9,52 @@
     }
   } 
 }
+
+.enumerate {
+    margin-left:0;
+  > li {
+    list-style-type: none;
+    display: inline;
+    :after{
+      content:",";
+    }
+    &:last-child{
+      :after{
+        content: "";
+      }
+    }
+  }
+}
+
+.small-card{
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: .5rem;
+
+  > .card-title{
+    font-size: 1.25rem;
+    font-weight: bold;
+    a {
+      font-weight: 600;
+      color: black;
+    }
+  }
+}
+
+.skills-list{
+    display:flex;
+    flex-wrap: wrap;
+
+   >div{
+    width:30%;
+    margin-right:0.25rem;
+    margin-bottom:0.25rem;
+
+    @media (max-width:43.75rem){
+    width:45%;
+    }
+    @media (max-width:31.25rem){
+    width:100%;
+    }
+  }
+}
