@@ -1,0 +1,24 @@
+<div>
+  
+{% assign labels = site.data.generated.label %}
+{% assign projects  = site.data.generated.project %}
+{% assign highlighted = projects | where: "highlight", true %}
+{% assign other = projects | where: "highlight", false %}
+
+{% if highlighted.size > 0 %}
+
+ <h2 id='{{ labels["highlighted_projects"][page.lang] | slugify }}'>{{ labels["highlighted_projects"][page.lang] }}</h2>
+
+{% include project-list.html highlight=true %}
+
+{% if other.size > 0 %}
+
+<h2 id='{{ labels["other_projects"][page.lang] | slugify }}'>{{ labels["other_projects"][page.lang] }}</h2>
+
+{% include project-list.html highlight=false %}
+
+{% endif %}
+{% endif %}
+
+
+</div>

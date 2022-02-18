@@ -1,0 +1,72 @@
+[
+    {
+        "project_id": "insert_image_document",
+        "repository_source": "github",
+        "repository_name": "LuighiV/automate-insert-image"
+    },
+    {
+        "project_id": "generator_docs",
+        "repository_source": "github",
+        "repository_name": "LuighiV/activities-docs-generator"
+    },
+    {
+        "project_id": "isfet_board_arduino",
+        "repository_source": "github",
+        "repository_name": "LuighiV/arduino-isfetboard"
+    },
+    {
+        "project_id": "monitoring_system_characterization",
+        "repository_source": "github",
+        "repository_name": "LuighiV/characterization-isfet"
+    },
+    {
+        "project_id": "simulation_isfet_model",
+        "repository_source": "github",
+        "repository_name": "LuighiV/simulator-isfet"
+    },
+    {
+        "project_id": "covid_frame",
+        "repository_source": "github",
+        "repository_name": "covid-frame/covid-frame"
+    },
+    {
+        "project_id": "deployment_automation",
+        "repository_source": "github",
+        "repository_name": "LuighiV/deployment-terraform"
+    },
+    {
+        "project_id": "payload_generator",
+        "repository_source": "github",
+        "repository_name": "LuighiV/payload-generator"
+    },
+    {
+        "project_id": "payload_generator",
+        "repository_source": "github",
+        "repository_name": "LuighiV/chirpstack-simulator"
+    },
+    {
+        "project_id": "devops_votu",
+        "repository_source": "github",
+        "repository_name": "openpolitica/devops"
+    },
+    {
+        "project_id": "devops_tuku",
+        "repository_source": "github",
+        "repository_name": "openpolitica/open-tracker-devops"
+    },
+    {
+        "project_id": "wm_configuration",
+        "repository_source": "github",
+        "repository_name": "LuighiV/bspwm-config"
+    },
+    {
+        "project_id": "wm_configuration",
+        "repository_source": "github",
+        "repository_name": "LuighiV/nvim-config"
+    },
+    {
+        "project_id": "wm_configuration",
+        "repository_source": "github",
+        "repository_name": "LuighiV/vim-like-tmux"
+    }
+]

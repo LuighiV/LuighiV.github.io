@@ -1,0 +1,63 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    {%- if site.data.translations['title'][page.lang] -%}
+      {%- assign page_title = site.data.translations['title'][page.lang] -%}
+    {% else %}
+      {%- assign page_title = site.title -%}
+    {%- endif -%}
+
+    <h2 class="footer-heading">{{ page_title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
+
+        <div class="lang-options">
+          {% assign pages=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+          {% if pages.size > 1 %}
+          <em>{{ site.data.translations['differentLanguage'][page.lang] }}</em>
+          <ul>
+            {% for page in pages %}
+            <li><a href="{{ site.base-url }}{{ page.url }}" class="{{ page.lang }}"
+                title="View in {{ site.data.languages[page.lang].label }}">{{
+                site.data.languages[page.lang].label }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      {%- if page.description -%}
+        {%- assign description = page.description -%}
+      {% else if site.data.translations['description'][page.lang] %}
+        {%- assign description = site.data.translations['description'][page.lang] -%}
+      {% else %}
+        {%- assign description = site.description -%}
+      {%- endif -%}
+
+      <div class="footer-col footer-col-3">
+        <p>{{- description | escape -}}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

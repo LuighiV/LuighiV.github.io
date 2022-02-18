@@ -1,0 +1,22 @@
+[
+    {
+        "project_stage_id": "final_product",
+        "project_stage_name": "final_product_string",
+        "project_stage_order": 3
+    },
+    {
+        "project_stage_id": "prototype",
+        "project_stage_name": "prototype_string",
+        "project_stage_order": 2
+    },
+    {
+        "project_stage_id": "in_development",
+        "project_stage_name": "in_development_string",
+        "project_stage_order": 1
+    },
+    {
+        "project_stage_id": "stand_by",
+        "project_stage_name": "stand_by_string",
+        "project_stage_order": 0
+    }
+]

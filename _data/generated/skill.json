@@ -1,0 +1,298 @@
+[
+    {
+        "skill_id": "programming_python",
+        "skill_name": "python",
+        "category_id": "programming_languages",
+        "skill_description": "python_description",
+        "expertise_level": 4.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "programming_bash",
+        "skill_name": "bash",
+        "category_id": "programming_languages",
+        "skill_description": "bash_description",
+        "expertise_level": 4,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "programming_javascript",
+        "skill_name": "javascript",
+        "category_id": "programming_languages",
+        "skill_description": "javascript_description",
+        "expertise_level": 4,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "programming_c_c_plus_plus",
+        "skill_name": "c_c_plus_plus",
+        "category_id": "programming_languages",
+        "skill_description": "c_c_plus_plus_description",
+        "expertise_level": 3.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "programming_c_sharp",
+        "skill_name": "c_sharp",
+        "category_id": "programming_languages",
+        "skill_description": "c_sharp_description",
+        "expertise_level": 3.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "programming_matlab",
+        "skill_name": "matlab",
+        "category_id": "programming_languages",
+        "skill_description": "matlab_description",
+        "expertise_level": 3,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "programming_go",
+        "skill_name": "go",
+        "category_id": "programming_languages",
+        "skill_description": "go_description",
+        "expertise_level": 2.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "cloud_docker",
+        "skill_name": "docker_docker_compose",
+        "category_id": "cloud_computing",
+        "skill_description": "docker_docker_compose_description",
+        "expertise_level": 4,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "cloud_terraform",
+        "skill_name": "terraform",
+        "category_id": "cloud_computing",
+        "skill_description": "terraform_description",
+        "expertise_level": 3.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "cloud_google_cloud",
+        "skill_name": "google_cloud",
+        "category_id": "cloud_computing",
+        "skill_description": "google_cloud_description",
+        "expertise_level": 3,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "cloud_aws",
+        "skill_name": "aws",
+        "category_id": "cloud_computing",
+        "skill_description": "aws_description",
+        "expertise_level": 3,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "cloud_linode",
+        "skill_name": "linode",
+        "category_id": "cloud_computing",
+        "skill_description": "linode_description",
+        "expertise_level": 4,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "ci_cd_git",
+        "skill_name": "git",
+        "category_id": "ci_cd",
+        "skill_description": "git_description",
+        "expertise_level": 4.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "ci_cd_github",
+        "skill_name": "github",
+        "category_id": "ci_cd",
+        "skill_description": "github_description",
+        "expertise_level": 3,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "ci_cd_gitlab",
+        "skill_name": "gitlab",
+        "category_id": "ci_cd",
+        "skill_description": "gitlab_description",
+        "expertise_level": 3,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "ci_cd_jenkins",
+        "skill_name": "jenkins",
+        "category_id": "ci_cd",
+        "skill_description": "jenkins_description",
+        "expertise_level": 2.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "programming_mariadb",
+        "skill_name": "mariadb_mysql",
+        "category_id": "database_management",
+        "skill_description": "mariadb_mysql_description",
+        "expertise_level": 3,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "programming_postgresql",
+        "skill_name": "postgresql",
+        "category_id": "database_management",
+        "skill_description": "postgresql_description",
+        "expertise_level": 4,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "documentation_latex",
+        "skill_name": "tex_latex",
+        "category_id": "documentation_languages",
+        "skill_description": "tex_latex_description",
+        "expertise_level": 4.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "documentation_markdown",
+        "skill_name": "markdown",
+        "category_id": "documentation_languages",
+        "skill_description": "markdown_description",
+        "expertise_level": 4,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "documentation_re_structured_text",
+        "skill_name": "re_structured_text",
+        "category_id": "documentation_languages",
+        "skill_description": "re_structured_text_description",
+        "expertise_level": 3.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "documentation_asciidocs",
+        "skill_name": "asciidoc",
+        "category_id": "documentation_languages",
+        "skill_description": "asciidoc_description",
+        "expertise_level": 3.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "simulation_language_spice",
+        "skill_name": "spice",
+        "category_id": "simulation_languages",
+        "skill_description": "spice_description",
+        "expertise_level": 4,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "simulation_language_vhdl_ams",
+        "skill_name": "vhdl_ams",
+        "category_id": "simulation_languages",
+        "skill_description": "vhdl_ams_description",
+        "expertise_level": 2.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "simulation_software_ltspice",
+        "skill_name": "ltspice",
+        "category_id": "simulation_software",
+        "skill_description": "ltspice_description",
+        "expertise_level": 4,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "simulation_software_orcad",
+        "skill_name": "orcad_pspice",
+        "category_id": "simulation_software",
+        "skill_description": "orcad_pspice_description",
+        "expertise_level": 3.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "simulation_software_ngspice",
+        "skill_name": "ngspice",
+        "category_id": "simulation_software",
+        "skill_description": "ngspice_description",
+        "expertise_level": 4,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "pcb_software_kicad",
+        "skill_name": "kicad",
+        "category_id": "pcb_design_software",
+        "skill_description": "kicad_description",
+        "expertise_level": 4.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "pcb_software_altium",
+        "skill_name": "altium",
+        "category_id": "pcb_design_software",
+        "skill_description": "altium_description",
+        "expertise_level": 3.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "hdl_vhdl",
+        "skill_name": "vhdl",
+        "category_id": "hardware_description_languages",
+        "skill_description": "vhdl_description",
+        "expertise_level": 4,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "hdl_systemc",
+        "skill_name": "systemc",
+        "category_id": "hardware_description_languages",
+        "skill_description": "systemc_description",
+        "expertise_level": 3,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "modeling_design_freecad",
+        "skill_name": "freecad",
+        "category_id": "modeling_design_software",
+        "skill_description": "freecad_description",
+        "expertise_level": 4,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "modeling_design_inkscape",
+        "skill_name": "inkscape",
+        "category_id": "modeling_design_software",
+        "skill_description": "inkscape_description",
+        "expertise_level": 4.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "modeling_design_gimp",
+        "skill_name": "gimp",
+        "category_id": "modeling_design_software",
+        "skill_description": "gimp_description",
+        "expertise_level": 2.5,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "os_linux",
+        "skill_name": "gnu_linux",
+        "category_id": "operating_systems",
+        "skill_description": "gnu_linux_description",
+        "expertise_level": 4,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "digital_design_vivado",
+        "skill_name": "vivado",
+        "category_id": "digital_hardware_design_software",
+        "skill_description": "vivado_description",
+        "expertise_level": 4,
+        "max_expertise_level": 5
+    },
+    {
+        "skill_id": "digital_design_quartus",
+        "skill_name": "quartus",
+        "category_id": "digital_hardware_design_software",
+        "skill_description": "quartus_description",
+        "expertise_level": 3.5,
+        "max_expertise_level": 5
+    }
+]

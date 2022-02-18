@@ -1,0 +1,113 @@
+<div>
+
+{%- assign labels = site.data.generated.label -%}
+{%- assign strings = site.data.generated.string -%}
+{%- assign descriptions = site.data.generated.description -%}
+{%- assign slugs = site.data.generated.slug -%}
+{%- assign projects  = site.data.generated.project -%}
+{%- assign selected_projects = projects | where: "highlight", include.highlight
+-%}
+
+{% for project in selected_projects %}
+{% capture project_info %}
+
+{% if project.project_year and project.project_year != "" %}
+
+<strong>{{ labels["year"][page.lang] }}</strong>: 
+{{ project.project_year -}}
+<br>
+{% endif %}
+
+{% assign project_owner = site.data.generated.organization | where: "org_id",
+project.project_owner | first %}
+<strong>{{ labels["owner"][page.lang] }}</strong>:
+{% if project_owner.org_url != "" %}
+<a href="{{ project_owner.org_url }}" target="_blank">{{ project_owner.org_short_name }}</a>
+{%else%}
+{{ project_owner.org_short_name }}
+{%endif%}
+
+{% assign project_stage = site.data.generated.project_stage | where:
+"project_stage_id", project.project_stage_id | first %}
+<br>
+<strong>{{ labels["development_stage"][page.lang] }}</strong>:
+ {{ strings[project_stage.project_stage_name][page.lang]}}
+
+
+{% assign project_type = site.data.generated.project_type | where:
+"project_type_id", project.project_type_id | first %}
+<br>
+<strong>{{ labels["type"][page.lang] }}</strong>:
+ {{ strings[project_type.project_type_name][page.lang] }}
+
+{% endcapture %}
+
+{%- capture title -%}
+{{ strings[project.project_title][page.lang] }}
+{%- endcapture -%}
+
+{%- capture slug -%}
+{{ slugs[project.project_title][page.lang] }}
+{%- endcapture -%}
+
+{%- capture description -%}
+{{ descriptions[project.project_description][page.lang] }}
+{%- endcapture -%}
+
+{% capture project_additional_info %}
+
+{% assign contribution = project.contribution  %}
+{% if contribution and contribution !=""%}
+<strong>{{ labels["contribution"][page.lang] }}</strong>:
+ {{ descriptions[contribution][page.lang] }}
+<br>
+{% endif %}
+
+{% assign webpage = project.project_url  %}
+{% if webpage and webpage !=""%}
+<strong>{{ labels["webpage"][page.lang] }}</strong>:
+ <a href="{{ webpage }}" target="_blank">{{ webpage }}</a>
+<br>
+{% endif %}
+
+{% assign documentation = project.project_docs_url  %}
+{% if documentation and documentation !=""%}
+<strong>{{ labels["documentation"][page.lang] }}</strong>:
+ <a href="{{ documentation }}" target="_blank">{{ documentation }}</a>
+<br>
+{% endif %}
+
+{% assign release = project.project_release  %}
+{% if release and release !=""%}
+<strong>{{ labels["release"][page.lang] }}</strong>:
+ <a href="{{ release }}" target="_blank">{{ release }}</a>
+<br>
+{% endif %}
+
+{%- assign selected_repositories = site.data.generated.project_x_repository 
+ | where: "project_id", project.project_id -%}
+{% if selected_repositories.size > 0 %}
+<strong>{{ labels["repositories"][page.lang] }}</strong>:
+<br>
+<ul>
+  {%- for repository in selected_repositories -%} 
+   {%- if repository.repository_source == "github" -%}
+   {%- assign repository_info=site.data.generated.github 
+   | where: "full_name", repository.repository_name | first -%}
+   <li> <a href="{{- repository_info.html_url -}}" target="_blank">{{-
+       repository_info.full_name -}}</a></li>
+   {%- endif -%}
+  {%- endfor -%}
+</ul>
+{%- endif -%}
+{% endcapture %}
+
+{% include big-card.html 
+  title=title
+  slug=slug
+  description=description
+  prev=project_info
+  after=project_additional_info %}
+
+{% endfor %}
+</div>

@@ -1,0 +1,50 @@
+[
+    {
+        "category_id": "programming_languages",
+        "category_name": "programming_languages_string"
+    },
+    {
+        "category_id": "documentation_languages",
+        "category_name": "documentation_languages_string"
+    },
+    {
+        "category_id": "cloud_computing",
+        "category_name": "cloud_computing_string"
+    },
+    {
+        "category_id": "ci_cd",
+        "category_name": "ci_cd_string"
+    },
+    {
+        "category_id": "database_management",
+        "category_name": "database_management_string"
+    },
+    {
+        "category_id": "simulation_software",
+        "category_name": "simulation_software_string"
+    },
+    {
+        "category_id": "simulation_languages",
+        "category_name": "simulation_languages_string"
+    },
+    {
+        "category_id": "pcb_design_software",
+        "category_name": "pcb_design_software_string"
+    },
+    {
+        "category_id": "hardware_description_languages",
+        "category_name": "hardware_description_languages_string"
+    },
+    {
+        "category_id": "modeling_design_software",
+        "category_name": "modeling_design_software_string"
+    },
+    {
+        "category_id": "operating_systems",
+        "category_name": "operating_systems_string"
+    },
+    {
+        "category_id": "digital_hardware_design_software",
+        "category_name": "digital_hardware_design_software_string"
+    }
+]

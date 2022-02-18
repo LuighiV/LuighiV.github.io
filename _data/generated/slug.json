@@ -1,0 +1,310 @@
+{
+    "final_product_string": {
+        "en": "final-product",
+        "es": "producto-final"
+    },
+    "prototype_string": {
+        "en": "prototype",
+        "es": "prototipo"
+    },
+    "in_development_string": {
+        "en": "in-development",
+        "es": "en-desarrollo"
+    },
+    "stand_by_string": {
+        "en": "stand-by",
+        "es": "en-pausa"
+    },
+    "research_string": {
+        "en": "research",
+        "es": "investigacion"
+    },
+    "development_string": {
+        "en": "development",
+        "es": "desarrollo"
+    },
+    "programming_languages_string": {
+        "en": "programming-languages",
+        "es": "lenguajes-de-programacion"
+    },
+    "documentation_languages_string": {
+        "en": "documentation-languages",
+        "es": "lenguajes-para-documentacion"
+    },
+    "cloud_computing_string": {
+        "en": "cloud-computing-technologies",
+        "es": "tecnologias-de-computacion-en-la-nube"
+    },
+    "ci_cd_string": {
+        "en": "ci--cd-tecnologies",
+        "es": "tecnologias-de-ci--cd"
+    },
+    "database_management_string": {
+        "en": "database-management",
+        "es": "gestion-de-bases-de-datos"
+    },
+    "simulation_languages_string": {
+        "en": "simulation-languages",
+        "es": "lenguages-de-simulacion"
+    },
+    "simulation_software_string": {
+        "en": "simulation-software",
+        "es": "software-de-simulacion"
+    },
+    "pcb_design_software_string": {
+        "en": "pcb-design-software",
+        "es": "sofrware-de-diseno-de-pcb"
+    },
+    "digital_hardware_design_software_string": {
+        "en": "digital-hardware-design-sofware-fpga",
+        "es": "software-para-diseno-de-hardware-digital-fpga"
+    },
+    "hardware_description_languages_string": {
+        "en": "hardware-description-language",
+        "es": "lenguages-de-descripcion-de-hardware"
+    },
+    "modeling_design_software_string": {
+        "en": "modeling-and-design-software",
+        "es": "software-de-diseno-y-modelamiento"
+    },
+    "operating_systems_string": {
+        "en": "operating-systems",
+        "es": "sistemas-operativos"
+    },
+    "python": {
+        "en": "python",
+        "es": "python"
+    },
+    "bash": {
+        "en": "bash",
+        "es": "bash"
+    },
+    "c_c_plus_plus": {
+        "en": "cc",
+        "es": "cc"
+    },
+    "javascript": {
+        "en": "javascript",
+        "es": "javascript"
+    },
+    "c_sharp": {
+        "en": "c",
+        "es": "c"
+    },
+    "matlab": {
+        "en": "matlab",
+        "es": "matlab"
+    },
+    "go": {
+        "en": "go",
+        "es": "go"
+    },
+    "docker_docker_compose": {
+        "en": "docker--docker-compose",
+        "es": "docker--docker-compose"
+    },
+    "terraform": {
+        "en": "terraform",
+        "es": "terraform"
+    },
+    "google_cloud": {
+        "en": "google-cloud",
+        "es": "google-cloud"
+    },
+    "aws": {
+        "en": "amazon-web-services",
+        "es": "amazon-web-services"
+    },
+    "linode": {
+        "en": "linode",
+        "es": "linode"
+    },
+    "git": {
+        "en": "git",
+        "es": "git"
+    },
+    "github": {
+        "en": "github-and-github-actions",
+        "es": "github-y-github-actions"
+    },
+    "gitlab": {
+        "en": "gitlab-and-gitlab-cicd",
+        "es": "gitlab-y-gitlab-cicd"
+    },
+    "jenkins": {
+        "en": "jenkins",
+        "es": "jenkins"
+    },
+    "mariadb_mysql": {
+        "en": "maria-db--mysql",
+        "es": "maria-db--mysql"
+    },
+    "postgresql": {
+        "en": "postgresql",
+        "es": "postgresql"
+    },
+    "tex_latex": {
+        "en": "tex--latex",
+        "es": "tex--latex"
+    },
+    "markdown": {
+        "en": "markdown",
+        "es": "markdown"
+    },
+    "re_structured_text": {
+        "en": "re-structured-text",
+        "es": "re-structured-text"
+    },
+    "asciidoc": {
+        "en": "asciidoc",
+        "es": "asciidoc"
+    },
+    "spice": {
+        "en": "spice",
+        "es": "spice"
+    },
+    "vhdl_ams": {
+        "en": "vhdl-ams",
+        "es": "vhdl-ams"
+    },
+    "ltspice": {
+        "en": "ltspice",
+        "es": "ltspice"
+    },
+    "orcad_pspice": {
+        "en": "orcad--pspice",
+        "es": "orcad--pspice"
+    },
+    "ngspice": {
+        "en": "ngspice",
+        "es": "ngspice"
+    },
+    "proteus": {
+        "en": "proteus",
+        "es": "proteus"
+    },
+    "kicad": {
+        "en": "kicad",
+        "es": "kicad"
+    },
+    "altium": {
+        "en": "altium",
+        "es": "altium"
+    },
+    "eagle": {
+        "en": "eagle",
+        "es": "eagle"
+    },
+    "vhdl": {
+        "en": "vhdl",
+        "es": "vhdl"
+    },
+    "verilog": {
+        "en": "verilog",
+        "es": "verilog"
+    },
+    "systemc": {
+        "en": "systemc",
+        "es": "systemc"
+    },
+    "freecad": {
+        "en": "freecad",
+        "es": "freecad"
+    },
+    "inkscape": {
+        "en": "inkscape",
+        "es": "inkscape"
+    },
+    "gimp": {
+        "en": "gimp",
+        "es": "gimp"
+    },
+    "gnu_linux": {
+        "en": "gnu--linux",
+        "es": "gnu--linux"
+    },
+    "vivado": {
+        "en": "vivado",
+        "es": "vivado"
+    },
+    "quartus": {
+        "en": "quartus",
+        "es": "quartus"
+    },
+    "insert_image_document_string": {
+        "en": "insert-image-in-document",
+        "es": "insertar-imagen-en-documento"
+    },
+    "generator_docs_string": {
+        "en": "google-docs-generator-from-spreadsheets",
+        "es": "generador-de-google-docs-desde-spreadsheets"
+    },
+    "isfet_board_arduino_string": {
+        "en": "isfetboard-library-for-arduino",
+        "es": "libreria-isfetboard-para-arduino"
+    },
+    "iot_platform_string": {
+        "en": "iot-platform-for-inictel-uni",
+        "es": "plataforma-iot-para-inictel-uni"
+    },
+    "monitoring_system_characterization_isfet_string": {
+        "en": "monitoring-system-for-isfet-characterization",
+        "es": "sistema-de-monitoreo-y-caracterizacion-para-dispositivos-isfet"
+    },
+    "simulation_isfet_model_string": {
+        "en": "simulation-software-for-isfet-models",
+        "es": "software-de-simulacion-para-modelos-de-isfet"
+    },
+    "covid_frame_string": {
+        "en": "covid-frame-a-framework-to-evaluate-cnn-for-covid-19-detection",
+        "es": "covid-frame-un-framework-para-evaluar-cnn-en-la-deteccion-de-covid-19"
+    },
+    "simulation_respiration_monitoring_string": {
+        "en": "simulation-software-for-respiration-monitoring",
+        "es": "software-de-simulacion-para-monitoreo-de-respiracion"
+    },
+    "simulation_filters_string": {
+        "en": "simulation-software-for-filter-design",
+        "es": "software-de-simulacion-para-diseno-de-filtros"
+    },
+    "deployment_automation_string": {
+        "en": "deployment-automation-on-linode--aws--google-cloud",
+        "es": "automatizacion-de-despliegue-en-linode--aws--google-cloud"
+    },
+    "tlera_board_arduino_string": {
+        "en": "tleraboards-library-for-arduino",
+        "es": "liberia-tleraboard-para-arduino"
+    },
+    "vfapp_web_mobile_string": {
+        "en": "vf-app-for-web-and-mobile",
+        "es": "vfapp-para-web-y-moviles"
+    },
+    "payload_generator_string": {
+        "en": "payload-generator-for-chirpstack-simulator",
+        "es": "generador-de-payload-para-simulador-chirpstack"
+    },
+    "devops_votu_string": {
+        "en": "devops-for-votu-platform",
+        "es": "devops-para-plataforma-votu"
+    },
+    "devops_tuku_string": {
+        "en": "devops-for-tuku-platform",
+        "es": "devops-para-plataforma-tuku"
+    },
+    "cv_template_string": {
+        "en": "latex-cv-template",
+        "es": "formato-de-cv-en-latex"
+    },
+    "monitor_vital_signals_review_string": {
+        "en": "monitor-for-vital-signals-review",
+        "es": "revision-de-monitor-de-signos-vitales"
+    },
+    "adc_driver_development_string": {
+        "en": "adc-driver-development-based-on-iio-driver",
+        "es": "desarrollo-de-driver-para-adc-con-iio-driver"
+    },
+    "wm_configuration_string": {
+        "en": "gnulinux-configuration-for-software-development",
+        "es": "configuracion-de-gnulinux-para-desarrollo-de-software"
+    }
+}

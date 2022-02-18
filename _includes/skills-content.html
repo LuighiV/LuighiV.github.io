@@ -1,0 +1,85 @@
+<div>
+  
+{% assign labels = site.data.generated.label %}
+{% assign strings = site.data.generated.string %}
+{% assign slugs = site.data.generated.slug %}
+{% assign descriptions = site.data.generated.description %}
+{% assign skills = site.data.generated.skill %}
+
+{% for category in site.data.generated.skill_category %}
+{% assign category_name = site.data.generated.string[category.category_name] %}
+
+<h2 id="{{slugs[category.category_name][page.lang]}}">
+  {{ category_name[page.lang] }}</h2>
+
+{% assign selected_skills = skills | where: "category_id",
+category.category_id %}
+
+{% for skill in selected_skills %}
+
+{%- capture title -%}
+{{ strings[skill.skill_name][page.lang] }}
+{%- endcapture -%}
+
+{%- capture slug -%}
+{{ slugs[skill.skill_name][page.lang] }}
+{%- endcapture -%}
+
+{%- capture description -%}
+{{ descriptions[skill.skill_description][page.lang] }}
+{%- endcapture -%}
+
+{%- capture skill_additional_info -%}
+
+<strong>{{ labels["expertise_level"][page.lang] }}</strong>: {{skill.expertise_level}} / {{skill.max_expertise_level}}
+<br>
+
+{% assign selected_projects = site.data.generated.skill_x_project | where:
+"skill_id", skill.skill_id %}
+
+{% if selected_projects.size > 0 %}
+<strong>{{ labels["projects"][page.lang] }}</strong>: 
+<ul>
+{% for project in selected_projects %}
+{% assign project_info = site.data.generated.project | where: "project_id",
+project.project_id | first %}
+
+{% assign project_title=site.data.generated.string[project_info.project_title] %}
+<li>
+<a href="projects#{{ slugs[project_info.project_title][page.lang] }}" >
+{{ project_title[page.lang] }}
+</a>
+</li>
+{%- endfor -%}
+</ul>
+{%- endif -%}
+
+{%- assign selected_repositories = site.data.generated.skill_x_repository 
+ | where: "skill_id", skill.skill_id -%}
+{%- if selected_repositories.size > 0 %}
+<strong>{{ labels["repositories"][page.lang] }}</strong>:
+<br>
+<ul>
+  {%- for repository in selected_repositories -%} 
+   {%- if repository.repository_source == "github" -%}
+   {%- assign repository_info=site.data.generated.github 
+   | where: "full_name", repository.repository_name | first -%}
+   <li> <a href="{{- repository_info.html_url -}}" target="_blank">{{-
+       repository_info.full_name -}}</a></li>
+   {%- endif -%}
+  {%- endfor -%}
+</ul>
+{%- endif -%}
+
+{%- endcapture -%}
+
+{% include big-card.html 
+  title=title
+  slug=slug
+  description=description
+  prev=skill_info
+  after=skill_additional_info %}
+
+{% endfor %}
+{% endfor %}
+</div>

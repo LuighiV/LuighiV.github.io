@@ -1,0 +1,42 @@
+<div class="container">
+   {% assign labels = site.data.generated.label %} 
+{% assign profile_description = site.data.generated.profile.description %}
+{{ profile_description[page.lang] }}
+
+<h1 > {{ labels["skills"][page.lang]}}  </h1>
+
+{% assign slugs = site.data.generated.slug -%}
+{% assign strings = site.data.generated.string -%}
+
+{% for category in site.data.generated.skill_category %}
+{%- assign category_name = strings[category.category_name] -%}
+
+{%- capture title -%}
+<a href="{{ page.lang }}/skills#{{slugs[category.category_name][page.lang]}}" >{{ category_name[page.lang] }}</a>
+{%- endcapture -%}
+
+{%- capture content -%}
+{% assign selected_skills = site.data.generated.skill | where: "category_id",
+category.category_id %}
+<ul>
+{% for skill in selected_skills %}
+
+{% assign skill_name = site.data.generated.string[skill.skill_name] %}
+{% assign slug = site.data.generated.slug[skill.skill_name] %}
+<li>
+<a href="{{ page.lang }}/skills#{{ slug[page.lang] }}">
+{{ skill_name[page.lang] }}
+</a>
+</li>
+
+{% endfor %}
+</ul>
+{%- endcapture -%}
+
+{%- include small-card.html
+   title= title
+   content = content
+-%}
+
+{% endfor %}
+</div>

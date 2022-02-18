@@ -1,0 +1,207 @@
+[
+    {
+        "repository_name": "covid-frame/covid-frame",
+        "repository_source": "github",
+        "skill_id": "programming_python"
+    },
+    {
+        "repository_name": "LuighiV/activities-docs-generator",
+        "repository_source": "github",
+        "skill_id": "programming_javascript"
+    },
+    {
+        "repository_name": "LuighiV/arduino-isfetboard",
+        "repository_source": "github",
+        "skill_id": "programming_c_c_plus_plus"
+    },
+    {
+        "repository_name": "LuighiV/automate-insert-image",
+        "repository_source": "github",
+        "skill_id": "programming_c_sharp"
+    },
+    {
+        "repository_name": "LuighiV/bspwm-config",
+        "repository_source": "github",
+        "skill_id": "os_linux"
+    },
+    {
+        "repository_name": "LuighiV/characterization-isfet",
+        "repository_source": "github",
+        "skill_id": "programming_python"
+    },
+    {
+        "repository_name": "LuighiV/chirpstack-simulator",
+        "repository_source": "github",
+        "skill_id": "programming_go"
+    },
+    {
+        "repository_name": "LuighiV/configure-docker",
+        "repository_source": "github",
+        "skill_id": "cloud_docker"
+    },
+    {
+        "repository_name": "LuighiV/deployment-terraform",
+        "repository_source": "github",
+        "skill_id": "cloud_terraform"
+    },
+    {
+        "repository_name": "LuighiV/deployment-terraform",
+        "repository_source": "github",
+        "skill_id": "ci_cd_github"
+    },
+    {
+        "repository_name": "LuighiV/download-gsheet",
+        "repository_source": "github",
+        "skill_id": "programming_python"
+    },
+    {
+        "repository_name": "LuighiV/esp32-dht-cayenne",
+        "repository_source": "github",
+        "skill_id": "programming_c_c_plus_plus"
+    },
+    {
+        "repository_name": "LuighiV/jenkins-docker",
+        "repository_source": "github",
+        "skill_id": "cloud_docker"
+    },
+    {
+        "repository_name": "LuighiV/latex-snippets",
+        "repository_source": "github",
+        "skill_id": "documentation_latex"
+    },
+    {
+        "repository_name": "LuighiV/lds",
+        "repository_source": "github",
+        "skill_id": "programming_go"
+    },
+    {
+        "repository_name": "LuighiV/LuighiV.github.io",
+        "repository_source": "github",
+        "skill_id": "documentation_markdown"
+    },
+    {
+        "repository_name": "LuighiV/MEArec",
+        "repository_source": "github",
+        "skill_id": "programming_python"
+    },
+    {
+        "repository_name": "LuighiV/nvim-config",
+        "repository_source": "github",
+        "skill_id": "os_linux"
+    },
+    {
+        "repository_name": "LuighiV/payload-generator",
+        "repository_source": "github",
+        "skill_id": "programming_go"
+    },
+    {
+        "repository_name": "LuighiV/python-mqtt",
+        "repository_source": "github",
+        "skill_id": "programming_python"
+    },
+    {
+        "repository_name": "LuighiV/scada-cloud",
+        "repository_source": "github",
+        "skill_id": "cloud_terraform"
+    },
+    {
+        "repository_name": "LuighiV/scada-cloud",
+        "repository_source": "github",
+        "skill_id": "ci_cd_github"
+    },
+    {
+        "repository_name": "LuighiV/simulator-isfet",
+        "repository_source": "github",
+        "skill_id": "programming_python"
+    },
+    {
+        "repository_name": "LuighiV/simulator-isfet",
+        "repository_source": "github",
+        "skill_id": "simulation_language_spice"
+    },
+    {
+        "repository_name": "LuighiV/snippets-stm32",
+        "repository_source": "github",
+        "skill_id": "programming_c_c_plus_plus"
+    },
+    {
+        "repository_name": "LuighiV/stm32-dht-sensor",
+        "repository_source": "github",
+        "skill_id": "programming_c_c_plus_plus"
+    },
+    {
+        "repository_name": "LuighiV/test-paho-digi",
+        "repository_source": "github",
+        "skill_id": "cloud_docker"
+    },
+    {
+        "repository_name": "LuighiV/thingsboard-gateway-docker",
+        "repository_source": "github",
+        "skill_id": "programming_python"
+    },
+    {
+        "repository_name": "LuighiV/thingsboard-gateway-docker",
+        "repository_source": "github",
+        "skill_id": "programming_bash"
+    },
+    {
+        "repository_name": "LuighiV/upload-gsheet",
+        "repository_source": "github",
+        "skill_id": "programming_javascript"
+    },
+    {
+        "repository_name": "LuighiV/vim-asciidoc",
+        "repository_source": "github",
+        "skill_id": "os_linux"
+    },
+    {
+        "repository_name": "LuighiV/vim-like-tmux",
+        "repository_source": "github",
+        "skill_id": "os_linux"
+    },
+    {
+        "repository_name": "LuighiV/web-apps",
+        "repository_source": "github",
+        "skill_id": "programming_bash"
+    },
+    {
+        "repository_name": "LuighiV/web-apps",
+        "repository_source": "github",
+        "skill_id": "cloud_docker"
+    },
+    {
+        "repository_name": "openpolitica/create-openpolitica-nextjs-app",
+        "repository_source": "github",
+        "skill_id": "javascript"
+    },
+    {
+        "repository_name": "openpolitica/devops",
+        "repository_source": "github",
+        "skill_id": "programming_bash"
+    },
+    {
+        "repository_name": "openpolitica/devops",
+        "repository_source": "github",
+        "skill_id": "programming_mariadb"
+    },
+    {
+        "repository_name": "openpolitica/open-tracker-devops",
+        "repository_source": "github",
+        "skill_id": "programming_bash"
+    },
+    {
+        "repository_name": "openpolitica/open-tracker-devops",
+        "repository_source": "github",
+        "skill_id": "programming_postgresql"
+    },
+    {
+        "repository_name": "openpolitica/open-tracker-devops",
+        "repository_source": "github",
+        "skill_id": "programming_javascript"
+    },
+    {
+        "repository_name": "openpolitica/open-tracker-devops",
+        "repository_source": "github",
+        "skill_id": "ci_cd_github"
+    }
+]

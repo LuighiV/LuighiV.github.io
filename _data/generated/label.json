@@ -1,0 +1,58 @@
+{
+    "expertise_level": {
+        "en": "Expertise level",
+        "es": "Nivel de experiencia"
+    },
+    "development_stage": {
+        "en": "Development stage",
+        "es": "Estado del desarrollo"
+    },
+    "type": {
+        "en": "Type",
+        "es": "Tipo"
+    },
+    "owner": {
+        "en": "Owner",
+        "es": "Propietario"
+    },
+    "documentation": {
+        "en": "Documentation",
+        "es": "Documentación"
+    },
+    "webpage": {
+        "en": "Webpage",
+        "es": "Página web"
+    },
+    "projects": {
+        "en": "Projects",
+        "es": "Proyectos"
+    },
+    "repositories": {
+        "en": "Repositories",
+        "es": "Repositorios"
+    },
+    "highlighted_projects": {
+        "en": "Highlighted projects",
+        "es": "Proyectos destacados"
+    },
+    "other_projects": {
+        "en": "Other projects",
+        "es": "Other projects"
+    },
+    "contribution": {
+        "en": "Contribution",
+        "es": "Contribución"
+    },
+    "year": {
+        "en": "Year",
+        "es": "Año"
+    },
+    "release": {
+        "en": "Release",
+        "es": "Publicación"
+    },
+    "skills": {
+        "en": "Skills",
+        "es": "Aptitudes"
+    }
+}

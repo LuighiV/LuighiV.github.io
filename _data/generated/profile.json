@@ -1,0 +1,14 @@
+{
+    "description": {
+        "en": "Electronic Engineer graduated from the <em>Universidad Nacional de Ingeniería</em> (UNI), in Lima, Peru, specialized in embedded systems for electronic instrumentation and sensor networks. With experience in the modeling, characterization and conditioning of pH sensors based on semiconductors (ISFET), the implementation of the conditioning, processing and compensation system in a mixed signal microcontroller, as well as its communication and sending of data to the Internet through the use of the sensor network protocol, 6LoWPAN. With Master's studies in Biomedical Engineering and interest in research and development of electronic circuits and systems for interaction with biomedical signals.",
+        "es": "El ingeniero electrónico graduado de la Universidad Nacional de Ingeniería (UNI), en Lima, Perú, especializado en sistemas integrados para instrumentación electrónica y redes de sensores. Con experiencia en el modelado, caracterización y acondicionamiento de sensores de pH, basados ​​en semiconductores (ISFET), la implementación del sistema de acondicionamiento, procesamiento y compensación en un microcontrolador de señales mixtas, así como su comunicación y envío de datos a Internet a través del uso. del protocolo de red del sensor, 6LoWPAN. Con estudios de maestría en ingeniería biomédica e interés en la investigación y el desarrollo de circuitos y sistemas electrónicos para la interacción con señales biomédicas."
+    },
+    "profession": {
+        "en": "Electronic Engineer",
+        "es": "Ingeniero electrónico"
+    },
+    "interest_topics": {
+        "en": "Embedded systems, BCI systems, biomedical devices, wearable devices",
+        "es": "Sistemas integrados, sistemas BCI, dispositivos biomédicos, dispositivos portátiles"
+    }
+}

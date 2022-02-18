@@ -1,0 +1,154 @@
+[
+    {
+        "project_id": "insert_image_document",
+        "skill_id": "programming_c_sharp"
+    },
+    {
+        "project_id": "insert_image_document",
+        "skill_id": "documentation_markdown"
+    },
+    {
+        "project_id": "generator_docs",
+        "skill_id": "programming_javascript"
+    },
+    {
+        "project_id": "generator_docs",
+        "skill_id": "documentation_markdown"
+    },
+    {
+        "project_id": "monitoring_system_characterization",
+        "skill_id": "programming_python"
+    },
+    {
+        "project_id": "simulation_isfet_model",
+        "skill_id": "programming_python"
+    },
+    {
+        "project_id": "simulation_isfet_model",
+        "skill_id": "simulation_language_spice"
+    },
+    {
+        "project_id": "simulation_isfet_model",
+        "skill_id": "simulation_software_ltspice"
+    },
+    {
+        "project_id": "simulation_isfet_model",
+        "skill_id": "simulation_software_orcad"
+    },
+    {
+        "project_id": "simulation_isfet_model",
+        "skill_id": "simulation_software_ngspice"
+    },
+    {
+        "project_id": "isfet_board_arduino",
+        "skill_id": "programming_c_c_plus_plus"
+    },
+    {
+        "project_id": "isfet_board_arduino",
+        "skill_id": "pcb_software_kicad"
+    },
+    {
+        "project_id": "iot_platform",
+        "skill_id": "cloud_docker"
+    },
+    {
+        "project_id": "iot_platform",
+        "skill_id": "programming_javascript"
+    },
+    {
+        "project_id": "iot_platform",
+        "skill_id": "documentation_asciidocs"
+    },
+    {
+        "project_id": "covid_frame",
+        "skill_id": "programming_python"
+    },
+    {
+        "project_id": "simulation_respiration_monitoring",
+        "skill_id": "programming_python"
+    },
+    {
+        "project_id": "simulation_filters",
+        "skill_id": "programming_python"
+    },
+    {
+        "project_id": "vfapp_web_mobile",
+        "skill_id": "programming_javascript"
+    },
+    {
+        "project_id": "vfapp_web_mobile",
+        "skill_id": "cloud_terraform"
+    },
+    {
+        "project_id": "vfapp_web_mobile",
+        "skill_id": "cloud_docker"
+    },
+    {
+        "project_id": "deployment_automation",
+        "skill_id": "cloud_terraform"
+    },
+    {
+        "project_id": "deployment_automation",
+        "skill_id": "ci_cd_github"
+    },
+    {
+        "project_id": "tlera_board_arduino",
+        "skill_id": "programming_c_c_plus_plus"
+    },
+    {
+        "project_id": "tlera_board_arduino",
+        "skill_id": "documentation_re_structured_text"
+    },
+    {
+        "project_id": "payload_generator",
+        "skill_id": "programming_go"
+    },
+    {
+        "project_id": "devops_votu",
+        "skill_id": "programming_bash"
+    },
+    {
+        "project_id": "devops_votu",
+        "skill_id": "ci_cd_github"
+    },
+    {
+        "project_id": "devops_votu",
+        "skill_id": "programming_mariadb"
+    },
+    {
+        "project_id": "devops_tuku",
+        "skill_id": "programming_bash"
+    },
+    {
+        "project_id": "devops_tuku",
+        "skill_id": "ci_cd_github"
+    },
+    {
+        "project_id": "devops_tuku",
+        "skill_id": "programming_postgresql"
+    },
+    {
+        "project_id": "cv_template",
+        "skill_id": "documentation_latex"
+    },
+    {
+        "project_id": "monitor_vital_signals_review",
+        "skill_id": "documentation_re_structured_text"
+    },
+    {
+        "project_id": "adc_driver_development",
+        "skill_id": "programming_c_c_plus_plus"
+    },
+    {
+        "project_id": "adc_driver_development",
+        "skill_id": "hdl_vhdl"
+    },
+    {
+        "project_id": "adc_driver_development",
+        "skill_id": "digital_design_vivado"
+    },
+    {
+        "project_id": "wm_configuration",
+        "skill_id": "os_linux"
+    }
+]
