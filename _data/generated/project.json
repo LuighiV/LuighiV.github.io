@@ -2,7 +2,7 @@
     {
         "project_id": "insert_image_document",
         "project_title": "insert_image_document_string",
-        "project_type_id": "development",
+        "project_type_id": "development_programming",
         "project_stage_id": "final_product",
         "project_year": 2022,
         "project_url": "https://iid.projects.luighiviton.com/",
@@ -17,7 +17,7 @@
     {
         "project_id": "generator_docs",
         "project_title": "generator_docs_string",
-        "project_type_id": "development",
+        "project_type_id": "development_programming",
         "project_stage_id": "final_product",
         "project_year": 2021,
         "project_url": "https://generatordocs.projects.luighiviton.com/",
@@ -30,24 +30,9 @@
         "highlight": true
     },
     {
-        "project_id": "isfet_board_arduino",
-        "project_title": "isfet_board_arduino_string",
-        "project_type_id": "development",
-        "project_stage_id": "final_product",
-        "project_year": 2018,
-        "project_url": "https://github.com/LuighiV/arduino-isfetboard",
-        "project_docs_url": "",
-        "project_release": "https://github.com/LuighiV/arduino-isfetboard/releases",
-        "project_description": "isfet_board_arduino_description",
-        "contribution": "",
-        "project_owner": "luighi_viton",
-        "financed_by": "",
-        "highlight": true
-    },
-    {
         "project_id": "iot_platform",
         "project_title": "iot_platform_string",
-        "project_type_id": "development",
+        "project_type_id": "development_programming",
         "project_stage_id": "final_product",
         "project_year": 2021,
         "project_url": "https://plataformaiot.inictel-uni.edu.pe/",
@@ -62,7 +47,7 @@
     {
         "project_id": "monitoring_system_characterization",
         "project_title": "monitoring_system_characterization_isfet_string",
-        "project_type_id": "research",
+        "project_type_id": "research_engineering",
         "project_stage_id": "prototype",
         "project_year": 2018,
         "project_url": "",
@@ -77,7 +62,7 @@
     {
         "project_id": "simulation_isfet_model",
         "project_title": "simulation_isfet_model_string",
-        "project_type_id": "research",
+        "project_type_id": "research_engineering",
         "project_stage_id": "prototype",
         "project_year": 2018,
         "project_url": "",
@@ -90,9 +75,24 @@
         "highlight": true
     },
     {
+        "project_id": "isfet_board_arduino",
+        "project_title": "isfet_board_arduino_string",
+        "project_type_id": "research_engineering",
+        "project_stage_id": "final_product",
+        "project_year": 2018,
+        "project_url": "https://github.com/LuighiV/arduino-isfetboard",
+        "project_docs_url": "",
+        "project_release": "https://github.com/LuighiV/arduino-isfetboard/releases",
+        "project_description": "isfet_board_arduino_description",
+        "contribution": "",
+        "project_owner": "luighi_viton",
+        "financed_by": "",
+        "highlight": true
+    },
+    {
         "project_id": "covid_frame",
         "project_title": "covid_frame_string",
-        "project_type_id": "development",
+        "project_type_id": "research_engineering",
         "project_stage_id": "prototype",
         "project_year": 2021,
         "project_url": "",
@@ -107,7 +107,7 @@
     {
         "project_id": "vfapp_web_mobile",
         "project_title": "vfapp_web_mobile_string",
-        "project_type_id": "development",
+        "project_type_id": "research_engineering",
         "project_stage_id": "stand_by",
         "project_year": 2020,
         "project_url": "",
@@ -122,7 +122,7 @@
     {
         "project_id": "simulation_respiration_monitoring",
         "project_title": "simulation_respiration_monitoring_string",
-        "project_type_id": "development",
+        "project_type_id": "research_engineering",
         "project_stage_id": "prototype",
         "project_year": 2020,
         "project_url": "",
@@ -137,7 +137,7 @@
     {
         "project_id": "simulation_filters",
         "project_title": "simulation_filters_string",
-        "project_type_id": "development",
+        "project_type_id": "research_engineering",
         "project_stage_id": "prototype",
         "project_year": 2020,
         "project_url": "",
@@ -152,7 +152,7 @@
     {
         "project_id": "deployment_automation",
         "project_title": "deployment_automation_string",
-        "project_type_id": "development",
+        "project_type_id": "development_programming",
         "project_stage_id": "prototype",
         "project_year": 2020,
         "project_url": "",
@@ -167,7 +167,7 @@
     {
         "project_id": "tlera_board_arduino",
         "project_title": "tlera_board_arduino_string",
-        "project_type_id": "development",
+        "project_type_id": "research_engineering",
         "project_stage_id": "prototype",
         "project_year": 2019,
         "project_url": "",
@@ -182,7 +182,7 @@
     {
         "project_id": "payload_generator",
         "project_title": "payload_generator_string",
-        "project_type_id": "development",
+        "project_type_id": "research_engineering",
         "project_stage_id": "prototype",
         "project_year": 2021,
         "project_url": "",
@@ -197,7 +197,7 @@
     {
         "project_id": "devops_votu",
         "project_title": "devops_votu_string",
-        "project_type_id": "development",
+        "project_type_id": "development_programming",
         "project_stage_id": "final_product",
         "project_year": 2021,
         "project_url": "",
@@ -212,7 +212,7 @@
     {
         "project_id": "devops_tuku",
         "project_title": "devops_tuku_string",
-        "project_type_id": "development",
+        "project_type_id": "development_programming",
         "project_stage_id": "in_development",
         "project_year": 2021,
         "project_url": "",
@@ -227,7 +227,7 @@
     {
         "project_id": "cv_template",
         "project_title": "cv_template_string",
-        "project_type_id": "development",
+        "project_type_id": "development_programming",
         "project_stage_id": "final_product",
         "project_year": 2016,
         "project_url": "",
@@ -242,7 +242,7 @@
     {
         "project_id": "monitor_vital_signals_review",
         "project_title": "monitor_vital_signals_review_string",
-        "project_type_id": "development",
+        "project_type_id": "research_engineering",
         "project_stage_id": "final_product",
         "project_year": 2020,
         "project_url": "",
@@ -257,7 +257,7 @@
     {
         "project_id": "adc_driver_development",
         "project_title": "adc_driver_development_string",
-        "project_type_id": "development",
+        "project_type_id": "research_engineering",
         "project_stage_id": "prototype",
         "project_year": 2019,
         "project_url": "",
@@ -272,7 +272,7 @@
     {
         "project_id": "wm_configuration",
         "project_title": "wm_configuration_string",
-        "project_type_id": "development",
+        "project_type_id": "development_programming",
         "project_stage_id": "prototype",
         "project_year": 2021,
         "project_url": "",

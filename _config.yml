@@ -33,10 +33,12 @@ header_pages:
   en:
     - index.md
     - en/skills.md
+    - en/experience.md
     - en/projects/index.md
   es:
     - es/index.md
     - es/skills.md
+    - es/experience.md
     - es/projects/index.md
 
 defaults:

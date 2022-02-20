@@ -15,13 +15,13 @@
         "en": "Stand-by",
         "es": "En pausa"
     },
-    "research_string": {
-        "en": "Research",
-        "es": "Investigación"
+    "research_engineering_string": {
+        "en": "Research / Engineering",
+        "es": "Investigación / Ingeniería"
     },
-    "development_string": {
-        "en": "Development",
-        "es": "Desarrollo"
+    "development_programming_string": {
+        "en": "Development / Programación",
+        "es": "Desarrollo / Programación"
     },
     "programming_languages_string": {
         "en": "Programming languages",
@@ -306,5 +306,21 @@
     "wm_configuration_string": {
         "en": "GNU/Linux configuration for software development",
         "es": "Configuración de GNU/Linux para desarrollo de software"
+    },
+    "inictel_assitant_position": {
+        "en": "Assistant on Technological Applications",
+        "es": "Asistente en Aplicaciones Tecnológicas"
+    },
+    "inictel_third_party_position": {
+        "en": "Assistant on Research Projects",
+        "es": "Asistente en proyectos de investigación"
+    },
+    "inictel_apprentice_position": {
+        "en": "Apprentice on Embedded Systems for Wireless Sensor Network",
+        "es": "Practicante en sistemas embebidos y redes de sensores inalámbricos"
+    },
+    "bmatic_support_position": {
+        "en": "Technical Support and Training Engineer",
+        "es": "Ingeniero de soporte técnico y mantenimiento"
     }
 }

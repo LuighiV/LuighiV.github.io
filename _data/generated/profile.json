@@ -1,14 +1,30 @@
 {
     "description": {
-        "en": "Electronic Engineer graduated from the <em>Universidad Nacional de Ingeniería</em> (UNI), in Lima, Peru, specialized in embedded systems for electronic instrumentation and sensor networks. With experience in the modeling, characterization and conditioning of pH sensors based on semiconductors (ISFET), the implementation of the conditioning, processing and compensation system in a mixed signal microcontroller, as well as its communication and sending of data to the Internet through the use of the sensor network protocol, 6LoWPAN. With Master's studies in Biomedical Engineering and interest in research and development of electronic circuits and systems for interaction with biomedical signals.",
-        "es": "El ingeniero electrónico graduado de la Universidad Nacional de Ingeniería (UNI), en Lima, Perú, especializado en sistemas integrados para instrumentación electrónica y redes de sensores. Con experiencia en el modelado, caracterización y acondicionamiento de sensores de pH, basados ​​en semiconductores (ISFET), la implementación del sistema de acondicionamiento, procesamiento y compensación en un microcontrolador de señales mixtas, así como su comunicación y envío de datos a Internet a través del uso. del protocolo de red del sensor, 6LoWPAN. Con estudios de maestría en ingeniería biomédica e interés en la investigación y el desarrollo de circuitos y sistemas electrónicos para la interacción con señales biomédicas."
+        "en": "Hi, I am Luighi Vitón, and I am an Electronic Engineer. I created this website to share with you information about the projects I have developed. Hope you find this useful. If you want to know more details, feel free to contact me at the contact page. I love my career as an engineer,  I would like to be a researcher and I consider myself a hobbyist programmer. I am passionate about learning new things, especially, tech related, and I have tried to apply that knowledge in the projects I had the opportunity to take part in, either for my previous workplaces or for my personal projects. That is why you will find a variety of technologies and applications in the presented solutions. I also have a huge interest in the research fields related to electronics and engineering, that is why you will find some publications of research articles I have written when I was working in a research institution.",
+        "es": "Hola, soy Luighi Vitón, y soy ingeniero electrónico. Creé este sitio web para compartir información sobre los proyectos que he desarrollado. Espero que lo encuentres de utilidad. Si deseas conocer más detalles sobre ellos, siéntete libre de contactarme en la página de contacto. Me gusta mi carrera como ingeniero, aspiro a ser investigador y me considero un programador aficionado. Me apasiona aprender cosas nuevas, especialmente, relacionadas con la tecnología, y he tratado de aplicar ese conocimiento en los proyectos que tuve la oportunidad de participar, ya sea para mis lugares de trabajo anteriores o para mis proyectos personales. Es por eso que encontrará una variedad de tecnologías y aplicaciones en las soluciones presentadas. También tengo un gran interés en los campos de investigación relacionados con la electrónica e ingeniería, por lo cual también encontrarás algunas publicaciones de artículos de investigación que he escrito cuando trabajaba en una institución de investigación."
     },
     "profession": {
         "en": "Electronic Engineer",
         "es": "Ingeniero electrónico"
     },
-    "interest_topics": {
+    "research_interest_topics": {
         "en": "Embedded systems, BCI systems, biomedical devices, wearable devices",
         "es": "Sistemas integrados, sistemas BCI, dispositivos biomédicos, dispositivos portátiles"
+    },
+    "research_profile": {
+        "en": "Electronic Engineer graduated from the <em>Universidad Nacional de Ingeniería</em> (UNI), in Lima, Peru, specialized in embedded systems for electronic instrumentation and sensor networks. With experience in the modeling, characterization and conditioning of pH sensors based on semiconductors (ISFET), the implementation of the conditioning, processing and compensation system in a mixed signal microcontroller, as well as its communication and sending of data to the Internet through the use of the sensor network protocol, 6LoWPAN. With Master's studies in Biomedical Engineering and interest in research and development of electronic circuits and systems for interaction with biomedical signals.",
+        "es": "El ingeniero electrónico graduado de la Universidad Nacional de Ingeniería (UNI), en Lima, Perú, especializado en sistemas integrados para instrumentación electrónica y redes de sensores. Con experiencia en el modelado, caracterización y acondicionamiento de sensores de pH, basados ​​en semiconductores (ISFET), la implementación del sistema de acondicionamiento, procesamiento y compensación en un microcontrolador de señales mixtas, así como su comunicación y envío de datos a Internet a través del uso. del protocolo de red del sensor, 6LoWPAN. Con estudios de maestría en ingeniería biomédica e interés en la investigación y el desarrollo de circuitos y sistemas electrónicos para la interacción con señales biomédicas."
+    },
+    "developer_profile": {
+        "en": "I have experience with different programming languages, and I consider myself competent with Python, Bash and JavaScript. I am also fairly familiar with technologies of cloud computing, control version systems, and continuous integration and delivery (CI/CD). I have experience integrating solutions and I have participated in developer teams applying agile methodologies.",
+        "es": "Tengo experiencia con diferentes lenguajes de programación, y me considero competente con Python, Bash y Javascript. También estoy bastante familiarizado con las tecnologías de la computación en la nube, los sistemas de versiones de control y la integración y entrega continua (CI / CD). Tengo experiencia en la integración de soluciones y he participado en equipos de desarrolladores que aplican metodologías ágiles."
+    },
+    "developer_interest_topics": {
+        "en": "DevOps, Cloud Computing",
+        "es": "DevOps, Computación en la nube"
+    },
+    "invite_hire": {
+        "en": "If you are interested on hiring me, perhaps you would like to know more about my experience and skills.",
+        "es": "Si está interesado en contratarme, quizás le gustaría saber más sobre mi experiencia y habilidades."
     }
 }

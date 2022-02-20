@@ -1,0 +1,49 @@
+<div>
+  
+{% assign labels = site.data.generated.label %}
+{% assign strings = site.data.generated.string %}
+{% assign slugs = site.data.generated.slug %}
+{% assign descriptions = site.data.generated.description %}
+{% assign experiences = site.data.generated.experience %}
+{% assign organizations = site.data.generated.organization %}
+
+{% for experience in experiences %}
+
+{% assign organization = organizations | where: "org_id",
+experience.organization_id | first %}
+
+{%- capture title -%}
+{%- if organization.org_url -%}
+<a href="{{ organization.org_url }}">
+{{ organization.org_name }}
+({{ organization.org_short_name }}) 
+</a>
+{%- else -%}
+{{ organization.org_name }}
+({{ organization.org_short_name }}) 
+{%- endif -%}
+{%- endcapture -%}
+
+{%- capture slug -%}
+{{ experience.experience_id | slugify }}
+{%- endcapture -%}
+
+{%- capture description -%}
+{{ descriptions[experience.description][page.lang] }}
+{%- endcapture -%}
+
+
+{%- capture subtitle -%}
+<div class="department">{{ experience.department }}</div>
+<div class="position">{{ strings[experience.position][page.lang] }}</div>
+<div class="period">{{ experience.period }}</div>
+{%- endcapture -%}
+
+{% include mid-card.html 
+  title=title
+  slug=slug
+  subtitle=subtitle
+  description=description %}
+
+{% endfor %}
+</div>

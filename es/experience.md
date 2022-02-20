@@ -1,8 +1,8 @@
 ---
 
 layout: page
-title: Experience
-lang: en
+title: Experiencia
+lang: es
 lang-ref: experience
 
 ---

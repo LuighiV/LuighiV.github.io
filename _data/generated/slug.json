@@ -15,13 +15,13 @@
         "en": "stand-by",
         "es": "en-pausa"
     },
-    "research_string": {
-        "en": "research",
-        "es": "investigacion"
+    "research_engineering_string": {
+        "en": "research--engineering",
+        "es": "investigacion--ingenieria"
     },
-    "development_string": {
-        "en": "development",
-        "es": "desarrollo"
+    "development_programming_string": {
+        "en": "development--programacion",
+        "es": "desarrollo--programacion"
     },
     "programming_languages_string": {
         "en": "programming-languages",
@@ -306,5 +306,21 @@
     "wm_configuration_string": {
         "en": "gnulinux-configuration-for-software-development",
         "es": "configuracion-de-gnulinux-para-desarrollo-de-software"
+    },
+    "inictel_assitant_position": {
+        "en": "assistant-on-technological-applications",
+        "es": "asistente-en-aplicaciones-tecnologicas"
+    },
+    "inictel_third_party_position": {
+        "en": "assistant-on-research-projects",
+        "es": "asistente-en-proyectos-de-investigacion"
+    },
+    "inictel_apprentice_position": {
+        "en": "apprentice-on-embedded-systems-for-wireless-sensor-network",
+        "es": "practicante-en-sistemas-embebidos-y-redes-de-sensores-inalambricos"
+    },
+    "bmatic_support_position": {
+        "en": "technical-support-and-training-engineer",
+        "es": "ingeniero-de-soporte-tecnico-y-mantenimiento"
     }
 }

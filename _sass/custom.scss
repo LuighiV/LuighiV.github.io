@@ -41,6 +41,41 @@
   }
 }
 
+.mid-card{
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: .5rem 0.5rem 1rem;
+  margin-bottom: 1rem;
+
+  h4 {
+    margin-bottom:0rem;
+    
+    a {
+      color: black;
+    }
+  }
+
+  .header-card{
+    padding-bottom: 0.5rem;
+    border-bottom: 0.5px solid #dddddd;
+    margin-bottom: 0.5rem;
+  }
+
+  .department{
+    font-size: 1.125rem;
+    font-style: italic;
+  }
+
+  .position{
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+
+  .period{
+    font-size: 1.5rem;
+  }
+}
+
 .big-card{
   border: 1px solid black;
   border-radius: 4px;

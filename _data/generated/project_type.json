@@ -1,10 +1,10 @@
 [
     {
-        "project_type_id": "research",
-        "project_type_name": "research_string"
+        "project_type_id": "research_engineering",
+        "project_type_name": "research_engineering_string"
     },
     {
-        "project_type_id": "development",
-        "project_type_name": "development_string"
+        "project_type_id": "development_programming",
+        "project_type_name": "development_programming_string"
     }
 ]
