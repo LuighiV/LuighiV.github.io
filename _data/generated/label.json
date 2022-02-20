@@ -54,5 +54,13 @@
     "skills": {
         "en": "Skills",
         "es": "Aptitudes"
+    },
+    "see-more": {
+        "en": "See more",
+        "es": "Ver más"
+    },
+    "see-less": {
+        "en": "See less",
+        "es": "Ver menos"
     }
 }

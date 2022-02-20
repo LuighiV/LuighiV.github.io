@@ -1,4 +1,10 @@
 <div class="container">
+{%- if page.url == "/" -%}
+ {%- assign base_url = page.lang | append: "/" -%}
+{% else %}
+ {%- assign base_url = page.url | relative_url -%}
+{%- endif -%}
+
    {% assign labels = site.data.generated.label %} 
 {% assign profile_description = site.data.generated.profile.description %}
 {{ profile_description[page.lang] }}
@@ -13,7 +19,7 @@
 {%- assign category_name = strings[category.category_name] -%}
 
 {%- capture title -%}
-<a href="{{ page.lang }}/skills#{{slugs[category.category_name][page.lang]}}" >{{ category_name[page.lang] }}</a>
+<a href="{{ base_url }}skills#{{slugs[category.category_name][page.lang]}}" >{{ category_name[page.lang] }}</a>
 {%- endcapture -%}
 
 {%- capture content -%}
@@ -25,7 +31,7 @@ category.category_id %}
 {% assign skill_name = site.data.generated.string[skill.skill_name] %}
 {% assign slug = site.data.generated.slug[skill.skill_name] %}
 <li >
-<a href="{{ page.lang }}/skills#{{ slug[page.lang] }}">
+<a href="{{ base_url }}skills#{{ slug[page.lang] }}">
 {{- skill_name[page.lang] -}}
 </a>
 </li>

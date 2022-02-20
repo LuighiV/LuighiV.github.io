@@ -41,6 +41,55 @@
   }
 }
 
+.big-card{
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  .prev{
+    padding-bottom: 0.5rem;
+  }
+  .after{
+    padding-top: 0.5rem;
+    overflow:hidden;
+    transition: height 0.2s ease-out;
+  }
+  .button-trigger {
+    display: none;
+  }
+  label {
+    cursor:pointer;
+    &:hover{
+      text-decoration:underline;
+    }
+  }
+  input ~ .trigger {
+    clear: both;
+    display: none;
+  }
+  input:checked ~ .trigger {
+    display: block;
+  }
+
+  input ~ label>.see-less {
+    clear: both;
+    display: none;
+  }
+  input:checked ~ label>.see-less {
+    display: block;
+  }
+  input ~ label>.see-more {
+    display: block;
+  }
+  input:checked ~ label>.see-more {
+    clear: both;
+    display: none;
+  }
+  .see{
+    text-align: right;
+  }
+}
+
 .skills-list{
     display:flex;
     flex-wrap: wrap;

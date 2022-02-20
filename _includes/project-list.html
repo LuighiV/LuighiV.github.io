@@ -54,39 +54,39 @@ project.project_owner | first %}
 {{ descriptions[project.project_description][page.lang] }}
 {%- endcapture -%}
 
-{% capture project_additional_info %}
+{%- capture project_additional_info -%}
 
-{% assign contribution = project.contribution  %}
-{% if contribution and contribution !=""%}
+{%- assign contribution = project.contribution -%}
+{%- if contribution and contribution !="" -%}
 <strong>{{ labels["contribution"][page.lang] }}</strong>:
  {{ descriptions[contribution][page.lang] }}
 <br>
-{% endif %}
+{%- endif -%}
 
-{% assign webpage = project.project_url  %}
-{% if webpage and webpage !=""%}
+{%- assign webpage = project.project_url -%}
+{%- if webpage and webpage !="" -%}
 <strong>{{ labels["webpage"][page.lang] }}</strong>:
  <a href="{{ webpage }}" target="_blank">{{ webpage }}</a>
 <br>
-{% endif %}
+{%- endif -%}
 
-{% assign documentation = project.project_docs_url  %}
-{% if documentation and documentation !=""%}
+{%- assign documentation = project.project_docs_url -%}
+{%- if documentation and documentation !="" -%}
 <strong>{{ labels["documentation"][page.lang] }}</strong>:
  <a href="{{ documentation }}" target="_blank">{{ documentation }}</a>
 <br>
-{% endif %}
+{%- endif -%}
 
-{% assign release = project.project_release  %}
-{% if release and release !=""%}
+{%- assign release = project.project_release -%}
+{%- if release and release !="" -%}
 <strong>{{ labels["release"][page.lang] }}</strong>:
  <a href="{{ release }}" target="_blank">{{ release }}</a>
 <br>
-{% endif %}
+{%- endif -%}
 
 {%- assign selected_repositories = site.data.generated.project_x_repository 
  | where: "project_id", project.project_id -%}
-{% if selected_repositories.size > 0 %}
+{%- if selected_repositories.size > 0 -%}
 <strong>{{ labels["repositories"][page.lang] }}</strong>:
 <br>
 <ul>
@@ -100,7 +100,7 @@ project.project_owner | first %}
   {%- endfor -%}
 </ul>
 {%- endif -%}
-{% endcapture %}
+{%- endcapture -%}
 
 {% include big-card.html 
   title=title

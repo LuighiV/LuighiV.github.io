@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LuighiVZ
 github_username:  LuighiV
+linkedin_username: luighiviton
 
 # Build settings
 theme: minima
@@ -28,6 +29,15 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+header_pages:
+  en:
+    - index.md
+    - en/skills.md
+    - en/projects/index.md
+  es:
+    - es/index.md
+    - es/skills.md
+    - es/projects/index.md
 
 defaults:
     -

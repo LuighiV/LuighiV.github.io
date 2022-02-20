@@ -1,10 +1,30 @@
 <div class="big-card">
-<div class="card-title">
-<h3 id="{{ include.slug }}">{{ include.title }}</h3>
-</div>
+  {% assign labels = site.data.generated.label %}
+  <input type="checkbox" id="input_{{ include.slug}}" class="button-trigger"/>
+  <div class="card-title">
+  <label for="input_{{ include.slug}}">
+  <h3 id="{{ include.slug }}">{{ include.title }}</h3>
+  </label>
+  </div>
+<div class="prev">
   {{ include.prev}}
+</div>
 <div class="description" >
   {{ include.description }}
 </div>
+<div class="after trigger">
   {{ include.after}}
+</div>
+{%if include.after and include.after !="" %}
+<label for="input_{{ include.slug}}" class="see">
+  <div class="see-more">
+    {{- labels["see-more"][page.lang] }}
+<i class="fa-solid fa-caret-down"></i>
+  </div>
+  <div class="see-less">
+    {{- labels["see-less"][page.lang] }}
+<i class="fa-solid fa-caret-up"></i>
+  </div>
+</label>
+{% endif %}
 </div>

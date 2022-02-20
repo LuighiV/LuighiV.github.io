@@ -29,22 +29,26 @@ category.category_id %}
 {{ descriptions[skill.skill_description][page.lang] }}
 {%- endcapture -%}
 
-{%- capture skill_additional_info -%}
 
+{%- capture skill_info -%}
 <strong>{{ labels["expertise_level"][page.lang] }}</strong>: {{skill.expertise_level}} / {{skill.max_expertise_level}}
 <br>
+{%- endcapture -%}
 
-{% assign selected_projects = site.data.generated.skill_x_project | where:
-"skill_id", skill.skill_id %}
+{%- capture skill_additional_info -%}
 
-{% if selected_projects.size > 0 %}
+{%- assign selected_projects = site.data.generated.skill_x_project | where:
+"skill_id", skill.skill_id -%}
+
+{%- if selected_projects.size > 0 -%}
 <strong>{{ labels["projects"][page.lang] }}</strong>: 
 <ul>
-{% for project in selected_projects %}
-{% assign project_info = site.data.generated.project | where: "project_id",
-project.project_id | first %}
+{%- for project in selected_projects -%}
+{%- assign project_info = site.data.generated.project | where: "project_id",
+project.project_id | first -%}
 
-{% assign project_title=site.data.generated.string[project_info.project_title] %}
+{%- assign project_title=site.data.generated.string[project_info.project_title]
+-%}
 <li>
 <a href="projects#{{ slugs[project_info.project_title][page.lang] }}" >
 {{ project_title[page.lang] }}
