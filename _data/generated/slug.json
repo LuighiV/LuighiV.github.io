@@ -334,5 +334,13 @@
     "paper-conference_string": {
         "en": "conference-paper",
         "es": "articulo-en-conferencia"
+    },
+    "engineer_researcher_profile_string": {
+        "en": "engineer-profile",
+        "es": "perfil-como-ingeniero"
+    },
+    "developer_profile_string": {
+        "en": "developer-profile",
+        "es": "perfil-como-programador"
     }
 }

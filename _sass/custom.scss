@@ -181,6 +181,21 @@ h2 {
   padding-top: 1rem;
   border-top: 1px solid #dddddd;
   font-size: 1rem;
+  > p{
+    margin-bottom: 0.25rem;
+  }
+  a{
+    color: black;
+  }
+  margin-bottom:1rem;
+}
+
+.profile-description{
+  margin-bottom: 0.5rem;
+}
+
+.interest-topics{
+  margin-bottom: 1rem;
 }
 
 .skills-list{

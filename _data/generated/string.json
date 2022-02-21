@@ -334,5 +334,13 @@
     "paper-conference_string": {
         "en": "Conference Paper",
         "es": "Artículo en conferencia"
+    },
+    "engineer_researcher_profile_string": {
+        "en": "Engineer profile",
+        "es": "Perfil como ingeniero"
+    },
+    "developer_profile_string": {
+        "en": "Developer profile",
+        "es": "Perfil como programador"
     }
 }

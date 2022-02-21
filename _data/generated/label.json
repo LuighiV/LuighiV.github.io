@@ -74,5 +74,13 @@
     "publications": {
         "en": "Publications",
         "es": "Publicaciones"
+    },
+    "interest_topics": {
+        "en": "Topics of interest",
+        "es": "Temas de interés"
+    },
+    "see_profile": {
+        "en": "See profile",
+        "es": "Ver perfil"
     }
 }

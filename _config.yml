@@ -32,12 +32,14 @@ exclude:
 header_pages:
   en:
     - index.md
+    - en/profile.md
     - en/skills.md
     - en/experience.md
     - en/projects/index.md
     - en/publications.md
   es:
     - es/index.md
+    - es/profile.md
     - es/skills.md
     - es/experience.md
     - es/projects/index.md

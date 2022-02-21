@@ -1,0 +1,14 @@
+[
+    {
+        "profile_type_id": "engineer_researcher_profile",
+        "profile_type_name": "engineer_researcher_profile_string",
+        "profile_type_description": "engineer_researcher_profile",
+        "profile_type_interest_topics": "research_interest_topics"
+    },
+    {
+        "profile_type_id": "developer_profile",
+        "profile_type_name": "developer_profile_string",
+        "profile_type_description": "developer_profile",
+        "profile_type_interest_topics": "development_interest_topics"
+    }
+]
