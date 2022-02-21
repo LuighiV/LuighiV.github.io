@@ -41,6 +41,38 @@
   }
 }
 
+.project-list {
+  > .small-card {
+    margin-bottom:0.5rem;
+  }
+  > .see-more{
+    > a{
+      color: black;
+    }
+    margin-bottom: 1rem;
+  }
+}
+
+.experience-list {
+  > .small-card {
+    margin-bottom:0.5rem;
+  }
+  > .see-more{
+    > a{
+      color: black;
+    }
+    margin-bottom: 1rem;
+  }
+}
+
+h2 {
+  border-bottom: 0.5px solid #aaaaaa;
+}
+
+.footer-heading{
+  border-bottom: 0px;
+}
+
 .mid-card{
   border: 1px solid black;
   border-radius: 4px;

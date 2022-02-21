@@ -8,7 +8,12 @@
 {%- assign selected_projects = projects | where: "highlight", include.highlight
 -%}
 
-{% for project in selected_projects %}
+{%- for type in site.data.generated.project_type -%}
+
+<h3 >{{ strings[type.project_type_name][page.lang]}} </h3>
+{%- assign selected_type_projects = selected_projects | where:
+"project_type_id", type.project_type_id -%}
+{% for project in selected_type_projects %}
 {% capture project_info %}
 
 {% if project.project_year and project.project_year != "" %}
@@ -32,13 +37,6 @@ project.project_owner | first %}
 <br>
 <strong>{{ labels["development_stage"][page.lang] }}</strong>:
  {{ strings[project_stage.project_stage_name][page.lang]}}
-
-
-{% assign project_type = site.data.generated.project_type | where:
-"project_type_id", project.project_type_id | first %}
-<br>
-<strong>{{ labels["type"][page.lang] }}</strong>:
- {{ strings[project_type.project_type_name][page.lang] }}
 
 {% endcapture %}
 
@@ -108,6 +106,6 @@ project.project_owner | first %}
   description=description
   prev=project_info
   after=project_additional_info %}
-
-{% endfor %}
+{%- endfor -%}
+{%- endfor -%}
 </div>

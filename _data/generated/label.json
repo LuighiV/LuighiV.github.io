@@ -55,12 +55,16 @@
         "en": "Skills",
         "es": "Aptitudes"
     },
-    "see-more": {
+    "see_more": {
         "en": "See more",
         "es": "Ver más"
     },
-    "see-less": {
+    "see_less": {
         "en": "See less",
         "es": "Ver menos"
+    },
+    "experience": {
+        "en": "Experience",
+        "es": "Experiencia"
     }
 }

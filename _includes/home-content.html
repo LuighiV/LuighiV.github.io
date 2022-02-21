@@ -1,18 +1,95 @@
 <div class="container">
+{%- assign profile=site.data.generated.profile -%}
+{% assign labels = site.data.generated.label %} 
+{% assign slugs = site.data.generated.slug -%}
+{% assign strings = site.data.generated.string -%}
+
 {%- if page.url == "/" -%}
  {%- assign base_url = page.lang | append: "/" -%}
 {% else %}
  {%- assign base_url = page.url | relative_url -%}
 {%- endif -%}
 
-   {% assign labels = site.data.generated.label %} 
-{% assign profile_description = site.data.generated.profile.description %}
+{% assign profile_description = profile.description %}
 {{ profile_description[page.lang] }}
 
-<h1 > {{ labels["skills"][page.lang]}}  </h1>
+<h1 > {{ labels["projects"][page.lang]}}  </h1>
 
-{% assign slugs = site.data.generated.slug -%}
-{% assign strings = site.data.generated.string -%}
+{%- assign types = site.data.generated.project_type -%}
+
+<div class="project-list">
+   {%- for type in types -%}
+
+   {%- capture type_title -%}
+   <a href="{{ base_url }}projects#{{strings[type.project_type_name][page.lang] |
+      slugify}}" >{{ strings[type.project_type_name][page.lang] }}</a>
+   {%- endcapture -%}
+
+   {%- capture type_content -%}
+   {%- assign type_projects = site.data.generated.project | where:
+   "project_type_id", type.project_type_id | where: "highlight", true -%}
+   <ul>
+      {%- for project in type_projects -%}
+      <li><a href="{{ base_url
+            }}projects#{{slugs[project.project_title][page.lang]}}">{{ strings[project.project_title][page.lang] }}</a></li> 
+      {%- endfor -%}
+   </ul>
+   {%- endcapture -%}
+
+   {%- include small-card.html
+   title= type_title
+   content = type_content
+   -%}
+
+   {%- endfor -%}
+
+   <div class="see-more">
+      <a href="{{base_url}}projects">
+         {{ labels["see_more"][page.lang] }} {{labels["projects"][page.lang] |
+         downcase}}
+<i class="fa-solid fa-caret-right"></i>
+      </a>
+   </div>
+</div>
+
+<p>{{ profile.engage_hiring[page.lang] }}</p>
+
+<h1 > {{ labels["experience"][page.lang]}}  </h1>
+
+<div class="experience-list">
+   {%- assign experience_list = site.data.generated.experience -%}
+
+   {%- for experience in experience_list limit:2 -%}
+
+   {%- capture experience_title -%}
+   {%- assign organization = site.data.generated.organization | where:
+   "org_id", experience.organization_id | first -%}
+   <a href="{{base_url}}experience#{{experience.experience_id |slugify}}" >
+      {{experience.period}} <i class="fa-solid fa-arrow-right-long"></i> {{ organization.org_short_name }}
+   </a>
+   {%- endcapture -%}
+
+   {%- capture experience_content -%}
+   {{ strings[experience.position][page.lang] }}
+   {%- endcapture -%}
+
+   {%- include small-card.html
+   title= experience_title
+   content = experience_content
+   -%}
+   {%- endfor -%}
+
+   <div class="see-more">
+      <a href="{{base_url}}experience">
+         {{ labels["see_more"][page.lang] }} {{labels["experience"][page.lang] |
+         downcase}}
+<i class="fa-solid fa-caret-right"></i>
+      </a>
+   </div>
+   
+</div>
+
+<h1 > {{ labels["skills"][page.lang]}}  </h1>
 
 <div class="skills-list">
 {% for category in site.data.generated.skill_category %}
