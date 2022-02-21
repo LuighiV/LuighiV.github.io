@@ -12,14 +12,14 @@
 
 .enumerate {
     margin-left:0;
-  > li {
+   li {
     list-style-type: none;
     display: inline;
-    :after{
-      content:",";
+    &:after{
+      content:", ";
     }
     &:last-child{
-      :after{
+      &:after{
         content: "";
       }
     }
@@ -29,11 +29,15 @@
 .small-card{
   border: 1px solid black;
   border-radius: 4px;
-  padding: .5rem;
+  padding: .5rem 0.5rem 0.75rem;
 
   > .card-title{
     font-size: 1.25rem;
     font-weight: bold;
+
+    h4{
+    margin-bottom: 0.5rem;
+    }
     a {
       font-weight: 600;
       color: black;
@@ -41,7 +45,7 @@
   }
 }
 
-.project-list {
+.project-list, .experience-list, .publication-list {
   > .small-card {
     margin-bottom:0.5rem;
   }
@@ -51,17 +55,8 @@
     }
     margin-bottom: 1rem;
   }
-}
-
-.experience-list {
-  > .small-card {
-    margin-bottom:0.5rem;
-  }
-  > .see-more{
-    > a{
-      color: black;
-    }
-    margin-bottom: 1rem;
+  ul{
+    margin-bottom:0;
   }
 }
 
@@ -108,7 +103,7 @@ h2 {
   }
 }
 
-.big-card{
+.big-card, .big-card-alternate{
   border: 1px solid black;
   border-radius: 4px;
   padding: .5rem;
@@ -155,6 +150,37 @@ h2 {
   .see{
     text-align: right;
   }
+}
+
+.big-card-alternate{
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .date{
+    font-size: 1.25rem;
+  }
+  .author{
+    font-size: 1.125rem;
+  }
+  .publisher{
+    font-size: 1.25rem;
+    font-style: italic;
+  }
+  .container{
+    font-size: 1.25rem;
+    font-style: italic;
+  }
+  .enumerate{
+    margin-bottom: 0;
+  }
+}
+
+.engage-hiring{
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #dddddd;
+  font-size: 1rem;
 }
 
 .skills-list{

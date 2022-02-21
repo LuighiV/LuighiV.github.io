@@ -1,0 +1,14 @@
+[
+    {
+        "publication_type_id": "thesis",
+        "publication_type_name": "thesis_string"
+    },
+    {
+        "publication_type_id": "article-journal",
+        "publication_type_name": "article-journal_string"
+    },
+    {
+        "publication_type_id": "paper-conference",
+        "publication_type_name": "paper-conference_string"
+    }
+]

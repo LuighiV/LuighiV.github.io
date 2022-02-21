@@ -1,8 +1,8 @@
 ---
 
 layout: page
-title: Publications
-lang: en
+title: Publicaciones
+lang: es
 lang-ref: publications
 
 ---

@@ -35,11 +35,13 @@ header_pages:
     - en/skills.md
     - en/experience.md
     - en/projects/index.md
+    - en/publications.md
   es:
     - es/index.md
     - es/skills.md
     - es/experience.md
     - es/projects/index.md
+    - es/publications.md
 
 defaults:
     -

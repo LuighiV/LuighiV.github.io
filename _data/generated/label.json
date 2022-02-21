@@ -66,5 +66,13 @@
     "experience": {
         "en": "Experience",
         "es": "Experiencia"
+    },
+    "link": {
+        "en": "Link",
+        "es": "Enlace"
+    },
+    "publications": {
+        "en": "Publications",
+        "es": "Publicaciones"
     }
 }

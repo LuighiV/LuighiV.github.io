@@ -52,7 +52,42 @@
    </div>
 </div>
 
+<h1 > {{ labels["publications"][page.lang]}}  </h1>
+
+{%- assign types = site.data.generated.publication_type -%}
+
+<div class="publication-list">
+   {%- for type in types -%}
+
+   {%- capture type_title -%}
+   <a href="{{ base_url
+      }}publications#{{slugs[type.publication_type_name][page.lang]}}" >{{
+      strings[type.publication_type_name][page.lang] }}</a>
+   {%- endcapture -%}
+
+   {%- capture type_content -%}
+   {%- assign type_publications = site.data.generated.publications | where:
+   "type", type.publication_type_id -%}
+   <ul>
+      {%- for publication in type_publications -%}
+      <li><a href="{{ base_url
+            }}publications#{{ publication.id}}">{{ publication.title }}</a></li> 
+      {%- endfor -%}
+   </ul>
+   {%- endcapture -%}
+
+   {%- include small-card.html
+   title= type_title
+   content = type_content
+   -%}
+
+   {%- endfor -%}
+
+</div>
+
+<div class="engage-hiring">
 <p>{{ profile.engage_hiring[page.lang] }}</p>
+</div>
 
 <h1 > {{ labels["experience"][page.lang]}}  </h1>
 
@@ -110,8 +145,7 @@ category.category_id %}
 <li >
 <a href="{{ base_url }}skills#{{ slug[page.lang] }}">
 {{- skill_name[page.lang] -}}
-</a>
-</li>
+</a></li>
 
 {% endfor %}
 </ul>

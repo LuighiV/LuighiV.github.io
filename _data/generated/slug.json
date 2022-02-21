@@ -322,5 +322,17 @@
     "bmatic_support_position": {
         "en": "technical-support-and-training-engineer",
         "es": "ingeniero-de-soporte-tecnico-y-mantenimiento"
+    },
+    "thesis_string": {
+        "en": "thesis",
+        "es": "tesis"
+    },
+    "article-journal_string": {
+        "en": "journal-article",
+        "es": "articulo-en-revista"
+    },
+    "paper-conference_string": {
+        "en": "conference-paper",
+        "es": "articulo-en-conferencia"
     }
 }

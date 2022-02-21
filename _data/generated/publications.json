@@ -1,0 +1,168 @@
+[
+  {
+    "DOI": "10/gphzwp",
+    "abstract": "This paper presents a software platform based on open source tools to simulate and fit parameter values of sensor device models based on MOSFET like the ISFET. In electronic simulation, electrical and mathematical models allow to describe the behavior of electronic devices. Although manufacturers provide device models, in some cases, this information is not enough to simulate their characteristics. In order to improve the parameter values of mathematical model, the fitting procedure compares the measured and simulated data. This platform allows testing different models such as ISFET or MOSFET using freely available SPICE simulator engines. It constructs the netlist based on the classical ISFET behavioral macromodel considering the values entered by the user, then via a set of methods simulate this customized model for both characteristics curves iDS vs vGS and iDS vs vDS and compare them with experimental results obtained from a characterization process.",
+    "author": [
+      {
+        "family": "Viton-Zorrilla",
+        "given": "Luighi"
+      },
+      {
+        "family": "Lezama",
+        "given": "Jinmi"
+      }
+    ],
+    "container-title": "2019 IEEE XXVI International Conference on Electronics, Electrical Engineering and Computing (INTERCON)",
+    "event": "2019 IEEE XXVI International Conference on Electronics, Electrical Engineering and Computing (INTERCON)",
+    "id": "viton-zorrilla2019",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          8
+        ]
+      ]
+    },
+    "keyword": "behavioral macromodel,Data models,Engines,Integrated circuit modeling,ISFET,Mathematical model,python,Semiconductor device modeling,simulation platform,SPICE",
+    "page": "1-4",
+    "title": "A software platform for ISFET simulation based on open source tools to fit model parameters",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10/gphzvn",
+    "abstract": "Evaluating sensor characteristics is a critical task to choose the device with better performance for a specific application. In case of environmental monitoring systems, being low power design a big challenge, reducing activation periods is a recurrent technique to reduce power so response time of sensors should be evaluated to accomplish this goal. In this article, a hardware-software monitoring system is proposed to evaluate the response time of two pH sensors based on different technologies to compare and verify theoretical behavior and also to test the changes produced when other factors such as temperature or simultaneous measurements occur during the process. The sensors employed were a glass electrode from Atlas Scientific and an ISFET from WINSENSE in addition to a NTC temperature sensor. The response time was measured from readout circuit activation and probed in two different scenarios when both are in the same or in different containers. Results show that ISFET has an impressive response time, less than 3s, while the other one has almost 30s. This confirms the behavior exposed by the theory and also presents the ISFET as the better choice for low power sensor systems.",
+    "author": [
+      {
+        "family": "Vitón Zorrilla",
+        "given": "Luighi A."
+      },
+      {
+        "family": "Lezama Calvo",
+        "given": "Jinmi G."
+      }
+    ],
+    "container-title": "2017 IEEE XXIV International Conference on Electronics, Electrical Engineering and Computing (INTERCON)",
+    "event": "2017 IEEE XXIV International Conference on Electronics, Electrical Engineering and Computing (INTERCON)",
+    "id": "vitonzorrilla2017",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          8
+        ]
+      ]
+    },
+    "keyword": "Electric potential,Electrodes,embedded system,Glass,Glass electrode,ISFET,Monitoring,pH,response time,Temperature measurement,Temperature sensors,Time factors",
+    "page": "1-4",
+    "title": "Monitoring system for ISFET and glass electrode behavior comparison",
+    "type": "paper-conference"
+  },
+  {
+    "URL": "http://cybertesis.uni.edu.pe/handle/uni/14781",
+    "abstract": "El objetivo de la tesis \"Modelamiento e implementación de un sistema de sensado de pH de bajo consumo de energía aplicado al control de calidad de agua de ríos\", es el desarrollo de un sistema de sensado de pH de bajo consumo de energía el cual tenga como fin su incorporación a una red de sensores inalámbrica. El pH es una medida operacional muy importante en cuanto sus variaciones son indicadores de cambios en la composición del agua con efectos nocivos para los ecosistemas que viven y hacen uso de ésta, empleándose sistemas de sensado remotos para detectar estas variaciones. No obstante, los sistemas basados en sensores y técnicas convencionales usualmente tienen un elevado consumo de energía, lo cual implica tiempos reducidos de autonomía. Es por ello por lo que en la tesis se realiza la selección de una tecnología de sensado de bajo consumo a la vez que se efectúa la implementación de todo el sistema de acondicionamiento y control en el mismo dispositivo, empleando para ello un microcontrolador de señal mixta. Luego, para la comunicación con Internet, se hace uso de un microcontrolador que implementa un protocolo de bajo consumo dotándole de una conexión inalámbrica. El sistema construido es probado en el laboratorio, efectuando las mediciones de consumo de energía en cada una de sus etapas. Los resultados muestran un consumo inferior, en su parte analógica, respecto a otras soluciones comerciales, así como una adecuada sensibilidad y una comunicación continua con la plataforma de Internet. La solución presentada constituye una alternativa adecuada para el sensado de pH aplicado al control de calidad del agua, la cual puede extenderse a otras aplicaciones tales como agricultura y biomedicina.",
+    "accessed": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          21
+        ]
+      ]
+    },
+    "annote": "Accepted: 2018-10-31T19:35:12Z",
+    "author": [
+      {
+        "family": "Vitón Zorrilla",
+        "given": "Luighi Anthony"
+      }
+    ],
+    "genre": "diplomathesis",
+    "id": "vitonzorrilla2018",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "keyword": "⛔ No DOI found",
+    "language": "es-ES",
+    "publisher": "Universidad Nacional de Ingeniería",
+    "title": "Modelamiento e implementación de un sistema de sensado de PH de bajo consumo de energía aplicado al control de calidad de agua de ríos",
+    "type": "thesis"
+  },
+  {
+    "DOI": "10/gphzt9",
+    "ISSN": "2448-6736",
+    "URL": "https://jart.icat.unam.mx/index.php/jart/article/view/716",
+    "abstract": "This paper describes the design and implementation of an alternative system to measure electrical parameters (voltage and current) in order to characterize MOSFET-Like sensors. To design a signal conditioning circuit is necessary to understand the sensor behavior, therefore knowing its characteristics is essential. As sensor manufacturers do not usually provide the whole technical information about them, a measurement system is proposed to obtain those sensor characteristics with the aim of modeling the sensor device. This system is based on a MCU which generates voltages and measures currents via an external transimpedance amplifier, and it is supported by a software platform developed upon python based open source tools. Such combination offers a low cost system to stimulate and capture sensor responses which could be processed later to extract the characteristic parameters. The system was tested principally with an Ion Sensitive Field Effect Transistor (ISFET) and results show the VDS-IDS and VGS curves obtained with it.",
+    "accessed": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          21
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Zorrilla",
+        "given": "Luighi Viton"
+      },
+      {
+        "family": "Lezama",
+        "given": "Jinmi"
+      },
+      {
+        "family": "Acosta",
+        "given": "Rubén"
+      }
+    ],
+    "container-title": "Journal of Applied Research and Technology",
+    "id": "zorrilla2018",
+    "issue": "3, 3",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "keyword": "ISFET,MCU,measurement system,sensor characterization",
+    "language": "en-US",
+    "title": "Design and implementation of an alternative measurement system for MOSFET-Like sensors characterization",
+    "type": "article-journal",
+    "volume": "16"
+  },
+  {
+    "DOI": "10/gphzv2",
+    "ISSN": "2473-4667",
+    "abstract": "Ion Sensitive Field Effect Transistors (ISFETs) have been widely used in different applications because of its rapid response and robustness. There are many structures of conditioning circuits proposed for ISFETs oriented to specific applications and a integrated solutions. This paper, proposes a completely embedded readout circuit and processing system to employ them as part of pH monitoring systems. The implementation was performed in the mixed signal microcontroller PSoC 5LP, with a classical constant-current and constant-voltage structure (CVCC) of 25μΑ and 300mV. Results shows a sensibility of 51mV/pH at 25°C and a compensated output with +/− 0.02pH of tolerance and 0.02 of resolution.",
+    "author": [
+      {
+        "family": "Zorrilla",
+        "given": "Luighi A. Vitón"
+      },
+      {
+        "family": "Lezama",
+        "given": "Jinmi"
+      }
+    ],
+    "container-title": "2018 IEEE 9th Latin American Symposium on Circuits Systems (LASCAS)",
+    "event": "2018 IEEE 9th Latin American Symposium on Circuits Systems (LASCAS)",
+    "id": "zorrilla2018a",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          2
+        ]
+      ]
+    },
+    "keyword": "Electrodes,ISFET,Microcontrollers,processing,PSoC,readout circuit,Sigma-delta modulation,temperature compensation,Temperature dependence,Temperature measurement,Temperature sensors",
+    "page": "1-4",
+    "title": "Low-power embedded readout and processing system for ISFET sensors as measurement devices",
+    "type": "paper-conference"
+  }
+]

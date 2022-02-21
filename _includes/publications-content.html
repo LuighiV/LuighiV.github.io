@@ -1,0 +1,95 @@
+<div>
+{% assign labels = site.data.generated.label %}
+{% assign strings = site.data.generated.string %}
+{% assign slugs = site.data.generated.slug %}
+{% assign publications = site.data.generated.publications %}
+{% assign publication_types = site.data.generated.publication_type %}
+
+{%- for type in publication_types -%}
+{%- assign selected_publications = publications | where: "type",
+type.publication_type_id -%}
+
+{%- if selected_publications.size > 0 -%}
+<h2 id="{{slugs[type.publication_type_name][page.lang]}}">{{
+  strings[type.publication_type_name][page.lang]}} </h2>
+
+{%- for publication in selected_publications -%}
+
+{%- capture publication_title -%}
+{{ publication.title }}
+{%- endcapture -%}
+
+{%- capture publication_slug -%}
+{{ publication.id }}
+{%- endcapture -%}
+
+{%- capture publication_prev -%}
+
+{%- assign date= publication.issued.date-parts | join: "-" -%}
+{%- if date -%}
+<div class="date">
+  {{date}}
+</div>
+{%- endif -%}
+
+{%- assign authors= publication.author -%}
+{%- if authors.size >0 -%}
+<div class="author">
+<ul class="enumerate">
+  {%- for author in authors -%}
+  <li>{{ author.given }} {{ author.family }}</li> 
+  {%- endfor -%}
+</ul>
+</div>
+{%- endif -%}
+
+{%- assign container= publication.container-title -%}
+{%- if container -%}
+<div class="container">
+  {{container}}
+</div>
+{%- endif -%}
+
+{%- assign publisher= publication.publisher-%}
+{%- if publisher -%}
+<div class="publisher">
+  {{publisher}}
+</div>
+{%- endif -%}
+
+{%- assign doi = publication.DOI -%}
+{%- assign url = publication.URL -%}
+
+{%- if doi -%}
+  {%- assign link = doi  | prepend: "http://dx.doi.org/" -%}
+{%- elsif url -%}
+  {%- assign link = url -%}
+{%- endif -%}
+
+{%- if link -%}
+<div>
+  <strong> {{ labels["link"][page.lang] }} </strong>: 
+  <a href="{{ link }}" target="_blank">{{ link }}</a>
+</div>
+{%- endif -%}
+
+{%- endcapture -%}
+
+{%- capture publication_description -%}
+{{ publication.abstract }}
+{%- endcapture -%}
+
+{%- include big-card-alternate.html
+  title=publication_title
+  slug=publication_slug
+  prev=publication_prev
+  description=publication_description
+-%}
+
+{%- endfor -%}
+
+{%- endif -%}
+
+{% endfor %}
+
+</div>
