@@ -1,7 +1,8 @@
 [
     {
         "experience_id": "inictel_assitant",
-        "period": "2019-2021",
+        "start_date": 2019,
+        "end_date": 2021,
         "organization_id": "inictel_uni",
         "department": "Coordinación de Servicios Tecnológicos - Dirección de Capacitación y Transferencia Tecnológica",
         "position": "inictel_assitant_position",
@@ -9,7 +10,8 @@
     },
     {
         "experience_id": "inictel_third_party",
-        "period": "2017-2019",
+        "start_date": 2017,
+        "end_date": 2019,
         "organization_id": "inictel_uni",
         "department": "Coordinación III - Dirección de Investigación y Desarrollo Tecnológico",
         "position": "inictel_third_party_position",
@@ -17,7 +19,8 @@
     },
     {
         "experience_id": "inictel_apprentice",
-        "period": "2016-2017",
+        "start_date": 2016,
+        "end_date": 2017,
         "organization_id": "inictel_uni",
         "department": "Coordinación III - Dirección de Investigación y Desarrollo Tecnológico",
         "position": "inictel_apprentice_position",
@@ -25,7 +28,8 @@
     },
     {
         "experience_id": "bmatic_support",
-        "period": 2015,
+        "start_date": 2015,
+        "end_date": 2016,
         "organization_id": "bmatic",
         "department": "Área de soporte técnico y capacitación",
         "position": "bmatic_support_position",

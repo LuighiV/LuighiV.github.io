@@ -110,7 +110,13 @@
    {%- assign organization = site.data.generated.organization | where:
    "org_id", experience.organization_id | first -%}
    <a href="{{base_url}}experience#{{experience.experience_id |slugify}}" >
-      {{experience.period}} <i class="fa-solid fa-arrow-right-long"></i> {{ organization.org_short_name }}
+     {{ experience.start_date }} - 
+  {% if experience.end_date and experience.end_date !="" %}
+{{ experience.end_date }}
+  {%- else -%}
+  {{ labels["now"][page.lang] | downcase }}
+  {%- endif %}
+ <i class="fa-solid fa-arrow-right-long"></i> {{ organization.org_short_name }}
    </a>
    {%- endcapture -%}
 
@@ -168,4 +174,43 @@ category.category_id %}
 
 {% endfor %}
 </div>
+{%- if profile.volunteering_info -%}
+<div class="volunteering-info">
+<p>{{ profile.volunteering_info[page.lang] }}</p>
+</div>
+
+<h1 > {{ labels["volunteering"][page.lang]}}  </h1>
+
+<div class="volunteering-list">
+   {%- assign volunteering_list = site.data.generated.volunteering -%}
+
+   {%- for volunteering in volunteering_list -%}
+
+   {%- capture volunteering_title -%}
+   {%- assign organization = site.data.generated.organization | where:
+   "org_id", volunteering.organization_id | first -%}
+   <a href="{{base_url}}volunteering#{{volunteering.volunteering_id |slugify}}" >
+     {{ volunteering.start_date }} - 
+  {% if volunteering.end_date and volunteering.end_date != ""%}
+{{ volunteering.end_date }}
+  {%- else -%}
+  {{ labels["now"][page.lang] | downcase }}
+  {%- endif %}
+ <i class="fa-solid fa-arrow-right-long"></i> {{ organization.org_short_name }}
+   </a>
+   {%- endcapture -%}
+
+   {%- capture volunteering_content -%}
+   {{ strings[volunteering.position][page.lang] }}
+   {%- endcapture -%}
+
+   {%- include small-card.html
+   title= volunteering_title
+   content = volunteering_content
+   -%}
+   {%- endfor -%}
+
+</div>
+
+{%- endif -%}
 </div>

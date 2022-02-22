@@ -4,13 +4,13 @@
 {% assign strings = site.data.generated.string %}
 {% assign slugs = site.data.generated.slug %}
 {% assign descriptions = site.data.generated.description %}
-{% assign experiences = site.data.generated.experience %}
+{% assign volunteering_list = site.data.generated.volunteering %}
 {% assign organizations = site.data.generated.organization %}
 
-{% for experience in experiences %}
+{% for volunteering in volunteering_list %}
 
 {% assign organization = organizations | where: "org_id",
-experience.organization_id | first %}
+volunteering.organization_id | first %}
 
 {%- capture title -%}
 {%- if organization.org_url -%}
@@ -25,20 +25,22 @@ experience.organization_id | first %}
 {%- endcapture -%}
 
 {%- capture slug -%}
-{{ experience.experience_id | slugify }}
+{{ volunteering.volunteering_id | slugify }}
 {%- endcapture -%}
 
 {%- capture description -%}
-{{ descriptions[experience.description][page.lang] }}
+{{ descriptions[volunteering.description][page.lang] }}
 {%- endcapture -%}
 
 
 {%- capture subtitle -%}
-<div class="department">{{ experience.department }}</div>
-<div class="position">{{ strings[experience.position][page.lang] }}</div>
-<div class="period">{{ experience.start_date }} - 
-  {% if experience.end_date and experience.end_date != "" -%}
-{{ experience.end_date }}
+{%- if volunteering.department and volunteering.department != "" -%}
+<div class="department">{{ volunteering.department }}</div>
+{%- endif -%}
+<div class="position">{{ strings[volunteering.position][page.lang] }}</div>
+<div class="period">{{ volunteering.start_date }} - 
+  {% if volunteering.end_date and volunteering.end_date!="" -%}
+{{ volunteering.end_date }}
   {%- else -%}
   {{ labels["now"][page.lang] | downcase }}
   {%- endif -%}

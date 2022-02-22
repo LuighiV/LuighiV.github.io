@@ -1,8 +1,8 @@
 ---
 
 layout: page
-title: Volunteering
-lang: en
+title: Voluntariado
+lang: es
 lang-ref: volunteering
 
 ---

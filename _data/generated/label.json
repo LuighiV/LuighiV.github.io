@@ -90,5 +90,9 @@
     "contact_me": {
         "en": "Contact me",
         "es": "Contáctame"
+    },
+    "now": {
+        "en": "Now",
+        "es": "Actualidad"
     }
 }

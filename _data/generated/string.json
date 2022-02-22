@@ -414,5 +414,9 @@
     "connect_with_me_string": {
         "en": "Connect with me",
         "es": "Conéctate conmigo"
+    },
+    "open_politica_devops_position": {
+        "en": "DevOps",
+        "es": "DevOps"
     }
 }

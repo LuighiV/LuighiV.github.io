@@ -37,6 +37,7 @@ header_pages:
     - en/experience.md
     - en/projects/index.md
     - en/publications.md
+    - en/volunteering.md
     - en/contact.md
   es:
     - es/index.md
@@ -45,6 +46,7 @@ header_pages:
     - es/experience.md
     - es/projects/index.md
     - es/publications.md
+    - es/volunteering.md
     - es/contact.md
 
 defaults:
