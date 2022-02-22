@@ -342,5 +342,69 @@
     "developer_profile_string": {
         "en": "Developer profile",
         "es": "Perfil como programador"
+    },
+    "bussiness_mail_string": {
+        "en": "Business mail",
+        "es": "Correo profesional"
+    },
+    "personal_mail_string": {
+        "en": "Personal mail",
+        "es": "Correo personal"
+    },
+    "twitter_string": {
+        "en": "Twitter",
+        "es": "Twitter"
+    },
+    "linkedin_string": {
+        "en": "LinkedIn",
+        "es": "LinkedIn"
+    },
+    "discord_string": {
+        "en": "Discord",
+        "es": "Discord"
+    },
+    "github_string": {
+        "en": "GitHub",
+        "es": "GitHub"
+    },
+    "gitlab_string": {
+        "en": "GitLab",
+        "es": "GitLab"
+    },
+    "pipy_string": {
+        "en": "Pypi",
+        "es": "Pypi"
+    },
+    "npm_string": {
+        "en": "npm",
+        "es": "npm"
+    },
+    "docker_string": {
+        "en": "Docker Hub",
+        "es": "Docker Hub"
+    },
+    "stackoverflow_string": {
+        "en": "Stack Overflow",
+        "es": "Stack Overflow"
+    },
+    "researchgate_string": {
+        "en": "Research Gate",
+        "es": "Research Gate"
+    },
+    "orcid_string": {
+        "en": "ORCID",
+        "es": "ORCID"
+    },
+    "concytec_dina_string": {
+        "en": "CTIVitae ID",
+        "es": "CTIVitae ID"
+    },
+    "scopus_id_string": {
+        "en": "Scopus ID",
+        "es": "Scopus ID"
+    },
+    "youtube_string": {
+        "en": "Youtube",
+        "es": "Youtube"
     }
 }

@@ -342,5 +342,21 @@
     "developer_profile_string": {
         "en": "developer-profile",
         "es": "perfil-como-programador"
+    },
+    "bussiness_mail_string": {
+        "en": "correo-profesional",
+        "es": "ref"
+    },
+    "personal_mail_string": {
+        "en": "correo-personal",
+        "es": "ref"
+    },
+    "twitter_string": {
+        "en": "twitter",
+        "es": "ref"
+    },
+    "linkedin_string": {
+        "en": "linkedin",
+        "es": "linkedin"
     }
 }

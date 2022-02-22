@@ -195,7 +195,36 @@ h2 {
 }
 
 .interest-topics{
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.label {
+  font-weight: bold;
+  &:after{
+    content: ": "
+  }
+}
+
+.content {
+  padding-left: 0.5rem;
+}
+
+.related-profiles{
+  display: flex;
+  flex-wrap:wrap;
+
+  >ul{
+list-style-type:none;
+    >li{
+      margin: 0.25rem 0;
+      > i{
+        margin-right: 0.5rem;
+        min-width: 1rem;
+      }
+    }
+  }
 }
 
 .skills-list{

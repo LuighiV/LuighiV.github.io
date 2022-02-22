@@ -1,0 +1,129 @@
+[
+    {
+        "account_id": "bussiness_mail",
+        "name": "bussiness_mail_string",
+        "type": "mail",
+        "username": "lv@luighiviton.com",
+        "fa_class": "fa-solid fa-envelope",
+        "url": "mailto:lv@luighiviton.com"
+    },
+    {
+        "account_id": "personal_mail",
+        "name": "personal_mail_string",
+        "type": "mail",
+        "username": "luighiavz@gmail.com",
+        "fa_class": "fa-solid fa-envelope",
+        "url": "mailto:luighiavz@gmail.com"
+    },
+    {
+        "account_id": "twitter",
+        "name": "twitter_string",
+        "type": "social_network",
+        "username": "LuighiVZ",
+        "fa_class": "fa-brands fa-twitter",
+        "url": "https://twitter.com/LuighiVZ"
+    },
+    {
+        "account_id": "linkedin",
+        "name": "linkedin_string",
+        "type": "social_network",
+        "username": "luighiviton",
+        "fa_class": "fa-brands fa-linkedin",
+        "url": "https://www.linkedin.com/in/luighiviton/"
+    },
+    {
+        "account_id": "discord",
+        "name": "discord_string",
+        "type": "social_network",
+        "username": "LuighiV#0279",
+        "fa_class": "fa-brands fa-discord"
+    },
+    {
+        "account_id": "youtube",
+        "name": "youtube_string",
+        "type": "streaming",
+        "username": "Luighi Vitón-Zorrilla",
+        "fa_class": "fa-brands fa-youtube",
+        "url": "https://www.youtube.com/c/LuighiAnthonyVit%C3%B3nZorrilla/"
+    },
+    {
+        "account_id": "github",
+        "name": "github_string",
+        "type": "repository",
+        "username": "LuighiV",
+        "fa_class": "fa-brands fa-github",
+        "url": "https://github.com/LuighiV"
+    },
+    {
+        "account_id": "gitlab",
+        "name": "gitlab_string",
+        "type": "repository",
+        "username": "LuighiV",
+        "fa_class": "fa-brands fa-gitlab",
+        "url": "https://gitlab.com/LuighiV"
+    },
+    {
+        "account_id": "pipy",
+        "name": "pipy_string",
+        "type": "packages",
+        "username": "LuighiV",
+        "fa_class": "fa-brands fa-python",
+        "url": "https://pypi.org/user/LuighiV/"
+    },
+    {
+        "account_id": "npm",
+        "name": "npm_string",
+        "type": "packages",
+        "username": "luighiv",
+        "fa_class": "fa-brands fa-npm",
+        "url": "https://www.npmjs.com/~luighiv"
+    },
+    {
+        "account_id": "docker",
+        "name": "docker_string",
+        "type": "packages",
+        "username": "luighiv",
+        "fa_class": "fa-brands fa-docker",
+        "url": "https://hub.docker.com/u/luighiv"
+    },
+    {
+        "account_id": "stackoverflow",
+        "name": "stackoverflow_string",
+        "type": "developer_network",
+        "username": "Luighi Viton-Zorrilla",
+        "fa_class": "fa-brands fa-stack-overflow",
+        "url": "https://stackoverflow.com/users/5107192/luighi-viton-zorrilla"
+    },
+    {
+        "account_id": "researchgate",
+        "name": "researchgate_string",
+        "type": "research_network",
+        "username": "Luighi Viton Zorrilla",
+        "fa_class": "fa-brands fa-researchgate",
+        "url": "https://www.researchgate.net/profile/Luighi-Viton-Zorrilla"
+    },
+    {
+        "account_id": "orcid",
+        "name": "orcid_string",
+        "type": "research_identifier",
+        "username": "0000-0002-0625-8972",
+        "fa_class": "fa-brands fa-orcid",
+        "url": "https://orcid.org/0000-0002-0625-8972"
+    },
+    {
+        "account_id": "concytec_dina",
+        "name": "concytec_dina_string",
+        "type": "research_identifier",
+        "username": "15511",
+        "fa_class": "",
+        "url": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=0015511"
+    },
+    {
+        "account_id": "scopus_id",
+        "name": "scopus_id_string",
+        "type": "research_identifier",
+        "username": "57215656131",
+        "fa_class": "",
+        "url": "https://www.scopus.com/authid/detail.uri?authorId=57215656131"
+    }
+]

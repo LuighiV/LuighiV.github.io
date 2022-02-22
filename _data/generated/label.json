@@ -82,5 +82,9 @@
     "see_profile": {
         "en": "See profile",
         "es": "Ver perfil"
+    },
+    "related_profiles": {
+        "en": "Related profiles",
+        "es": "Perfiles relacionados"
     }
 }

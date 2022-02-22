@@ -1,0 +1,10 @@
+[
+    {
+        "contact_action_id": "send_mail",
+        "contact_action_name": "send_mail_string"
+    },
+    {
+        "contact_action_id": "connect_with_me",
+        "contact_action_name": "connect_with_me_string"
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "profile_type_id": "engineer_researcher_profile",
+        "account_id": "linkedin"
+    },
+    {
+        "profile_type_id": "developer_profile",
+        "account_id": "github"
+    },
+    {
+        "profile_type_id": "developer_profile",
+        "account_id": "gitlab"
+    },
+    {
+        "profile_type_id": "developer_profile",
+        "account_id": "pipy"
+    },
+    {
+        "profile_type_id": "developer_profile",
+        "account_id": "npm"
+    },
+    {
+        "profile_type_id": "developer_profile",
+        "account_id": "docker"
+    },
+    {
+        "profile_type_id": "developer_profile",
+        "account_id": "stackoverflow"
+    },
+    {
+        "profile_type_id": "engineer_researcher_profile",
+        "account_id": "researchgate"
+    },
+    {
+        "profile_type_id": "engineer_researcher_profile",
+        "account_id": "orcid"
+    },
+    {
+        "profile_type_id": "engineer_researcher_profile",
+        "account_id": "concytec_dina"
+    },
+    {
+        "profile_type_id": "engineer_researcher_profile",
+        "account_id": "scopus_id"
+    }
+]

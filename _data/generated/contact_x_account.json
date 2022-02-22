@@ -1,0 +1,22 @@
+[
+    {
+        "contact_action_id": "send_mail",
+        "account_id": "bussiness_mail"
+    },
+    {
+        "contact_action_id": "send_mail",
+        "account_id": "personal_mail"
+    },
+    {
+        "contact_action_id": "connect_with_me",
+        "account_id": "linkedin"
+    },
+    {
+        "contact_action_id": "connect_with_me",
+        "account_id": "twitter"
+    },
+    {
+        "contact_action_id": "connect_with_me",
+        "account_id": "discord"
+    }
+]
