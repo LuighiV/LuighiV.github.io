@@ -11,7 +11,9 @@
 {%- endif -%}
 
 {% assign profile_description = profile.description %}
-{{ profile_description[page.lang] }}
+<div class="presentation">
+   {{ profile_description[page.lang] }}
+</div>
 
 <h1 > {{ labels["projects"][page.lang]}}  </h1>
 

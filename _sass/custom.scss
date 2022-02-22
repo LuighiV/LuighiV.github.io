@@ -26,6 +26,14 @@
   }
 }
 
+.content {
+  padding-left: 0.5rem;
+}
+
+.presentation {
+  margin-bottom: 0.5rem;
+}
+
 .small-card{
   border: 1px solid black;
   border-radius: 4px;
@@ -42,6 +50,9 @@
       font-weight: 600;
       color: black;
     }
+  }
+  > .content{
+    padding-left:0;
   }
 }
 
@@ -207,9 +218,6 @@ h2 {
   }
 }
 
-.content {
-  padding-left: 0.5rem;
-}
 
 .related-profiles, .contact-box{
   display: flex;
