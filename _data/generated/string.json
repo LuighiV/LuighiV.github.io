@@ -406,5 +406,13 @@
     "youtube_string": {
         "en": "Youtube",
         "es": "Youtube"
+    },
+    "send_mail_string": {
+        "en": "Send me an email",
+        "es": "Envíame un correo"
+    },
+    "connect_with_me_string": {
+        "en": "Connect with me",
+        "es": "Conéctate conmigo"
     }
 }

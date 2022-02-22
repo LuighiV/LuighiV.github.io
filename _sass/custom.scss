@@ -211,7 +211,7 @@ h2 {
   padding-left: 0.5rem;
 }
 
-.related-profiles{
+.related-profiles, .contact-box{
   display: flex;
   flex-wrap:wrap;
 
@@ -224,6 +224,17 @@ list-style-type:none;
         min-width: 1rem;
       }
     }
+  }
+}
+
+.contact-box{
+  h3{
+    font-size: 1.5rem;
+    min-width: 30%;
+  }
+  >ul{
+    margin: .5rem 1rem;
+    font-size: 1.125rem;
   }
 }
 

@@ -28,7 +28,7 @@
 
         <div class="lang-options">
           {% assign pages=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-          {% if pages.size > 1 %}
+          {% if pages.size > 1  and page.url != "/404.html" %}
           <em>{{ site.data.translations['differentLanguage'][page.lang] }}</em>
           <ul>
             {% for page in pages %}
