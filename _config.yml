@@ -1,13 +1,27 @@
 title: Luighi Viton-Zorrilla
 email: lv@luighiviton.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal web page of Luighi Viton-Zorrilla. I'm an electronic engineer,
-  enthusiastic programmer and passionate about learning.
+    This is is my personal web page. It describes my professional 
+    trajectory and the projects I have developed.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LuighiVZ
 github_username:  LuighiV
 linkedin_username: luighiviton
+
+#SEO info
+tagline: A personal web page of Luighi Viton-Zorrilla
+author: Luighi Viton-Zorrilla
+twitter:
+  username: LuighiVZ
+  card: summary
+logo: /images/logo.png
+social:
+  name: Luighi Viton-Zorrilla
+  links:
+    - https://www.linkedin.com/in/luighiviton
+    - https://www.twitter.com/LuighiVZ
+    - https://github.com/LuighiV
 
 # Build settings
 theme: minima
@@ -56,6 +70,11 @@ defaults:
      values:
          lang: es
          base_url: "/es/"
+         description: >-
+            Esta es mi página web personal. Esta página describe mi trayectoria 
+            profesional y los proyectos que he desarrollado.
+         tagline: Página web personal de Luighi Vitón Zorrilla
+         image: /images/banner-es.png
     -
      scope:
          path: en
@@ -63,3 +82,4 @@ defaults:
          lang: en
          base_url: "/en/"
          home_url: "/"
+         image: /images/banner.png
