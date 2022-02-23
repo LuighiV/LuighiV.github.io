@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
     This is is my personal web page. It describes my professional 
     trajectory and the projects I have developed.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://luighiviton.com" 
 twitter_username: LuighiVZ
 github_username:  LuighiV
 linkedin_username: luighiviton
@@ -14,7 +14,7 @@ tagline: A personal web page of Luighi Viton-Zorrilla
 author: Luighi Viton-Zorrilla
 twitter:
   username: LuighiVZ
-  card: summary
+  card: summary_large_image
 logo: /images/logo.png
 social:
   name: Luighi Viton-Zorrilla
