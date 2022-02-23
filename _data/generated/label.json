@@ -94,5 +94,9 @@
     "now": {
         "en": "Now",
         "es": "Actualidad"
+    },
+    "volunteering": {
+        "en": "Volunteering",
+        "es": "Voluntariado"
     }
 }
