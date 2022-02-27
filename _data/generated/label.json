@@ -98,5 +98,9 @@
     "volunteering": {
         "en": "Volunteering",
         "es": "Voluntariado"
+    },
+    "share_on": {
+        "en": "Share on",
+        "es": "Compartir en"
     }
 }
