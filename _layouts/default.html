@@ -9,6 +9,13 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
+        {%- capture home-text -%}
+        {{- site.data.generated.label["home"][page.lang] -}}
+        {%- endcapture -%}
+        {%- if page.layout != "home" -%}
+         {%- include breadcrumbs.html home-text= home-text -%}
+        {%- endif -%}
+        
         {{ content }}
 
         <div class="share-links">

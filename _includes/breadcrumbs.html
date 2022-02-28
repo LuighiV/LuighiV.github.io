@@ -1,0 +1,24 @@
+<!-- from https://jekyllcodex.org/without-plugin/breadcrumbs/ -->
+<div id="breadcrumbs">
+
+{%- if page.home_url -%}
+   {%- assign base_url = page.home_url -%}
+{% else -%}
+   {%- assign base_url = page.base_url -%}
+{% endif -%}
+{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+
+{%- if include.home-text != nil and include.home-text != "" -%}
+{%- assign home=include.home-text -%}
+{%- else -%}
+{%- assign home="Home" -%}
+{%- endif -%}
+<a href="{{base_url | relative_url}}">{{home}}</a>
+{% for crumb in crumbs offset: 2 %}
+  {% if forloop.last %}
+    / {{ page.title }}
+  {% else %}
+    / <a href="{% assign crumb_limit = forloop.index | plus: 2 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+  {% endif %}
+{% endfor %}
+</div>
