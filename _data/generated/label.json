@@ -103,6 +103,18 @@
         "en": "Share on",
         "es": "Compartir en"
     },
+    "share_this_on": {
+        "en": "Share this on",
+        "es": "Compartir esto en"
+    },
+    "share_this_through": {
+        "en": "Share this through",
+        "es": "Compartir esto a través de"
+    },
+    "email": {
+        "en": "Email",
+        "es": "Correo electrónico"
+    },
     "home": {
         "en": "Home",
         "es": "Inicio"
