@@ -65,6 +65,11 @@
         "skill_id": "cloud_docker"
     },
     {
+        "repository_name": "LuighiV/jenkins-docker",
+        "repository_source": "github",
+        "skill_id": "ci_cd_jenkins"
+    },
+    {
         "repository_name": "LuighiV/latex-snippets",
         "repository_source": "github",
         "skill_id": "documentation_latex"
@@ -203,5 +208,40 @@
         "repository_name": "openpolitica/open-tracker-devops",
         "repository_source": "github",
         "skill_id": "ci_cd_github"
+    },
+    {
+        "repository_name": "LuighiV/i3-config",
+        "repository_source": "gitlab",
+        "skill_id": "os_linux"
+    },
+    {
+        "repository_name": "LuighiV/vfapp-docker",
+        "repository_source": "gitlab",
+        "skill_id": "cloud_docker"
+    },
+    {
+        "repository_name": "LuighiV/vfapp-gcp",
+        "repository_source": "gitlab",
+        "skill_id": "cloud_docker"
+    },
+    {
+        "repository_name": "LuighiV/vfapp-mobile",
+        "repository_source": "gitlab",
+        "skill_id": "programming_javascript"
+    },
+    {
+        "repository_name": "LuighiV/vfapp-web",
+        "repository_source": "gitlab",
+        "skill_id": "programming_javascript"
+    },
+    {
+        "repository_name": "LuighiV/vfapp-web-api",
+        "repository_source": "gitlab",
+        "skill_id": "programming_javascript"
+    },
+    {
+        "repository_name": "LuighiV/vfapp-web-db",
+        "repository_source": "gitlab",
+        "skill_id": "cloud_docker"
     }
 ]

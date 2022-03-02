@@ -94,6 +94,11 @@ project.project_owner | first %}
    | where: "full_name", repository.repository_name | first -%}
    <li> <a href="{{- repository_info.html_url -}}" target="_blank">{{-
        repository_info.full_name -}}</a></li>
+   {%- elsif repository.repository_source == "gitlab" -%}
+   {%- assign repository_info=site.data.generated.gitlab 
+   | where: "path_with_namespace", repository.repository_name | first -%}
+   <li> <a href="{{- repository_info.web_url -}}" target="_blank">{{-
+       repository_info.path_with_namespace -}}</a></li>
    {%- endif -%}
   {%- endfor -%}
 </ul>

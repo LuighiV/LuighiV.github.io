@@ -1,7 +1,7 @@
 [
     {
-        "account_id": "bussiness_mail",
-        "name": "bussiness_mail_string",
+        "account_id": "business_mail",
+        "name": "business_mail_string",
         "type": "mail",
         "username": "lv@luighiviton.com",
         "fa_class": "fa-solid fa-envelope",

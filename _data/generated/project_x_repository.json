@@ -68,5 +68,40 @@
         "project_id": "wm_configuration",
         "repository_source": "github",
         "repository_name": "LuighiV/vim-like-tmux"
+    },
+    {
+        "project_id": "wm_configuration",
+        "repository_source": "gitlab",
+        "repository_name": "LuighiV/i3-config"
+    },
+    {
+        "project_id": "vfapp_web_mobile",
+        "repository_source": "gitlab",
+        "repository_name": "LuighiV/vfapp-docker"
+    },
+    {
+        "project_id": "vfapp_web_mobile",
+        "repository_source": "gitlab",
+        "repository_name": "LuighiV/vfapp-gcp"
+    },
+    {
+        "project_id": "vfapp_web_mobile",
+        "repository_source": "gitlab",
+        "repository_name": "LuighiV/vfapp-mobile"
+    },
+    {
+        "project_id": "vfapp_web_mobile",
+        "repository_source": "gitlab",
+        "repository_name": "LuighiV/vfapp-web"
+    },
+    {
+        "project_id": "vfapp_web_mobile",
+        "repository_source": "gitlab",
+        "repository_name": "LuighiV/vfapp-web-api"
+    },
+    {
+        "project_id": "vfapp_web_mobile",
+        "repository_source": "gitlab",
+        "repository_name": "LuighiV/vfapp-web-db"
     }
 ]

@@ -343,17 +343,17 @@
         "en": "developer-profile",
         "es": "perfil-como-programador"
     },
-    "bussiness_mail_string": {
-        "en": "correo-profesional",
-        "es": "ref"
+    "business_mail_string": {
+        "en": "business-mail",
+        "es": "correo-profesional"
     },
     "personal_mail_string": {
-        "en": "correo-personal",
-        "es": "ref"
+        "en": "personal-mail",
+        "es": "correo-personal"
     },
     "twitter_string": {
         "en": "twitter",
-        "es": "ref"
+        "es": "twitter"
     },
     "linkedin_string": {
         "en": "linkedin",
