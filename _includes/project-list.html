@@ -18,7 +18,9 @@
 {%- assign type_name = strings[type.project_type_name][page.lang] -%}
 <h3 id="{{- prefix -}}_{{- type_name | slugify }}"
   >{{ type_name }} 
-    <a href="#{{- prefix -}}_{{ type_name | slugify }}" class="anchor"><i class="fa-solid fa-link"></i></a>
+  <a href="#{{- prefix -}}_{{ type_name | slugify }}" 
+    title="{{ site.data.generated.label['permalink'][page.lang] }}"
+    class="anchor"><i class="fa-solid fa-link"></i></a>
 </h3>
 {%- assign selected_type_projects = selected_projects | where:
 "project_type_id", type.project_type_id -%}

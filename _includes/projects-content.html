@@ -8,7 +8,9 @@
 {% if highlighted.size > 0 %}
 
  <h2 id='{{ labels["highlighted_projects"][page.lang] | slugify }}'>{{ labels["highlighted_projects"][page.lang] }}
-    <a href='#{{ labels["highlighted_projects"][page.lang] | slugify }}' class="anchor"><i class="fa-solid fa-link"></i></a>
+    <a href='#{{ labels["highlighted_projects"][page.lang] | slugify }}' 
+    title="{{ site.data.generated.label['permalink'][page.lang] }}"
+    class="anchor"><i class="fa-solid fa-link"></i></a>
  </h2>
 
 {% include project-list.html highlight=true %}

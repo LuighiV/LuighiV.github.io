@@ -11,7 +11,9 @@
 
 <h2 id="{{slugs[category.category_name][page.lang]}}">
   {{ category_name[page.lang] }}
-    <a href="#{{slugs[category.category_name][page.lang]}}" class="anchor"><i class="fa-solid fa-link"></i></a>
+  <a href="#{{slugs[category.category_name][page.lang]}}" 
+    title="{{ site.data.generated.label['permalink'][page.lang] }}"
+    class="anchor"><i class="fa-solid fa-link"></i></a>
 </h2>
 
 {% assign selected_skills = skills | where: "category_id",

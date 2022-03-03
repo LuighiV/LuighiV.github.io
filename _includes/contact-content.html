@@ -1,42 +1,48 @@
 <div>
-  
-{% assign labels = site.data.generated.label %}
-{% assign strings = site.data.generated.string %}
-{% assign slugs = site.data.generated.slug %}
-{% assign descriptions = site.data.generated.description %}
-{% assign contact_list = site.data.generated.contact %}
 
-{% for contact in contact_list -%}
+  {% assign labels = site.data.generated.label %}
+  {% assign strings = site.data.generated.string %}
+  {% assign slugs = site.data.generated.slug %}
+  {% assign descriptions = site.data.generated.description %}
+  {% assign contact_list = site.data.generated.contact %}
 
-{%- assign account_action=site.data.generated.contact_x_account | where:
-"contact_action_id", contact.contact_action_id -%}
-{%- if account_action.size>0 -%}
-<div class="contact-box">
-  <h3 id="{{slugs[contact.contact_action_name][page.lang]}}">{{strings[contact.contact_action_name][page.lang]}}
-    <a href="#{{ slugs[contact.contact_action_name][page.lang] }}" class="anchor"><i class="fa-solid fa-link"></i></a>
-  </h3>
+  {% for contact in contact_list -%}
 
-  <ul>
-    {%- for account in account_action -%}
-    {%- assign account_info = site.data.generated.account | where:
-    "account_id", account.account_id  | first -%}
-    <li>
-      {%- if account_info.fa_class and account_info.fa_class != "" -%}
-      <i class="{{account_info.fa_class}}"></i>
-      {%- endif -%}
-      <span>{{ strings[account_info.name][page.lang] }}</span>: 
-      {% if account_info.url -%}
-      <a href="{{account_info.url}}" target="_blank">{{account_info.username}}</a>
-      {%- else -%}
-      <span>{{account_info.username}}</span>
-      {%- endif -%}
-    </li>
-    {%- endfor -%}
-  </ul>
-</div>
+    {%- assign account_action=site.data.generated.contact_x_account | where:
+    "contact_action_id", contact.contact_action_id -%}
+    {%- if account_action.size>0 -%}
+      <div class="contact-box">
+        <h3 id="{{slugs[contact.contact_action_name][page.lang]}}">
+          {{strings[contact.contact_action_name][page.lang]}}
+          <a href="#{{ slugs[contact.contact_action_name][page.lang] }}" 
+             title="{{ site.data.generated.label['permalink'][page.lang] }}"
+             class="anchor"><i class="fa-solid fa-link"></i></a>
+        </h3>
 
-{%- endif -%}
+        <ul>
+          {%- for account in account_action -%}
+            {%- assign account_info = site.data.generated.account | where:
+            "account_id", account.account_id  | first -%}
+            <li>
+              {%- if account_info.fa_class and account_info.fa_class != "" -%}
+                <i class="{{account_info.fa_class}}"></i>
+              {%- endif -%}
 
-{%- endfor -%}
-  
+              <span>{{ strings[account_info.name][page.lang] }}</span>: 
+
+              {% if account_info.url -%}
+                <a href="{{account_info.url}}" target="_blank">
+                  {{account_info.username}}</a>
+              {%- else -%}
+                <span>{{account_info.username}}</span>
+              {%- endif -%}
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+
+    {%- endif -%}
+
+  {%- endfor -%}
+
 </div>

@@ -1,11 +1,14 @@
 <div class="mid-card">
   <div class="header-card">
-  <h4 id="{{ include.slug }}">{{ include.title }}
-      <a href="#{{ include.slug }}" class="anchor"><i class="fa-solid fa-link"></i></a>
-  </h4>
-  {{ include.subtitle }}
+    <h4 id="{{ include.slug }}">
+      {{- include.title -}}&nbsp;<a
+        href="#{{ include.slug }}"
+        title="{{ site.data.generated.label['permalink'][page.lang] }}"
+        class="anchor"
+        ><i class="fa-solid fa-link"></i
+      ></a>
+    </h4>
+    {{ include.subtitle }}
   </div>
-<div class="description" >
-  {{ include.description }}
-</div>
+  <div class="description">{{ include.description }}</div>
 </div>

@@ -15,12 +15,11 @@ experience.organization_id | first %}
 {%- capture title -%}
 {%- if organization.org_url -%}
 <a href="{{ organization.org_url }}">
-{{ organization.org_name }}
-({{ organization.org_short_name }}) 
-</a>
+{{- organization.org_name }}
+({{- organization.org_short_name -}})</a>
 {%- else -%}
-{{ organization.org_name }}
-({{ organization.org_short_name }}) 
+{{- organization.org_name }}
+({{- organization.org_short_name -}})
 {%- endif -%}
 {%- endcapture -%}
 

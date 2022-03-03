@@ -6,48 +6,53 @@
   {% assign profile = site.data.generated.profile -%}
 
   {%- for type in profile_types -%}
-  <h2 id="{{slugs[type.profile_type_name][page.lang]}}"> {{strings[type.profile_type_name][page.lang]}}
-    <a href="#{{ slugs[type.profile_type_name][page.lang] }}" class="anchor"><i class="fa-solid fa-link"></i></a>
+  <h2 id="{{slugs[type.profile_type_name][page.lang]}}">
+    {{strings[type.profile_type_name][page.lang]}}
+    <a
+      href="#{{ slugs[type.profile_type_name][page.lang] }}"
+      title="{{ site.data.generated.label['permalink'][page.lang] }}"
+      class="anchor"
+      ><i class="fa-solid fa-link"></i
+    ></a>
   </h2>
 
   <div class="profile-description">
-    {{ profile[type.profile_type_description][page.lang] }} 
+    {{ profile[type.profile_type_description][page.lang] }}
   </div>
 
   <div class="interest-topics">
-    <span class="label" >{{labels["interest_topics"][page.lang]}}</span> 
-    <span class="content">{{ profile[type.profile_type_interest_topics][page.lang] }}</span>
+    <span class="label">{{labels["interest_topics"][page.lang]}}</span>
+    <span class="content"
+      >{{ profile[type.profile_type_interest_topics][page.lang] }}</span
+    >
   </div>
 
   {%- assign linked_accounts = site.data.generated.profile_type_x_account |
-  where: "profile_type_id", type.profile_type_id -%}
+  where: "profile_type_id", type.profile_type_id -%} 
 
   {%- if linked_accounts.size > 0 -%}
   <div class="related-profiles">
-    <span class="label">
-    {{ labels["related_profiles"][page.lang] -}}
-    </span>
-  <ul>
-    {%- for account in linked_accounts -%}
-    {%- assign account_info = site.data.generated.account | where:
-    "account_id", account.account_id  | first -%}
-    <li>
-      {%- if account_info.fa_class and account_info.fa_class != "" -%}
-      <i class="{{account_info.fa_class}}"></i>
-      {%- endif -%}
-      <span>{{ strings[account_info.name][page.lang] }}</span>: 
-      {% if account_info.url -%}
-      <a href="{{account_info.url}}" target="_blank">{{account_info.username}}</a>
-      {%- else -%}
-      <span>{{account_info.username}}</span>
-      {%- endif -%}
-    </li>
-    {%- endfor -%}
-  </ul>
+    <span class="label"> {{ labels["related_profiles"][page.lang] -}} </span>
+    <ul>
+      {%- for account in linked_accounts -%} 
+        {%- assign account_info = site.data.generated.account | where: "account_id", account.account_id | first -%}
+      <li>
+        {%- if account_info.fa_class and account_info.fa_class != "" -%}
+        <i class="{{account_info.fa_class}}"></i>
+        {%- endif -%}
+        <span>{{ strings[account_info.name][page.lang] }}</span>: {% if
+        account_info.url -%}
+        <a href="{{account_info.url}}" target="_blank"
+          >{{account_info.username}}</a
+        >
+        {%- else -%}
+        <span>{{account_info.username}}</span>
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
   </div>
-  
-  {%- endif -%}
 
-
-  {%- endfor -%}
+  {%- endif -%} 
+{%- endfor -%}
 </div>

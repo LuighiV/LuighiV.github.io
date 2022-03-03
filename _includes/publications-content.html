@@ -12,7 +12,9 @@ type.publication_type_id -%}
 {%- if selected_publications.size > 0 -%}
 <h2 id="{{slugs[type.publication_type_name][page.lang]}}">{{
   strings[type.publication_type_name][page.lang]}}
-    <a href="#{{slugs[type.publication_type_name][page.lang]}}" class="anchor"><i class="fa-solid fa-link"></i></a>
+  <a href="#{{slugs[type.publication_type_name][page.lang]}}"
+    title="{{ site.data.generated.label['permalink'][page.lang] }}"
+    class="anchor"><i class="fa-solid fa-link"></i></a>
 </h2>
 
 {%- for publication in selected_publications -%}

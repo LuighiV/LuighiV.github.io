@@ -118,5 +118,9 @@
     "home": {
         "en": "Home",
         "es": "Inicio"
+    },
+    "permalink": {
+        "en": "Permalink",
+        "es": "Enlace permanente"
     }
 }

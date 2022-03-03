@@ -1,32 +1,32 @@
 <div class="big-card">
   {% assign labels = site.data.generated.label %}
-  <input type="checkbox" id="input_{{ include.slug}}" class="button-trigger"/>
+  <input type="checkbox" id="input_{{ include.slug}}" class="button-trigger" />
   <div class="card-title">
-  <label for="input_{{ include.slug}}">
-    <h3 id="{{ include.slug }}">{{ include.title }} 
-      <a href="#{{ include.slug }}" class="anchor"><i class="fa-solid fa-link"></i></a>
-    </h3>
+    <label for="input_{{ include.slug}}">
+      <h3 id="{{ include.slug }}">
+        {{- include.title -}}&nbsp;<a
+          href="#{{ include.slug }}"
+          class="anchor"
+          title="{{ site.data.generated.label['permalink'][page.lang] }}"
+          class="anchor"
+          ><i class="fa-solid fa-link"></i
+        ></a>
+      </h3>
+    </label>
+  </div>
+  <div class="prev">{{ include.prev }}</div>
+  <div class="description">{{ include.description }}</div>
+  <div class="after trigger">{{ include.after }}</div>
+  {%if include.after and include.after !="" %}
+  <label for="input_{{ include.slug}}" class="see">
+    <div class="see-more">
+      {{- labels["see_more"][page.lang] }}
+      <i class="fa-solid fa-caret-down"></i>
+    </div>
+    <div class="see-less">
+      {{- labels["see_less"][page.lang] }}
+      <i class="fa-solid fa-caret-up"></i>
+    </div>
   </label>
-  </div>
-<div class="prev">
-  {{ include.prev}}
-</div>
-<div class="description" >
-  {{ include.description }}
-</div>
-<div class="after trigger">
-  {{ include.after}}
-</div>
-{%if include.after and include.after !="" %}
-<label for="input_{{ include.slug}}" class="see">
-  <div class="see-more">
-    {{- labels["see_more"][page.lang] }}
-<i class="fa-solid fa-caret-down"></i>
-  </div>
-  <div class="see-less">
-    {{- labels["see_less"][page.lang] }}
-<i class="fa-solid fa-caret-up"></i>
-  </div>
-</label>
-{% endif %}
+  {% endif %}
 </div>
