@@ -1,11 +1,14 @@
 <div>
   {% assign strings = site.data.generated.string -%}
   {% assign labels = site.data.generated.label -%}
+  {% assign slugs = site.data.generated.slug -%}
   {% assign profile_types = site.data.generated.profile_type -%}
   {% assign profile = site.data.generated.profile -%}
 
   {%- for type in profile_types -%}
-  <h2 id="{{slugs[type.profile_type_name][page.lang]}}"> {{strings[type.profile_type_name][page.lang]}}</h2>
+  <h2 id="{{slugs[type.profile_type_name][page.lang]}}"> {{strings[type.profile_type_name][page.lang]}}
+    <a href="#{{ slugs[type.profile_type_name][page.lang] }}" class="anchor"><i class="fa-solid fa-link"></i></a>
+  </h2>
 
   <div class="profile-description">
     {{ profile[type.profile_type_description][page.lang] }} 

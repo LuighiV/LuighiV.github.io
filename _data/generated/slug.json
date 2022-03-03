@@ -358,5 +358,65 @@
     "linkedin_string": {
         "en": "linkedin",
         "es": "linkedin"
+    },
+    "discord_string": {
+        "en": "discord",
+        "es": "discord"
+    },
+    "github_string": {
+        "en": "github",
+        "es": "github"
+    },
+    "gitlab_string": {
+        "en": "gitlab",
+        "es": "gitlab"
+    },
+    "pipy_string": {
+        "en": "pypi",
+        "es": "pypi"
+    },
+    "npm_string": {
+        "en": "npm",
+        "es": "npm"
+    },
+    "docker_string": {
+        "en": "docker-hub",
+        "es": "docker-hub"
+    },
+    "stackoverflow_string": {
+        "en": "stack-overflow",
+        "es": "stack-overflow"
+    },
+    "researchgate_string": {
+        "en": "research-gate",
+        "es": "research-gate"
+    },
+    "orcid_string": {
+        "en": "orcid",
+        "es": "orcid"
+    },
+    "concytec_dina_string": {
+        "en": "ctivitae-id",
+        "es": "ctivitae-id"
+    },
+    "scopus_id_string": {
+        "en": "scopus-id",
+        "es": "scopus-id"
+    },
+    "youtube_string": {
+        "en": "youtube",
+        "es": "youtube"
+    },
+    "send_mail_string": {
+        "en": "send-me-an-email",
+        "es": "enviame-un-correo"
+    },
+    "connect_with_me_string": {
+        "en": "connect-with-me",
+        "es": "conectate-conmigo"
+    },
+    "open_politica_devops_position": {
+        "en": "devops",
+        "es": "devops"
     }
 }

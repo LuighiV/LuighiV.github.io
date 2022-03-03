@@ -7,10 +7,19 @@
 {%- assign projects  = site.data.generated.project -%}
 {%- assign selected_projects = projects | where: "highlight", include.highlight
 -%}
+{%- if include.highlight -%}
+{%- assign prefix="highlight" -%}
+{%- else -%}
+{%- assign prefix="other" -%}
+{%- endif -%}
 
 {%- for type in site.data.generated.project_type -%}
 
-<h3 >{{ strings[type.project_type_name][page.lang]}} </h3>
+{%- assign type_name = strings[type.project_type_name][page.lang] -%}
+<h3 id="{{- prefix -}}_{{- type_name | slugify }}"
+  >{{ type_name }} 
+    <a href="#{{- prefix -}}_{{ type_name | slugify }}" class="anchor"><i class="fa-solid fa-link"></i></a>
+</h3>
 {%- assign selected_type_projects = selected_projects | where:
 "project_type_id", type.project_type_id -%}
 {% for project in selected_type_projects %}

@@ -103,6 +103,14 @@ h2 {
     a {
       color: black;
     }
+    .anchor {
+      opacity: 0;
+    }
+    &:hover{
+      .anchor{
+        opacity: 1;
+      }
+    }
   }
 
   .header-card{
@@ -144,8 +152,16 @@ h2 {
   }
   label {
     cursor:pointer;
+    h3 > a {
+      color: black;
+      opacity: 0;
+    }
     &:hover{
       text-decoration:underline;
+
+      h3 > a {
+        opacity: 1;
+      }
     }
   }
   input ~ .trigger {
@@ -179,6 +195,16 @@ h2 {
   h3 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
+    a {
+      color: black;
+      opacity: 0;
+    }
+    &:hover{
+      a {
+        opacity: 1;
+      }
+    }
+
   }
   .date{
     font-size: 1.25rem;
@@ -251,10 +277,33 @@ list-style-type:none;
   h3{
     font-size: 1.5rem;
     min-width: 30%;
+    a {
+      color:black;
+    }
+    .anchor {
+      opacity: 0;
+    }
+    &:hover {
+      .anchor {
+        opacity: 1;
+      }
+    }
   }
   >ul{
     margin: .5rem 1rem;
     font-size: 1.125rem;
+  }
+}
+
+h2, h3 {
+  .anchor {
+    color:black;
+    opacity: 0;
+  }
+  &:hover {
+    .anchor{
+      opacity: 1;
+    }
   }
 }
 

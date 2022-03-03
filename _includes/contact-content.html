@@ -12,7 +12,9 @@
 "contact_action_id", contact.contact_action_id -%}
 {%- if account_action.size>0 -%}
 <div class="contact-box">
-  <h3 id="{{slugs[contact.contact_action_name][page.lang]}}">{{strings[contact.contact_action_name][page.lang]}}</h3>
+  <h3 id="{{slugs[contact.contact_action_name][page.lang]}}">{{strings[contact.contact_action_name][page.lang]}}
+    <a href="#{{ slugs[contact.contact_action_name][page.lang] }}" class="anchor"><i class="fa-solid fa-link"></i></a>
+  </h3>
 
   <ul>
     {%- for account in account_action -%}

@@ -36,7 +36,8 @@
         "name": "discord_string",
         "type": "social_network",
         "username": "LuighiV#0279",
-        "fa_class": "fa-brands fa-discord"
+        "fa_class": "fa-brands fa-discord",
+        "url": " https://discordapp.com/users/701803458495512666"
     },
     {
         "account_id": "youtube",

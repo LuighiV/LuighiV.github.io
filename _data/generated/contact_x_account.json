@@ -1,7 +1,7 @@
 [
     {
         "contact_action_id": "send_mail",
-        "account_id": "bussiness_mail"
+        "account_id": "business_mail"
     },
     {
         "contact_action_id": "send_mail",

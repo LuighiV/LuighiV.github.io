@@ -7,13 +7,17 @@
 
 {% if highlighted.size > 0 %}
 
- <h2 id='{{ labels["highlighted_projects"][page.lang] | slugify }}'>{{ labels["highlighted_projects"][page.lang] }}</h2>
+ <h2 id='{{ labels["highlighted_projects"][page.lang] | slugify }}'>{{ labels["highlighted_projects"][page.lang] }}
+    <a href='#{{ labels["highlighted_projects"][page.lang] | slugify }}' class="anchor"><i class="fa-solid fa-link"></i></a>
+ </h2>
 
 {% include project-list.html highlight=true %}
 
 {% if other.size > 0 %}
 
-<h2 id='{{ labels["other_projects"][page.lang] | slugify }}'>{{ labels["other_projects"][page.lang] }}</h2>
+<h2 id='{{ labels["other_projects"][page.lang] | slugify }}'>{{ labels["other_projects"][page.lang] }}
+    <a href='#{{ labels["other_projects"][page.lang] | slugify }}' class="anchor"><i class="fa-solid fa-link"></i></a>
+</h2>
 
 {% include project-list.html highlight=false %}
 
