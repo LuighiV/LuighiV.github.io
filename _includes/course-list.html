@@ -1,0 +1,125 @@
+<div>
+
+{%- assign labels = site.data.generated.label -%}
+{%- assign strings = site.data.generated.string -%}
+{%- assign descriptions = site.data.generated.description -%}
+{%- assign slugs = site.data.generated.slug -%}
+{%- assign courses  = site.data.generated.course -%}
+{%- assign selected_courses = courses | where: "highlight", include.highlight
+-%}
+{%- if include.highlight -%}
+{%- assign prefix="highlight" -%}
+{%- else -%}
+{%- assign prefix="other" -%}
+{%- endif -%}
+
+{%- for type in site.data.generated.course_type -%}
+
+{%- assign type_name = strings[type.course_type_name][page.lang] -%}
+
+{%- assign selected_type_courses = selected_courses | where:
+"course_type_id", type.course_type_id -%}
+
+
+   {%- if selected_type_courses.size > 0 -%}
+
+ {%- comment -%}
+<h3 id="{{- prefix -}}_{{- type_name | slugify }}"
+  >{{ type_name }} 
+  <a href="#{{- prefix -}}_{{ type_name | slugify }}" 
+    title="{{ site.data.generated.label['permalink'][page.lang] }}"
+    class="anchor"><i class="fa-solid fa-link"></i></a>
+</h3>
+{%- endcomment -%}
+
+{% for course in selected_type_courses %}
+
+{% capture course_info %}
+{%- if course.course_year and course.course_year != "" -%}
+
+<strong>{{ labels["year"][page.lang] }}</strong>: 
+{{ course.course_year -}}
+<br>
+{%- endif -%}
+
+{%- assign course_owner = site.data.generated.organization | where: "org_id",
+course.course_owner | first -%}
+<strong>{{ labels["owner"][page.lang] }}</strong>: 
+{% if course_owner.org_url != "" -%}
+
+<a href="{{ course_owner.org_url }}" target="_blank">{{ course_owner.org_short_name }}</a>
+{%- else -%}
+{{ course_owner.org_short_name }}
+{%- endif -%}
+
+{%- assign course_stage = site.data.generated.course_stage | where:
+"course_stage_id", course.course_stage_id | first -%}
+<br>
+<strong>{{ labels["development_stage"][page.lang] }}</strong>:
+ {{ strings[course_stage.course_stage_name][page.lang]}}
+
+{%- assign webpage = course.course_url -%}
+{%- if webpage and webpage !="" -%}
+<br>
+<strong>{{ labels["webpage"][page.lang] }}</strong>:
+ <a href="{{ webpage }}" target="_blank">{{ webpage }}</a>
+<br>
+{%- endif -%}
+
+{% endcapture %}
+
+{%- capture title -%}
+{{ strings[course.course_title][page.lang] }}
+{%- endcapture -%}
+
+{%- capture slug -%}
+{{ slugs[course.course_title][page.lang] }}
+{%- endcapture -%}
+
+{%- capture description -%}
+{{ descriptions[course.course_description][page.lang] }}
+{%- endcapture -%}
+
+{%- capture course_additional_info -%}
+
+{%- assign contribution = course.contribution -%}
+{%- if contribution and contribution !="" -%}
+<strong>{{ labels["contribution"][page.lang] }}</strong>:
+ {{ descriptions[contribution][page.lang] }}
+<br>
+{%- endif -%}
+
+
+{%- assign selected_repositories = site.data.generated.course_x_repository 
+ | where: "course_id", course.course_id -%}
+{%- if selected_repositories.size > 0 -%}
+<strong>{{ labels["repositories"][page.lang] }}</strong>:
+<br>
+<ul>
+  {%- for repository in selected_repositories -%} 
+   {%- if repository.repository_source == "github" -%}
+   {%- assign repository_info=site.data.generated.github 
+   | where: "full_name", repository.repository_name | first -%}
+   <li> <a href="{{- repository_info.html_url -}}" target="_blank">{{-
+       repository_info.full_name -}}</a></li>
+   {%- elsif repository.repository_source == "gitlab" -%}
+   {%- assign repository_info=site.data.generated.gitlab 
+   | where: "path_with_namespace", repository.repository_name | first -%}
+   <li> <a href="{{- repository_info.web_url -}}" target="_blank">{{-
+       repository_info.path_with_namespace -}}</a></li>
+   {%- endif -%}
+  {%- endfor -%}
+</ul>
+{%- endif -%}
+{%- endcapture -%}
+
+{% include big-card.html 
+  title=title
+  slug=slug
+  description=description
+  prev=course_info
+  after=course_additional_info %}
+{%- endfor -%}
+   {%- endif -%}
+{%- endfor -%}
+</div>

@@ -1,0 +1,32 @@
+<div>
+  
+{% assign labels = site.data.generated.label %}
+{% assign courses  = site.data.generated.course %}
+{% assign highlighted = courses | where: "highlight", true %}
+{% assign other = courses | where: "highlight", false %}
+
+{% if highlighted.size > 0 %}
+
+ <h2 id='{{ labels["highlighted_courses"][page.lang] | slugify }}'>{{
+    labels["highlighted_courses"][page.lang] }}
+    <a href='#{{ labels["highlighted_courses"][page.lang] | slugify }}' 
+    title="{{ site.data.generated.label['permalink'][page.lang] }}"
+    class="anchor"><i class="fa-solid fa-link"></i></a>
+ </h2>
+
+{% include course-list.html highlight=true %}
+
+{% if other.size > 0 %}
+
+<h2 id='{{ labels["other_courses"][page.lang] | slugify }}'>{{
+   labels["other_courses"][page.lang] }}
+    <a href='#{{ labels["other_courses"][page.lang] | slugify }}' class="anchor"><i class="fa-solid fa-link"></i></a>
+</h2>
+
+{% include course-list.html highlight=false %}
+
+{% endif %}
+{% endif %}
+
+
+</div>

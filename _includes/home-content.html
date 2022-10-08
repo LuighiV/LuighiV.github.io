@@ -87,6 +87,50 @@
 
 </div>
 
+<h1 > {{ labels["courses"][page.lang]}}  </h1>
+
+{%- assign types = site.data.generated.course_type -%}
+
+<div class="course-list">
+   {%- for type in types -%}
+
+   {%- assign type_courses = site.data.generated.course | where:
+   "course_type_id", type.course_type_id | where: "highlight", true -%}
+
+   {%- if type_courses.size > 0 -%}
+
+   {%- capture type_title -%}
+   <a href="{{ base_url }}courses#{{strings[type.course_type_name][page.lang] |
+      slugify}}" >{{ strings[type.course_type_name][page.lang] }}</a>
+   {%- endcapture -%}
+
+   {%- capture type_content -%}
+   <ul>
+      {%- for course in type_courses -%}
+      <li><a href="{{ base_url
+            }}courses#{{slugs[course.course_title][page.lang]}}">{{
+            strings[course.course_title][page.lang] }}</a></li> 
+      {%- endfor -%}
+   </ul>
+   {%- endcapture -%}
+
+   {%- include small-card.html
+   title= type_title
+   content = type_content
+   -%}
+
+   {%- endif -%}
+   {%- endfor -%}
+
+   <div class="see-more">
+      <a href="{{base_url}}courses">
+         {{ labels["see_more"][page.lang] }} {{labels["courses"][page.lang] |
+         downcase}}
+<i class="fa-solid fa-caret-right"></i>
+      </a>
+   </div>
+</div>
+
 <div class="engage-hiring">
 <p>{{ profile.engage_hiring[page.lang] }}</p>
 

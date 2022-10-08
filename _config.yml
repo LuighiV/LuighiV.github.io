@@ -53,6 +53,7 @@ header_pages:
     - en/skills.md
     - en/experience.md
     - en/projects/index.md
+    - en/courses.md
     - en/publications.md
     - en/volunteering.md
     - en/contact.md
@@ -62,6 +63,7 @@ header_pages:
     - es/skills.md
     - es/experience.md
     - es/projects/index.md
+    - es/courses.md
     - es/publications.md
     - es/volunteering.md
     - es/contact.md
