@@ -1,0 +1,10 @@
+[
+    {
+        "course_type_id": "research_engineering",
+        "course_type_name": "research_engineering_string"
+    },
+    {
+        "course_type_id": "development_programming",
+        "course_type_name": "development_programming_string"
+    }
+]

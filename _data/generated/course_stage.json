@@ -1,0 +1,17 @@
+[
+    {
+        "course_stage_id": "active",
+        "course_stage_name": "active_string",
+        "course_stage_order": 2
+    },
+    {
+        "course_stage_id": "in_development",
+        "course_stage_name": "in_development_string",
+        "course_stage_order": 1
+    },
+    {
+        "course_stage_id": "archived",
+        "course_stage_name": "archived_string",
+        "course_stage_order": 0
+    }
+]

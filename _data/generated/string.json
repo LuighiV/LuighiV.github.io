@@ -15,6 +15,14 @@
         "en": "Stand-by",
         "es": "En pausa"
     },
+    "active_string": {
+        "en": "Active",
+        "es": "Activo"
+    },
+    "archived_string": {
+        "en": "Archived",
+        "es": "Archivado"
+    },
     "research_engineering_string": {
         "en": "Research / Engineering",
         "es": "Investigación / Ingeniería"
@@ -306,6 +314,14 @@
     "wm_configuration_string": {
         "en": "GNU/Linux configuration for software development",
         "es": "Configuración de GNU/Linux para desarrollo de software"
+    },
+    "course_iot_string": {
+        "en": "Course of Introduction to IoT",
+        "es": "Curso de Introducción al IoT"
+    },
+    "course_swdev_string": {
+        "en": "Course of Software Development Technologies",
+        "es": "Curso de Tecnologías de Desarrollo de Software"
     },
     "inictel_assitant_position": {
         "en": "Assistant on Technological Applications",

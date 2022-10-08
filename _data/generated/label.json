@@ -27,6 +27,10 @@
         "en": "Projects",
         "es": "Proyectos"
     },
+    "courses": {
+        "en": "Courses",
+        "es": "Cursos"
+    },
     "repositories": {
         "en": "Repositories",
         "es": "Repositorios"
@@ -37,7 +41,7 @@
     },
     "other_projects": {
         "en": "Other projects",
-        "es": "Other projects"
+        "es": "Otros proyectos"
     },
     "contribution": {
         "en": "Contribution",
@@ -62,6 +66,14 @@
     "see_less": {
         "en": "See less",
         "es": "Ver menos"
+    },
+    "highlighted_courses": {
+        "en": "Highlighted courses",
+        "es": "Cursos destacados"
+    },
+    "other_courses": {
+        "en": "Other courses",
+        "es": "Otros cursos"
     },
     "experience": {
         "en": "Experience",

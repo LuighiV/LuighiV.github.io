@@ -1,0 +1,28 @@
+[
+    {
+        "course_id": "course_iot",
+        "course_title": "course_iot_string",
+        "course_type_id": "development_programming",
+        "course_stage_id": "active",
+        "course_year": 2022,
+        "course_url": "https://course-iot.courses.luighiviton.com/",
+        "course_description": "course_iot_description",
+        "contribution": "",
+        "course_owner": "luighi_viton",
+        "financed_by": "",
+        "highlight": true
+    },
+    {
+        "course_id": "course_swdev",
+        "course_title": "course_swdev_string",
+        "course_type_id": "development_programming",
+        "course_stage_id": "in_development",
+        "course_year": 2022,
+        "course_url": "https://swdev.courses.luighiviton.com/",
+        "course_description": "course_swdev_description",
+        "contribution": "",
+        "course_owner": "luighi_viton",
+        "financed_by": "",
+        "highlight": false
+    }
+]
