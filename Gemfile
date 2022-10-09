@@ -30,3 +30,6 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Redirect from pages
 gem 'jekyll-redirect-from'
+
+# Generate sitemap
+gem 'jekyll-sitemap'
