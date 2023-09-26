@@ -6,6 +6,18 @@
         "profile_type_interest_topics": "research_interest_topics"
     },
     {
+        "profile_type_id": "analog_design_profile",
+        "profile_type_name": "analog_design_profile_string",
+        "profile_type_description": "analog_design_profile",
+        "profile_type_interest_topics": "analog_design_interest_topics"
+    },
+    {
+        "profile_type_id": "embedded_systems_profile",
+        "profile_type_name": "embedded_systems_profile_string",
+        "profile_type_description": "embedded_systems_profile",
+        "profile_type_interest_topics": "embedded_systems_interest_topics"
+    },
+    {
         "profile_type_id": "developer_profile",
         "profile_type_name": "developer_profile_string",
         "profile_type_description": "developer_profile",

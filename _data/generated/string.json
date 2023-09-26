@@ -352,8 +352,16 @@
         "es": "Artículo en conferencia"
     },
     "engineer_researcher_profile_string": {
-        "en": "Engineer profile",
-        "es": "Perfil como ingeniero"
+        "en": "General profile",
+        "es": "Perfil general como ingeniero"
+    },
+    "analog_design_profile_string": {
+        "en": "Analog IC design engineer profile",
+        "es": "Perfil como diseñador de circuitos integrados analógicos"
+    },
+    "embedded_systems_profile_string": {
+        "en": "Embedded systems engineer profile",
+        "es": "Perfil como ingeniero de sistemas embebidos"
     },
     "developer_profile_string": {
         "en": "Developer profile",

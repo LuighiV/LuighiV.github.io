@@ -1,6 +1,6 @@
 {
     "python_description": {
-        "en": "I have developed software with Python for PC (both for Linux and Windows) as modules and as applications with a graphical interface using the PyQt interface library for different purposes. I have also developed software which employs Python libraries for data scraping. The most frequent libraries I have used are: Matplotlib, Qt, numpy, libxml, pyspice, tensorflow",
+        "en": "I have developed software with Python for PC (both for Linux and Windows) as modules and as applications with a graphical interface using the PyQt interface library for different purposes. I have also developed software that employs Python libraries for data scraping. The most frequent libraries I have used are Matplotlib, Qt, numpy, libxml, pyspice, tensorflow",
         "es": "He desarrollado software con Python para PC (tanto para Linux como para Windows) como módulos y como aplicaciones con una interfaz gráfica utilizando la Biblioteca de Interfaz PYQT para diferentes propósitos. También he desarrollado software que emplea a las bibliotecas de Python para extracción de datos. Las bibliotecas más frecuentes que he usado son: matplotlib, Qt, numpy, libxml, pyspice, tensorflow"
     },
     "bash_description": {
@@ -8,35 +8,35 @@
         "es": "He desarrollado scripts usando bash y shell para automatizar la implementación de servicios en servidores de GNU/Linux y para automatizar la inserción de datos en las bases de datos."
     },
     "c_c_plus_plus_description": {
-        "en": "I have developed software with C, mainly for embedded systems (microcontrollers) and in a project for an ADC driver. In case of C++, I have also used it with microcontrollers, specially with Arduino.",
+        "en": "I have developed software with C, mainly for embedded systems (microcontrollers) and in a project for an ADC driver. In the case of C++, I have also used it with microcontrollers, especially with Arduino.",
         "es": "He desarrollado software con C, principalmente para sistemas embebidos (microcontroladores) y en un proyecto para un controlador ADC. En el caso de C ++, también lo he usado con microcontroladores, especialmente con Arduino."
     },
     "javascript_description": {
-        "en": "I have developed software with Javascript mainly for web applications, both in backend and frontend. I have also used it to interface with the Google API and interact with Google Sheets and Google Docs, as standalone applications and as Appscripts. The frameworks I have used are React Js (frontend), Express Js (backend) and React Native (mobile).",
+        "en": "I have developed software with Javascript, mainly for web applications, both in backend and frontend. I have also used it to interface with the Google API and interact with Google Sheets and Google Docs as standalone applications and as Appscripts. The frameworks I have used are React JS (frontend), Express JS (backend), and React Native (mobile).",
         "es": "He desarrollado software con JavaScript principalmente para aplicaciones web, tanto en Backend como en Frontend. También lo he usado para interactuar con la API de Google e interactuar con Google Sheets y Google Docs, como aplicaciones independientes y como Appscripts. Los marcos que he usado son React Js (frontend), Express Js (backend) y React Native (móviles)."
     },
     "c_sharp_description": {
-        "en": "I have developed software with C# to interact with services and applications in a Windows environment. In the main project where I have applied it, I have used the .NET Framework to automate tasks in MS Word documents. The application I have developed has two modes, both the console and a graphical interface via WinForms.",
+        "en": "I have developed software with C# to interact with services and applications in a Windows environment. In the main project where I applied it, I used the .NET Framework to automate tasks in MS Word documents. The application I have developed has two modes, both the console and a graphical interface via WinForms.",
         "es": "He desarrollado software con C # para interactuar con los servicios y las aplicaciones en un entorno de Windows. En el proyecto principal, donde lo he aplicado, he utilizado el marco .NET para automatizar las tareas en los documentos de MS Word. La aplicación que he desarrollado tiene dos modos, tanto la consola como una interfaz gráfica a través de WinForms."
     },
     "matlab_description": {
-        "en": "I have used this software and its programming language, essentially for mathematical calculations and for research tasks that were required, using the provided toolbox. I have also developed a simple interface to design analog filters.",
+        "en": "I have used this software and its programming language essentially for mathematical calculations and for research tasks that were required using the provided toolbox. I have also developed a simple interface to design analog filters.",
         "es": "He utilizado este software y su lenguaje de programación, esencialmente para cálculos matemáticos y para tareas de investigación que se requirió utilizando la caja de herramientas proporcionada. También he desarrollado una interfaz simple para diseñar filtros analógicos."
     },
     "go_description": {
-        "en": "I used this programming language to develop a software that is executed in the server side. It provides data to another modified software, also written in Go, to simulate the communication to a LoraWAN network server via the ChirpStack platform.",
+        "en": "I used this programming language to develop a software executed on the server side. It provides data to another modified software, also written in Go, to simulate the communication to a LoraWAN network server via the ChirpStack platform.",
         "es": "Utilicé este lenguaje de programación para desarrollar un software que se ejecute en el lado del servidor. Proporciona datos a otro software modificado, también escrito en Go, para simular la comunicación a un servidor de red LORAWAN a través de la plataforma ChirpStack."
     },
     "docker_docker_compose_description": {
-        "en": "I use docker and docker-compose to deploy the services in the server side, isolating the environment for each application. I combine it with bash scripts to automate the creation and deployment of the services.",
+        "en": "I use docker and docker-compose to deploy the services on the server side, isolating the environment for each application. I combine it with bash scripts to automate the creation and deployment of the services.",
         "es": "Utilizo Docker y Docker Compose para implementar los servicios en el lado del servidor, aislando el entorno para cada aplicación. Lo combino con scripts de bash para automatizar la creación y despliegue de los servicios."
     },
     "terraform_description": {
-        "en": "I have used this software to automate the deployment of infrastructure in cloud providers. I have employed it with Linode, Google Cloud and AWS LightSail.",
+        "en": "I have used this software to automate the deployment of infrastructure in cloud providers. I have employed it with Linode, Google Cloud, and AWS LightSail.",
         "es": "He utilizado este software para automatizar el despliegue de infraestructura en los proveedores de la nube. Lo he empleado con Linode, Google Cloud y AWS LightSail"
     },
     "google_cloud_description": {
-        "en": "I know how to set up a project and deploy computer resources in Google Cloud, as well as to enable APIs for Google Services Accounts. ",
+        "en": "I know how to set up a project and deploy computer resources in Google Cloud, as well as to enable APIs for Google Services Accounts.",
         "es": "Sé cómo configurar un proyecto e implementar recursos de la computadora en Google Cloud, así como para habilitar API para las cuentas de Google Services."
     },
     "aws_description": {
@@ -52,51 +52,51 @@
         "es": "Tengo experiencia utilizando este sistema de control de versiones. Lo uso casi por todos mis repositorios. También tengo experiencia con trabajo de colaboración utilizando este software."
     },
     "github_description": {
-        "en": "Recently, it became my preferred version control service (I used to employ GitLab for my personal projects). I also learned the development workflow, through issues, pull requests and projects. I also use its GitHub Actions feature to automate the deployment of the projects I work on.   ",
+        "en": "Recently, it became my preferred version control service (I used to employ GitLab for my personal projects). I also learned the development workflow through issues, pull requests, and projects. I also use its GitHub Actions feature to automate the deployment of the projects I work on.",
         "es": "Recientemente, se convirtió en mi servicio de control de versiones preferido (solía emplear GitLab para mis proyectos personales). También aprendí el flujo de trabajo de desarrollo, a través de issues, pull request y proyectos. También uso su función GitHub Actions para automatizar la implementación de los proyectos en los que trabajo."
     },
     "gitlab_description": {
-        "en": "I used to employ this software for my personal projects and I have used also its features of continuous integration and deployment. Now, various of my projects are mirrored from this service to GitHub.",
+        "en": "I used to employ this software for my personal projects, and I have also used its features of continuous integration and deployment. Now, various of my projects are mirrored from this service to GitHub.",
         "es": "Solía ​​emplear este software para mis proyectos personales y he utilizado también sus características de integración y despliegue continuo. Ahora, varios de mis proyectos se reflejan de este servicio a GitHub."
     },
     "jenkins_description": {
-        "en": "I used this software in a project to implement a continuous deployment feature in a self-hosted application. I integrated it together with docker, docker-compose and terraform.",
+        "en": "I used this software in a project to implement a continuous deployment feature in a self-hosted application. I integrated it together with docker, docker-compose, and terraform.",
         "es": "Utilicé este software en un proyecto para implementar una función de implementación continua en una aplicación auto gestionada. Lo integré junto con Docker, Docker-Compone y Terraform."
     },
     "mariadb_mysql_description": {
-        "en": "I know the main clauses to perform the basic operations to MariaDB / MySQL. I have also the experience to maintain this type of database.",
+        "en": "I know the main clauses to perform the basic operations to MariaDB / MySQL. I also have experience in maintaining this type of database.",
         "es": "Conozco las principales cláusulas para realizar las operaciones básicas a Mariadb / MySQL. También tengo la experiencia de mantener este tipo de base de datos."
     },
     "postgresql_description": {
-        "en": "I have used this database for some projects and I have combined it with shell scripts to deploy, add, update and backup data from this type of database.",
+        "en": "I have used this database for some projects, and I have combined it with shell scripts to deploy, add, update, and backup data from this type of database.",
         "es": "He utilizado esta base de datos para algunos proyectos y lo he combinado con scripts de shell para implementar, agregar, actualizar y respaldar datos de este tipo de base de datos."
     },
     "tex_latex_description": {
-        "en": "This is the first documentation language I learned, and I use preferably for scientific documents (my thesis and scientific articles), although I also used to write reports and my personal CV. I also have the experience to write templates with this language.",
+        "en": "This is the first documentation language I learned, and I use it preferably for scientific documents (my thesis and scientific articles). I also used to write reports and my personal CV. I also have the experience of writing templates with this language.",
         "es": "Este es el primer lenguaje de documentación que aprendí, y uso preferencial para documentos científicos (mi tesis y artículos científicos), aunque también solía escribir informes y mi CV personal. También tengo la experiencia para escribir plantillas con este idioma."
     },
     "markdown_description": {
-        "en": "It is the most common documentation language I use to write the documentation for my projects. I have used it combined with frameworks that autogenerate the documentation, such as DocFX or Jekyll, which is used in this web page.",
+        "en": "It is the most common documentation language I use to write the documentation for my projects. I have used it combined with frameworks that autogenerate the documentation, such as DocFX or Jekyll, which is used on this web page.",
         "es": "Es el lenguaje de documentación más común que utilizo para escribir la documentación de mis proyectos. Lo he usado combinado con marcos que autogenera la documentación, como DOCFX o JEKYLL, que se utiliza en esta página web."
     },
     "re_structured_text_description": {
-        "en": "I used it to document projects written in python, as it is seamlessly integrated to it via the Sphynx generator. I have also employed it for documentations projects using pandoc.",
+        "en": "I used it to document projects written in Python, as it is seamlessly integrated into it via the Sphynx generator. I have also employed it for documentation projects using Pandoc.",
         "es": "Lo usé para documentar proyectos escritos en Python, ya que se integra a la perfección a través del generador Sphynx. También lo he empleado para proyectos de documentación utilizando PANDOC."
     },
     "asciidoc_description": {
-        "en": "I used it to document a service deployment  project as an alternative to Markdown together with the generator software Antora.",
+        "en": "I used it to document a service deployment project as an alternative to Markdown together with the generator software Antora.",
         "es": "Lo usé para documentar un proyecto de implementación de servicios como una alternativa a Markdown junto con el software generador Antora."
     },
     "spice_description": {
-        "en": "I have used SPICE simulation language to model and simulate ISFET devices and to characterize them and extract their electric parameters.",
+        "en": "I have used SPICE simulation language to model and simulate ISFET devices to characterize them and extract their electric parameters.",
         "es": "He usado lenguaje de simulación de especias para modelar y simular dispositivos ISFET y para caracterizarlos y extraer sus parámetros eléctricos."
     },
     "vhdl_ams_description": {
-        "en": "I have used VHDL-AMS to simulate electronic circuits. I used specially to simulate an analog circuit and conditioning circuit for an ISFET.",
+        "en": "I have used VHDL-AMS to simulate electronic circuits. I used it especially to simulate an analog circuit and conditioning circuit for an ISFET.",
         "es": "He usado VHDL-AM para simular circuitos electrónicos. Usé especialmente para simular un circuito analógico y un circuito de acondicionamiento para un ISFET."
     },
     "ltspice_description": {
-        "en": "I use this software to simulate electronic circuits and systems. I prefer this software as it is free and flexible to simulate different devices based on SPICE models. ",
+        "en": "I use this software to simulate electronic circuits and systems. I prefer this software as it is free and flexible to simulate different devices based on SPICE models.",
         "es": "Utilizo este software para simular circuitos y sistemas electrónicos. Prefiero este software, ya que es gratuito y flexible para simular diferentes dispositivos basados ​​en modelos SPICE"
     },
     "orcad_pspice_description": {
@@ -104,15 +104,15 @@
         "es": "También he usado este software para simular los circuitos y, especialmente, para simular el modelo SPICE del dispositivo ISFET."
     },
     "ngspice_description": {
-        "en": "I use this software to simulate electronic circuits via their description with SPICE instructions. It allows using it also as scripts with better integration with other software programs which simulates circuits programmatically.",
+        "en": "I use this software to simulate electronic circuits via their description with SPICE instructions. It also allows using it also as scripts with better integration with other software programs that simulate circuits programmatically.",
         "es": "Utilizo este software para simular circuitos electrónicos a través de su descripción con instrucciones de especias. Permite usarlo también como scripts con mejor integración con otros softwares que simulan los circuitos programáticamente."
     },
     "kicad_description": {
-        "en": "This is my preferred software to design PCBs, as it is open source and versatile to design any basic board. I have used for most of the projects that had required a circuit board.",
+        "en": "This is my preferred software to design PCBs, as it is open source and versatile to design any basic board. I have used it for most of the projects that required a circuit board.",
         "es": "Este es mi software preferido para diseñar PCBS, ya que es de código abierto y versátil para diseñar una placa básica. He utilizado para la mayoría de los proyectos que habían requerido una placa de circuito."
     },
     "altium_description": {
-        "en": "I know how to use this software and I have used for the printed board required for my engineering thesis. However, I don't employ it too much due to its price. ",
+        "en": "I know how to use this software, and I have used it for the printed board required for my engineering thesis. However, I don't employ it too much due to its price.",
         "es": "Sé cómo usar este software y he utilizado para la placa impresa requerida para mi tesis de ingeniería. Sin embargo, no lo empleo mucho debido a su precio."
     },
     "vhdl_description": {
@@ -120,79 +120,79 @@
         "es": "He desarrollado proyectos en los que aplicé mi conocimiento en VHDL para diseñar la arquitectura digital para periféricos y una CPU simple."
     },
     "systemc_description": {
-        "en": "I explored this language in a project which aimed to simulate a microprocessor. I have basic knowledge to model simple circuits.",
+        "en": "I explored this language in a project that aimed to simulate a microprocessor. I have the basic knowledge to model simple circuits.",
         "es": "Exploré este idioma en un proyecto que tuvo como objetivo simular un microprocesador. Tengo un conocimiento básico para modelar circuitos simples."
     },
     "freecad_description": {
-        "en": "This is my preferred software to design 3D components and I have used in all the projects that required a 3D printed object, commonly for PCB enclosures.",
+        "en": "This is my preferred software for designing 3D components, and I have used it in all the projects that required a 3D printed object, commonly for PCB enclosures.",
         "es": "Este es mi software preferido para diseñar componentes 3D y he utilizado en todos los proyectos que requirieron un objeto impreso 3D, comúnmente para los recintos de PCBs."
     },
     "inkscape_description": {
-        "en": "This is my preferred software to design 2D vector graphics and I have employed for all my designs I use both in my articles and my reports.",
+        "en": "This is my preferred software for designing 2D vector graphics, and I have employed it for all the designs I use both in my articles and my reports.",
         "es": "Este es mi software preferido para diseñar gráficos vectoriales 2D y he empleado para todos mis diseños que uso tanto en mis artículos como en mis informes."
     },
     "gimp_description": {
-        "en": "I have basic knowledge in this software I use preferably to manipulate bitmap pictures, to fix its color balance and delete unused regions in the image.",
+        "en": "I have basic knowledge of this software. I use it preferably to manipulate bitmap pictures, to fix its color balance, and to delete unused regions in the image.",
         "es": "Tengo un conocimiento básico en este software que uso preferiblemente para manipular las imágenes de mapa de bits, para corregir su balance de color y eliminar las regiones no utilizadas en la imagen."
     },
     "gnu_linux_description": {
-        "en": "This is my preferred operating system that I use for programming and for my daily activities. I have also knowledge in the configuration for the interface with window managers (i3wm, bspwm) and setting up the development environment via Neovim and Tmux.",
+        "en": "This is my preferred operating system that I use for programming and my daily activities. I also have knowledge in the configuration for the interface with window managers (i3wm, bspwm) and setting up the development environment via Neovim and Tmux.",
         "es": "Este es mi sistema operativo preferido que utilizo para la programación y para mis actividades diarias. También tengo conocimiento en la configuración de la interfaz con los administradores de ventanas (I3WM, BSPWM) y configurando el entorno de desarrollo a través de Neovim y TMUX."
     },
     "vivado_description": {
-        "en": "I used this software to develop the digital designs and to program FPGAs from Xilinx. I have also used IPCores from Xilinx to implement designs together with custom digital circuits. ",
+        "en": "I used this software to develop the digital designs and to program FPGAs from Xilinx. I have also used IPCores from Xilinx to implement designs together with custom digital circuits.",
         "es": "Utilicé este software para desarrollar los diseños digitales y para programar FPGAS de Xilinx. También he utilizado IPCORES de Xilinx para implementar diseños junto con circuitos digitales personalizados."
     },
     "quartus_description": {
-        "en": "I used this software at university to develop all the digital design projects in that stage, including a minimal CPU required in a course, which was implemented in an FPGA from Altera.",
+        "en": "I used this software at university to develop all the digital design projects at that stage, including a minimal CPU required in a course, which was implemented in an FPGA from Altera.",
         "es": "Utilicé este software en la universidad para desarrollar todos los proyectos de diseño digital en esa etapa, incluida una CPU mínima requerida en un curso, que se implementó en un FPGA de ALTERA."
     },
     "insert_image_document_description": {
-        "en": "This is an open-source software developed to automate the insertion of images in a set of MS Word / PDF documents. It could be useful to insert a signature to various documents at a specific position in them. The software has the option to select a specific list of MS Word / PDF documents, or a folder which contains those documents, and insert the image to all of them. It also provides options to resize the image in different units of measurement and specify the relative position in respect to a placeholder in the document (for example, the reference for the signature) or to a corner in a specific page (only for PDF documents). In addition to this, the software exports the document with the image inserted to a PDF file, which may be created in the same folder as the original document (only for Word documents) or in a subfolder with a specified name.",
+        "en": "This is an open-source software developed to automate the insertion of images in a set of MS Word / PDF documents. It could be useful to insert a signature to various documents at a specific position. The software has the option to select a specific list of MS Word / PDF documents or a folder that contains those documents and insert the image to all of them. It also provides options to resize the image in different units of measurement and specify the relative position with respect to a placeholder in the document (for example, the reference for the signature) or to a corner in a specific page (only for PDF documents). In addition, the software exports the document with the image inserted to a PDF file, which may be created in the same folder as the original document (only for Word documents) or in a subfolder with a specified name.",
         "es": "Este es un software de código abierto desarrollado para automatizar la inserción de imágenes en un conjunto de documentos MS Word / PDF. Puede ser útil insertar una firma a varios documentos en una posición específica en ellos. El software tiene la opción de seleccionar una lista específica de documentos MS Word / PDF, o una carpeta que contiene esos documentos e insertar la imagen a todos ellos. También proporciona opciones para cambiar el tamaño de la imagen en diferentes unidades de medición y especificar la posición relativa respeto a un marcador de posición en el documento (por ejemplo, la referencia para la firma) o en una esquina en una página específica (solo para documentos PDF). Además de esto, el software exporta el documento con la imagen insertada en un archivo PDF que se puede crear en la misma carpeta que el documento original (solo para documentos de Word) o en una subcarpeta con un nombre especificado."
     },
     "generator_docs_description": {
-        "en": "This project arises from the need to generate a summary of activities registered in a Google Sheets, and which in turn can be used to generate a Google Docs sheet with the grouped items of according to certain criteria in the spreadsheet. It is implemented as a Google Workspace Complement which can be installed to Google Sheets and generate both the summary sheet and the Google document.",
+        "en": "This project arises from the need to generate a summary of activities registered in Google Sheets, which in turn can be used to generate a Google Docs sheet with the grouped items according to certain criteria in the spreadsheet. It is implemented as a Google Workspace Complement, which can be installed on Google Sheets and generate both the summary sheet and the Google document.",
         "es": "Este proyecto surge de la necesidad de generar un resumen de las actividades registradas en las hojas de Google, y que a su vez se pueda usar para generar una hoja de Google Docs con los elementos agrupados de acuerdo con ciertos criterios en la hoja de cálculo. Se implementa como complemento de Google Workspace el cual se puede instalar en Google Sheets y generar tanto la hoja de resumen como el documento de Google."
     },
     "isfet_board_arduino_description": {
-        "en": "This project has the aim to develop a library that interfaces a ISFETBoard which can act as a daugther board for any Arduino based board. It was part of a project which aim to develop a system monitoring for variables of avocado plants, among them was the pH of irrigation water. I participated in developing that board, including its design and the software for the microcontroller, and this library to communicate it to the main board which had the other sensors for humidity, conductivity, and temperature.",
+        "en": "This project has the aim to develop a library that interfaces an ISFETBoard which can act as a daughter board for any Arduino-based board. It was part of a project that aimed to develop a system monitoring for variables of avocado plants, among them was the pH of irrigation water. I participated in developing that board, including its design and the software for the microcontroller, and this library to communicate it to the main board, which had the other sensors for humidity, conductivity, and temperature.",
         "es": "Este proyecto tiene el objetivo de desarrollar una librería que sirve de interfaz para la tarjeta ISFETBoard que puede ser empleada como una tarjeta hija de cualquier placa basada en Arduino. Era parte de un proyecto que tiene como objetivo desarrollar un monitoreo del sistema para las variables de las paltos, entre ellas fue el pH del agua de riego. Participé en el desarrollo de esa tarjeta, incluido su diseño y su software para el microcontrolador, y esta biblioteca para comunicarlo a la placa principal que tenía los otros sensores de humedad, conductividad y temperatura."
     },
     "iot_platform_description": {
-        "en": "This platform has the aim to integrate two other platform applications for various uses of cases connecting IoT devices. It uses ThingsBoard and Chirpstack as those base applications to cover the connection of IoT devices either via MQTT, HTTP, CoAP protocols as well as LoRaWAN protocol. The deployment is automated via docker and docker compose and has also covered a full documentation for each use of case for this platform.",
+        "en": "This platform aims to integrate two other platform applications for various uses of cases connecting IoT devices. It uses ThingsBoard and Chirpstack as base applications to cover the connection of IoT devices either via MQTT, HTTP, CoAP protocols as well as LoRaWAN protocol. The deployment is automated via docker and docker-compose and has also covered full documentation for each use case for this platform.",
         "es": "Esta plataforma tiene el objetivo de integrar otras dos aplicaciones de plataformas para varios usos de los casos que conectan dispositivos IOT. Utiliza tableros y chirpstack como aquellas aplicaciones básicas para cubrir la conexión de dispositivos IOT a través de MQTT, HTTP, protocolos de COAP, así como el protocolo LORAWAN. La implementación está automatizada a través de Docker y Docker compone y también ha cubierto una documentación completa para cada uso de la caja para esta plataforma."
     },
     "monitoring_system_characterization_description": {
-        "en": "This project was developed at INICTEL-UNI, and has the aim to build up a measurement system for characterization of ISFET devices. It consists of a software in an ST microcontroller which acts as an acquisition platform, and a software component which obtains such data and plots them to the visualization software. In addition to this, the monitoring is complemented with an additional software which processes the signals and obtains the characterization curves, from which the parameters for ISFET modeling could be obtained via a parameter extraction method. ",
+        "en": "This project was developed at INICTEL-UNI, and has the aim to build up a measurement system for the characterization of ISFET devices. It consists of a software in an ST microcontroller which acts as an acquisition platform, and a software component that obtains such data and plots them to the visualization software. In addition to this, the monitoring is complemented with an additional software that processes the signals and obtains the characterization curves, from which the parameters for ISFET modeling could be obtained via a parameter extraction method.",
         "es": "Este proyecto se desarrolló en INICTEL-UNI y tiene el objetivo de construir un sistema de medición para la caracterización de los dispositivos ISFET. Consiste en un software en un microcontrolador  ST, que actúa como una plataforma de adquisición, y un componente de software que obtiene dichos datos y los muestra en el software de visualización. Además de esto, el monitoreo se complementa con un software adicional que procesa las señales y obtiene las curvas de caracterización, desde las cuales se pueden obtener los parámetros para el modelado ISFET a través de un método de extracción de parámetros."
     },
     "simulation_isfet_model_description": {
-        "en": "This project had the aim to develop a simulation framework for ISFET devices. It has the option to use three simulation engines (LTSpice, PSpice and NGspice) and depending on them, to build up the simulation files based on the behavioral macromodel for ISFET devices. After that, generates for each model the characteristic curves for the entered parameters and has the option to load also experimental data to compare with simulation and adjust the simulation parameters to match the experimental values and fit the model to the actual ISFET device.",
+        "en": "This project had the aim to develop a simulation framework for ISFET devices. It has the option to use three simulation engines (LTSpice, PSpice, and NGspice) and, depending on them, to build up the simulation files based on the behavioral macromodel for ISFET devices. After that, it generates for each model the characteristic curves for the entered parameters and has the option to load also experimental data to compare with the simulation and adjust the simulation parameters to match the experimental values and fit the model to the actual ISFET device.",
         "es": "Este proyecto tuvo el objetivo de desarrollar un marco de simulación para dispositivos ISFET. Tiene la opción de usar tres motores de simulación (LTSPICE, PSPICE y NGSPICE) y dependiendo de ellos, construir los archivos de simulación según el macromodelo de comportamiento para dispositivos ISFET. Después de eso, genera para cada modelo las curvas características con los parámetros ingresados ​​y tienen la opción de cargar también datos experimentales para comparar con la simulación y ajustar los parámetros de simulación para que coincidan con los valores experimentales y se ajusten al modelo al dispositivo ISFET real."
     },
     "covid_frame_description": {
-        "en": "This project had the aim to develop a framework which provides several functions to evaluate convolutional neural networks (CNN) from the state-of-the-art, which are used to estimate the possibility of COVID-19 infection based on chest X-Ray images. This software has the methods to perform the essential steps to acquire, consolidate and balance the  databases, perform preprocessing tasks such as histogram equalization and, execute the training and evaluation of the selected CNN algorithms (currently, a basic CNN model and COVID-Net). ",
+        "en": "This project had the aim to develop a framework that provides several functions to evaluate convolutional neural networks (CNN) from the state-of-the-art, which are used to estimate the possibility of COVID-19 infection based on chest X-Ray images. This software has the methods to perform the essential steps to acquire, consolidate, and balance the databases, perform preprocessing tasks such as histogram equalization, and execute the training and evaluation of the selected CNN algorithms (currently, a basic CNN model and COVID-Net).",
         "es": "Este proyecto tuvo el objetivo de desarrollar un marco que proporcione varias funciones para evaluar las redes neuronales convolucionales (CNN) del estado del arte, que se utilizan para estimar la posibilidad de infección de COVID-19 basada en imágenes de rayos X de tórax. Este software tiene los métodos para realizar los pasos esenciales de adquirir, consolidar y equilibrar las bases de datos, realizar tareas de preprocesamiento, como la ecualización del histograma y, ejecutar el entrenamiento y la evaluación de los algoritmos CNN seleccionados (actualmente, un modelo básico de CNN y COVID-NET) ."
     },
     "vfapp_web_mobile_description": {
-        "en": "This project was developed to monitor vital variables via various sensors attached to the patient body and use that system for monitoring health status and to alert if that is out of the normal ranges. This project had both hardware and software components, however, the most developed component is the software which includes a web platform to manage the patients and a mobile app which helps to the health caregivers to monitor at any moment the status of their patients.",
+        "en": "This project was developed to monitor vital variables via various sensors attached to the patient's body and use that system for monitoring health status and for alerting if that is out of the normal ranges. This project had both hardware and software components; however, the most developed component is the software which includes a web platform to manage the patients and a mobile app that helps the health caregivers monitor at any moment the status of their patients.",
         "es": "Este proyecto se desarrolló para monitorear variables vitales a través de varios sensores unidos al cuerpo del paciente y usar ese sistema para monitorear el estado de salud y alertar si eso está fuera de los rangos normales. Este proyecto tenía componentes de hardware y software, sin embargo, el componente más desarrollado es el software que incluye una plataforma web para administrar los pacientes y una aplicación móvil que ayuda a los cuidadores de salud a monitorear en cualquier momento el estado de sus pacientes."
     },
     "simulation_respiration_monitoring_description": {
-        "en": "This project was developed to monitor the breathing frequency based on the movement of the chest using gauge sensors. The project reached to simulation stage. Here, we have developed a simulation software that was able to evaluate the processing stage and obtain the frequency rate from the sensor signals (also simulated).",
+        "en": "This project was developed to monitor the breathing frequency based on the movement of the chest using gauge sensors. The project reached the simulation stage. Here, we have developed a simulation software that was able to evaluate the processing stage and obtain the frequency rate from the sensor signals (also simulated).",
         "es": "Este proyecto se desarrolló para monitorear la frecuencia de respiración basada en el movimiento del tórax utilizando sensores de galga extensiométrica. El proyecto alcanzó la etapa de simulación, por lo que hemos desarrollado un software de simulación para evaluar la etapa de procesamiento y obtener la tasa de frecuencia de las señales del sensor (también simulado)."
     },
     "simulation_filters_description": {
-        "en": "This is a small project which uses the pyspice interface in python to simulate circuits that would act as electronic filters for biomedical signals.",
+        "en": "This is a small project that uses the pyspice interface in Python to simulate circuits that would act as electronic filters for biomedical signals.",
         "es": "Este es un pequeño proyecto que utiliza la interfaz de Pyspice en Python para simular circuitos que actuarían como filtros electrónicos para señales biomédicas."
     },
     "deployment_automation_description": {
-        "en": "This is a project which had the aim to develop a set of scripts to deploy docker and docker compose in cloud computing providers using the Terraform API connected to the cloud services. It is implemented for Linode, AWS Lightsail and Google Cloud. It is thought to be used as a base script to deploy services in a cloud infrastructure for small projects.",
+        "en": "This is a project which had the aim to develop a set of scripts to deploy docker and docker-compose in cloud computing providers using the Terraform API connected to the cloud services. It is implemented for Linode, AWS Lightsail, and Google Cloud. It is thought to be a base script to deploy services in a cloud infrastructure for small projects.",
         "es": "Este es un proyecto que tenía el objetivo de desarrollar un conjunto de scripts para implementar Docker y Docker Compose en proveedores de computación en la nube utilizando la API de Terraform conectada a los servicios de la nube. Se implementa para Linode, AWS LightSail y Google Cloud. Está pensado para utilizarse como script base para implementar servicios en una infraestructura de nube para proyectos pequeños."
     },
     "tlera_board_arduino_description": {
-        "en": "This project is part of a geolocalization project which is led by INICTEL-UNI. It corresponds to the devices which are used for the monitoring of the position and other variables for South American camels. The software included in that device is loaded via the Arduino framework, and this library has the aim to integrate all that software which control the sensors and the configuration for the transmission via LoRaWAN to the network server. ",
+        "en": "This project is part of a geolocalization project which is led by INICTEL-UNI. It corresponds to the devices that are used for the monitoring of the position and other variables for South American camels. The software included in that device is loaded via the Arduino framework, and this library aims to integrate all the software that controls the sensors and the configuration for the transmission via LoRaWAN to the network server.",
         "es": "Este proyecto es parte de un proyecto de geolocalización que está liderado por INICTEL-UNI. Corresponde a los dispositivos que se utilizan para el monitoreo de la posición y otras variables para camélidos sudamericanos. El software incluido en ese dispositivo se carga a través del software Arduino, y esta biblioteca tiene el objetivo de integrar todo ese software que controla los sensores y la configuración para la transmisión a través de LoRaWAN al servidor de red."
     },
     "payload_generator_description": {
@@ -200,15 +200,15 @@
         "es": "Este es un proyecto complementario para la plataforma IoT de INICTEL-UNI. Esto se creó para generar datos de prueba requeridos para los dispositivos simulados de LoRaWAN que envían datos a la plataforma ChirpStack. El generador se puede utilizar en dos modos: uno que utiliza valores aleatorios y otro que usa la API de OpenWeather."
     },
     "devops_votu_description": {
-        "en": "This is a project for OpenPolitica which is an organization I take part. This project is a subproject for Votu platform, which is a helper to choose the candidate that matches your preferences. The specific DevOps project contains the scripts to reset the database (MariaDB) and perform scheduled backups.",
+        "en": "This is a project for OpenPolitica, which is an organization I take part. This project is a subproject for Votu platform, which is a helper to choose the candidate that matches your preferences. The specific DevOps project contains the scripts to reset the database (MariaDB) and perform scheduled backups.",
         "es": "Este es un proyecto para OpenPolitica, que es una organización en la que participo. Este proyecto es un subproyecto para la plataforma  Votu, que es un ayudante para elegir al candidato que coincide con las preferencias del votante. El proyecto DevOps específico contiene los scripts para restablecer la base de datos (MariaDB) y realizar copias de seguridad programadas."
     },
     "devops_tuku_description": {
-        "en": "This is a project for OpenPolitica and it is a subproject for Tuku Platform. This is a more complex project as it includes scripts to reset the database (PostgreSQL) and also custom sub applications to synchronize data from a Google Sheet and to save backups to Google Drive, both of them written for NodeJs. ",
+        "en": "This is a project for OpenPolitica, and it is a subproject for Tuku Platform. This is a more complex project as it includes scripts to reset the database (PostgreSQL) and also custom sub-applications to synchronize data from a Google Sheet and to save backups to Google Drive, both of them written for NodeJs.",
         "es": "Este es un proyecto para OpenPolitica y es un subproyecto para la plataforma Tuku. Es un proyecto más complejo, ya que incluye scripts para restablecer la base de datos (PostgreSQL) y también sub aplicaciones personalizadas para sincronizar los datos de una hoja de Google y para guardar las copias de seguridad de Google Drive, ambos escritos para NodeJs."
     },
     "monitor_vital_signals_review_description": {
-        "en": "This is a documentation project which consists in a review of a vital signal monitor or  physiological monitor, considering its components, functions, standards, and specification list.",
+        "en": "This is a documentation project that consists of a review of a vital signal monitor or physiological monitor, considering its components, functions, standards, and specification list.",
         "es": "Este es un proyecto de documentación que consiste en una revisión de un monitor de signos vitales o monitor fisiológico, considerando sus componentes, funciones, estándares y lista de especificaciones."
     },
     "cv_template_description": {
@@ -216,63 +216,63 @@
         "es": "Esta es una plantilla que he escrito para mi CV personal en el LaTeX, que uso para generar un documento CV multipágina"
     },
     "adc_driver_development_description": {
-        "en": "This is a subproject from a georadar project developed by INICTEL-UNI. The aim of this subproject is to develop an ADC in an FPGA that would be used to acquire data, acting as the radar preprocessor. It consists of a Sigma-Delta ADC whose analogue counterpart is implemented in a protobard and the digital part is implemented in a Zybo board from Xilinx. The digital design includes interfacing the ADC filter to the embedded Linux in the ARM processor, writing also a driver that is attached to the Linux kernel as an IIO driver and it is interfaced to a shell script via the IIO library.",
+        "en": "This is a subproject from a georadar project developed by INICTEL-UNI. The aim of this subproject is to develop an ADC in an FPGA that would be used to acquire data, acting as the radar preprocessor. It consists of a Sigma-Delta ADC whose analog counterpart is implemented in a protoboard, and the digital part is implemented in a Zybo board from Xilinx. The digital design includes interfacing the ADC filter to the embedded Linux in the ARM processor, writing also a driver that is attached to the Linux kernel as an IIO driver, and interfacing to a shell script via the IIO library.",
         "es": "Este es un subproyecto de un proyecto de georadar desarrollado por INICTEL-UNI. El objetivo de este subproyecto es desarrollar un ADC en un FPGA que se use para adquirir datos, actuando como el preprocesador de radar. Consiste en un ADC de Sigma-Delta cuya contraparte analógica se implementa en un protoboard y la parte digital se implementa en una tarjeta Zybo de Xilinx. El diseño digital incluye interconectar el filtro del ADC, al Linux embebido en el procesador ARM, escribiendo también un controlador que se adjunta al kernel de Linux como un controlador IIO y se communica a un script de shell a través de la biblioteca IIO."
     },
     "wm_configuration_description": {
-        "en": "This is a personal project to set up the configuration in my Arch Linux machine which includes a Windows Manager BSPWM, a terminal multiplexer and the editor NeoVIM, including their respective configuration files. This is the setup I use for my daily work as engineer and programmer.",
+        "en": "This is a personal project to set up the configuration in my Arch Linux machine, which includes a Windows Manager BSPWM, a terminal multiplexer, and the editor NeoVIM, including their respective configuration files. This is the setup I use for my daily work as an engineer and programmer.",
         "es": "Este es un proyecto personal para configurar la configuración en mi máquina Arch Linux, que incluye el administrador de ventanas BSPWM, un multiplexor de terminal y el editor Neovim, incluidos sus respectivos archivos de configuración. Esta es la configuración que uso para mi trabajo diario como ingeniero y programador."
     },
     "iot_platform_contribution": {
-        "en": "I was the project leader. I developed the web page for the project and the demos and integration to ChirpStack. ",
+        "en": "I was the project leader. I developed the web page for the project and the demos and integration to ChirpStack.",
         "es": "Yo era el líder del proyecto. Desarrollé la página web del proyecto y las demostraciones e integración a ChirpStack."
     },
     "monitoring_system_characterization_contribution": {
-        "en": "I have designed and implemented he whole hardware and software system.",
+        "en": "I have designed and implemented the whole hardware and software system.",
         "es": "He diseñado e implementado todo el sistema de hardware y software."
     },
     "simulation_isfet_model_contribution": {
-        "en": "I have developed the whole software, its GUI and integration to other simulation engines.",
+        "en": "I have developed the whole software, its GUI, and integration to other simulation engines.",
         "es": "He desarrollado todo el software, su GUI e integración a otros motores de simulación."
     },
     "tlera_board_arduino_contribution": {
-        "en": "I was in charge of code refactoring and its integration with other sensors for the embedded software. I also wrote the full documentation for the software in the microcontroller .",
+        "en": "I was in charge of code refactoring and its integration with other sensors for the embedded software. I also wrote the full documentation for the software in the microcontroller.",
         "es": "Estaba a cargo de la refactorización del código y su integración con otros sensores para el software incrustado. También escribí la documentación completa para el software en el microcontrolador."
     },
     "devops_votu_contribution": {
-        "en": "I wrote the backup scripts and I was in charge of the server administration and code maintenance.",
+        "en": "I wrote the backup scripts, and I was in charge of the server administration and code maintenance.",
         "es": "Escribí los scripts de respaldo y me encargué de la administración del servidor y el mantenimiento del código."
     },
     "devops_tuku_contribution": {
-        "en": "I wrote the whole scripts and the subapplications to synchronize the database from the different sources and to generate the backups.",
+        "en": "I wrote the whole script and the sub-applications to synchronize the database from the different sources and to generate the backups.",
         "es": "Escribí los scripts completos y las subaplicaciones para sincronizar la base de datos de las diferentes fuentes y generar las copias de seguridad."
     },
     "adc_driver_development_contribution": {
-        "en": "I was in charge of the whole ADC design and implementation in the FPGA. This includes the driver development for the embedded Linux in the ARM processor, also in the FPGA.",
+        "en": "I was in charge of the whole ADC design and implementation in the FPGA. This includes the driver development for the embedded Linux in the ARM processor, as in the FPGA.",
         "es": "Estaba a cargo de todo el diseño y la implementación de ADC en el FPGA. Esto incluye el desarrollo del controlador para el Linux incorporado en el procesador ARM (Linaro), también en la FPGA."
     },
     "inictel_assitant_description": {
-        "en": "I was in charge to develop applications for Internet of Things (IoT) technologies and prepare the technical material for training sessions for this topic. Here I have the chance to lead a project named \"IoT Platform for INICTEL-UNI\" that could be used for the technical areas in the institution with potential to be employed to provide IoT services to small companies. I have also proposed a telemedicine project in the context of COVID-19 to prepare the progressive return to on-site activities. ",
+        "en": "I was in charge of developing applications for Internet of Things (IoT) technologies and preparing the technical material for training sessions on this topic. Here I have the chance to lead a project named \"IoT Platform for INICTEL-UNI\" that could be used for the technical areas in the institution with the potential to be employed to provide IoT services to small companies. I have also proposed a telemedicine project in the context of COVID-19 to prepare for the progressive return to on-site activities.",
         "es": "Estaba a cargo de desarrollar aplicaciones para las tecnologías de Internet de las cosas (IoT) y preparar el material técnico para las sesiones de capacitación para este tema. Aquí tengo la oportunidad de liderar un proyecto llamado \"IoT Plataforma para Inictel-Uni\" que podría usarse para las áreas técnicas de la institución con potencial de emplearse para proporcionar servicios de IoT a pequeñas empresas. También he propuesto un proyecto de telemedicina en el contexto de COVID-19 para preparar el retorno progresivo a las actividades en el lugar."
     },
     "inictel_third_party_description": {
-        "en": "I participated in several research projects, contributing to the development of electronic prototypes with hardware and software components. I took part of a project for monitoring the avocado plants where I have applied the design I achieved in my thesis to become an electronic engineer which applies ISFET devices as pH remote monitoring system. I have also participated in a project to geo-localize Andean camels, where I contributed to the embedded software development and documentation. Furthermore, I contributed to internal projects with the aim to develop a low-power microcontroller, exploring simulators and the SystemC modelling language, as well as proposing some designs for peripherals. Finally, I participated in a project of a georadar where I had the chance to develop an ADC for acquiring its signals, and the corresponding integration for the embedded processor via a developed driver connected to the embedded linux kernel, all implemented in an FPGA.",
+        "en": "I participated in several research projects, contributing to the development of electronic prototypes with hardware and software components. I took part in a project for monitoring the avocado plants, where I applied the design I achieved in my thesis to become an electronic engineer, which applies ISFET devices as pH remote monitoring systems. I have also participated in a project to geo-localize Andean camels, where I contributed to the embedded software development and documentation. Furthermore, I contributed to internal projects with the aim of developing a low-power microcontroller, exploring simulators and the SystemC modeling language, as well as proposing some designs for peripherals. Finally, I participated in a project of a georadar where I had the chance to develop an ADC for acquiring its signals and the corresponding integration for the embedded processor via a developed driver connected to the embedded Linux kernel, all implemented in an FPGA.",
         "es": "Participé en varios proyectos de investigación, contribuyendo al desarrollo de prototipos electrónicos con componentes de hardware y software. Formé parte de un proyecto para monitorear las plantas de plata donde he aplicado el diseño que logré en mi tesis para graduarme como un ingeniero electrónico, que aplica dispositivos ISFET como sistema de monitoreo remoto de pH. También he participado en un proyecto para localizar a guanacos donde contribuí con el desarrollo del software embebido y su documentación. Además, contribuí a proyectos internos con el objetivo de desarrollar un microcontrolador de baja potencia, explorando simuladores y el lenguaje de modelado de sistemas SystemC, así como proponer algunos diseños para periféricos. Finalmente, participé en un proyecto de Georadar, donde tuve la oportunidad de desarrollar un ADC por su adquisición de señales y la integración correspondiente al procesador integrado a través de un conctrolador desarrollado que se conectaba al kernel de Linux embebido, todo implementados en un FPGA."
     },
     "inictel_apprentice_description": {
-        "en": "I had the opportunity to learn simulation software for mixed signal components. I also started to develop my thesis project regarding a pH monitoring system to control quality in rivers with Internet connection to send the acquired data via 6LoWPAN technology. Likewise, I also developed a system (hardware and software) to characterize the ISFET devices to acquire their electrical parameters and fit them to its behavioral macromodel.",
+        "en": "I had the opportunity to learn simulation software for mixed signal components. I also started to develop my thesis project regarding a pH monitoring system to control quality in rivers with an Internet connection to send the acquired data via 6LoWPAN technology. Likewise, I also developed a system (hardware and software) to characterize the ISFET devices to acquire their electrical parameters and fit them to their behavioral macromodel.",
         "es": "Tuve la oportunidad de aprender software de simulación para componentes de señal mixta. También comencé a desarrollar mi proyecto de tesis relacionado con un sistema de monitoreo de pH para controlar la calidad en ríos con conexión a Internet para enviar los datos adquiridos a través de la tecnología de 6LoWPAN. Del mismo modo, también desarrollé un sistema (hardware y software) para caracterizar los dispositivos ISFET adquiriendo sus parámetros eléctricos y ajustándolos a su macromodelo de comportamiento."
     },
     "bmatic_support_description": {
-        "en": "I was in charge of providing technical support to the clients of the company. I also have prepared the technical material and performed training sessions to certificate integrators that may include the company technology in its solutions.",
+        "en": "I was in charge of providing technical support to the clients of the company. I have also prepared the technical material and performed training sessions for certificate integrators that may include the company's technology in its solutions.",
         "es": "Estaba a cargo de brindar apoyo técnico a los clientes de la compañía. También he preparado el material técnico y realizé sesiones de capacitación a los integradores de certificados que pueden incluir la tecnología de la empresa en sus soluciones."
     },
     "open_politica_devops_description": {
-        "en": "I joined to Open Politica because I wanted to contribute via digital products to promote the interest in politics for citizens, which is the aim of this association. I was recruited initially as collaborator for DevOps tasks as part of the backend team. Then, after contributing actively to the Votu project, I joined the core tech team. Since then, I am in charge of the integration of data to provide it to backend and frontend, automating the tasks via scripts and GitHub actions. I also do tasks as part of the backend team and contribute, eventually, to the frontend team when necessary. Currently, we are developing a platform to explore bills from congresspeople, named Tuku and a platform to share the results of surveillance for the agreements undertaken by our current president  before he started his government.",
+        "en": "I joined Open Politica because I wanted to contribute via digital products to promote the interest in politics for citizens, which is the aim of this association. I was recruited initially as a collaborator for DevOps tasks as part of the backend team. Then, after contributing actively to the Votu project, I joined the core tech team. Since then, I have been in charge of the integration of data to provide it to the backend and frontend, automating the tasks via scripts and GitHub actions. I also do tasks as part of the backend team and contribute, eventually, to the frontend team when necessary. Currently, we are developing a platform to explore bills from congresspeople, named Tuku, and a platform to share the results of surveillance for the agreements undertaken by our current president before he started his government.",
         "es": "Me uní a Open Politica porque quería contribuir a través de productos digitales a promover el interés por la política de los ciudadanos, que es el objetivo de esta asociación. Fui reclutado inicialmente como colaborador para tareas de DevOps como parte del equipo de backend. Luego, después de contribuir activamente al proyecto Votu, me uní al equipo técnico central. Desde entonces, estoy a cargo de la integración de datos para proporcionarlos a backend y frontend, automatizando las tareas a través de scripts y acciones de GitHub. También realizo tareas como parte del equipo de backend y contribuyo, eventualmente, al equipo de frontend cuando es necesario. Actualmente, estamos desarrollando una plataforma para explorar proyectos de ley de los congresistas, de nombre Tuku y una plataforma para compartir los resultados de la vigilancia de los acuerdos realizados por nuestro actual presidente antes de iniciar su gobierno."
     },
     "course_iot_description": {
-        "en": "This course is an initiative to introduce anyone who is interested in exploring the set of technologies that make it up to the Internet of Things (IoT). Although it is an introduction, it addresses a series of topics that will allow the participant to know the tools that are required to be able to develop solutions within the field of IoT.",
+        "en": "This course is an initiative to introduce anyone who is interested in exploring the set of technologies that make up the Internet of Things (IoT). Although it is an introduction, it addresses a series of topics that will allow the participant to know the tools that are required to be able to develop solutions within the field of IoT.",
         "es": "Este curso es una iniciativa para introducir hacia el Internet de las Cosas (IoT) a cualquiera que esté interesado en explorar el conjunto de tecnologías que lo integran. Aunque es una introducción, aborda una serie de temas que permitirán al participante conocer las herramientas que se requieren para poder desarrollar soluciones dentro del ámbito del IoT."
     },
     "course_swdev_description": {
