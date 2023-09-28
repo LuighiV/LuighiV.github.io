@@ -1,446 +1,557 @@
 {
     "final_product_string": {
         "en": "Final product",
-        "es": "Producto final"
+        "es": "Producto final",
+        "pt": "Produto final"
     },
     "prototype_string": {
         "en": "Prototype",
-        "es": "Prototipo"
+        "es": "Prototipo",
+        "pt": "Protótipo"
     },
     "in_development_string": {
         "en": "In development",
-        "es": "En desarrollo"
+        "es": "En desarrollo",
+        "pt": "Em desenvolvimento"
     },
     "stand_by_string": {
         "en": "Stand-by",
-        "es": "En pausa"
+        "es": "En pausa",
+        "pt": "Pausa"
     },
     "active_string": {
         "en": "Active",
-        "es": "Activo"
+        "es": "Activo",
+        "pt": "Ativo"
     },
     "archived_string": {
         "en": "Archived",
-        "es": "Archivado"
+        "es": "Archivado",
+        "pt": "Arquivado"
     },
     "research_engineering_string": {
         "en": "Research / Engineering",
-        "es": "Investigación / Ingeniería"
+        "es": "Investigación / Ingeniería",
+        "pt": "Pesquisa / Engenharia"
     },
     "development_programming_string": {
         "en": "Development / Programming",
-        "es": "Desarrollo / Programación"
+        "es": "Desarrollo / Programación",
+        "pt": "Desenvolvimento / Programação"
     },
     "programming_languages_string": {
         "en": "Programming languages",
-        "es": "Lenguajes de programación"
+        "es": "Lenguajes de programación",
+        "pt": "Linguagens de programação"
     },
     "documentation_languages_string": {
         "en": "Documentation languages",
-        "es": "Lenguajes para documentación"
+        "es": "Lenguajes para documentación",
+        "pt": "Linguagens de documentação"
     },
     "cloud_computing_string": {
         "en": "Cloud computing technologies",
-        "es": "Tecnologías de computación en la nube"
+        "es": "Tecnologías de computación en la nube",
+        "pt": "Tecnologias de computação em nuvem"
     },
     "ci_cd_string": {
         "en": "CI / CD tecnologies",
-        "es": "Tecnologías de CI / CD"
+        "es": "Tecnologías de CI / CD",
+        "pt": "Tecnologias CI / CD"
     },
     "database_management_string": {
         "en": "Database management",
-        "es": "Gestión de bases de datos"
+        "es": "Gestión de bases de datos",
+        "pt": "Gerenciamento de bases de dados"
     },
     "simulation_languages_string": {
         "en": "Simulation languages",
-        "es": "Lenguages de simulación"
+        "es": "Lenguages de simulación",
+        "pt": "Linguagens de simulação"
     },
     "simulation_software_string": {
         "en": "Simulation software",
-        "es": "Software de simulación"
+        "es": "Software de simulación",
+        "pt": "Software de simulação"
     },
     "pcb_design_software_string": {
         "en": "PCB design software",
-        "es": "Sofrware de diseño de PCB"
+        "es": "Software de diseño de PCB",
+        "pt": "Software de desenho de PCB"
     },
     "digital_hardware_design_software_string": {
-        "en": "Digital hardware design sofware (FPGA)",
-        "es": "Software para diseño de hardware digital (FPGA)"
+        "en": "Digital hardware design software (FPGA)",
+        "es": "Software para diseño de hardware digital (FPGA)",
+        "pt": "Software de desenho de hardware digital (FPGA)"
     },
     "hardware_description_languages_string": {
         "en": "Hardware description language",
-        "es": "Lenguages de descripción de hardware"
+        "es": "Lenguages de descripción de hardware",
+        "pt": "Linguagem de descrição de hardware"
     },
     "modeling_design_software_string": {
         "en": "Modeling and design software",
-        "es": "Software de diseño y modelamiento"
+        "es": "Software de diseño y modelamiento",
+        "pt": "Software de modelagem e desenho"
     },
     "operating_systems_string": {
         "en": "Operating systems",
-        "es": "Sistemas operativos"
+        "es": "Sistemas operativos",
+        "pt": "Sistemas operacionais"
     },
     "python": {
         "en": "Python",
-        "es": "Python"
+        "es": "Python",
+        "pt": "Python"
     },
     "bash": {
         "en": "Bash",
-        "es": "Bash"
+        "es": "Bash",
+        "pt": "Bash"
     },
     "c_c_plus_plus": {
         "en": "C/C++",
-        "es": "C/C++"
+        "es": "C/C++",
+        "pt": "C/C++"
     },
     "javascript": {
         "en": "Javascript",
-        "es": "Javascript"
+        "es": "Javascript",
+        "pt": "Javascript"
     },
     "c_sharp": {
         "en": "C#",
-        "es": "C#"
+        "es": "C#",
+        "pt": "C#"
     },
     "matlab": {
         "en": "Matlab",
-        "es": "Matlab"
+        "es": "Matlab",
+        "pt": "Matlab"
     },
     "go": {
         "en": "Go",
-        "es": "Go"
+        "es": "Go",
+        "pt": "Go"
     },
     "docker_docker_compose": {
         "en": "Docker / Docker Compose",
-        "es": "Docker / Docker Compose"
+        "es": "Docker / Docker Compose",
+        "pt": "Docker / Docker Compose"
     },
     "terraform": {
         "en": "Terraform",
-        "es": "Terraform"
+        "es": "Terraform",
+        "pt": "Terraform"
     },
     "google_cloud": {
         "en": "Google Cloud",
-        "es": "Google Cloud"
+        "es": "Google Cloud",
+        "pt": "Google Cloud"
     },
     "aws": {
         "en": "Amazon Web Services",
-        "es": "Amazon Web Services"
+        "es": "Amazon Web Services",
+        "pt": "Amazon Web Services"
     },
     "linode": {
         "en": "Linode",
-        "es": "Linode"
+        "es": "Linode",
+        "pt": "Linode"
     },
     "git": {
         "en": "Git",
-        "es": "Git"
+        "es": "Git",
+        "pt": "Git"
     },
     "github": {
         "en": "GitHub and GitHub Actions",
-        "es": "GitHub y GitHub Actions"
+        "es": "GitHub y GitHub Actions",
+        "pt": "GitHub y GitHub Actions"
     },
     "gitlab": {
         "en": "GitLab and GitLab CI/CD",
-        "es": "GitLab y GitLab CI/CD"
+        "es": "GitLab y GitLab CI/CD",
+        "pt": "GitLab y GitLab CI/CD"
     },
     "jenkins": {
         "en": "Jenkins",
-        "es": "Jenkins"
+        "es": "Jenkins",
+        "pt": "Jenkins"
     },
     "mariadb_mysql": {
         "en": "Maria DB / MySQL",
-        "es": "Maria DB / MySQL"
+        "es": "Maria DB / MySQL",
+        "pt": "Maria DB / MySQL"
     },
     "postgresql": {
         "en": "PostgreSQL",
-        "es": "PostgreSQL"
+        "es": "PostgreSQL",
+        "pt": "PostgreSQL"
     },
     "tex_latex": {
         "en": "Tex / LaTeX",
-        "es": "Tex / LaTeX"
+        "es": "Tex / LaTeX",
+        "pt": "Tex / LaTeX"
     },
     "markdown": {
         "en": "Markdown",
-        "es": "Markdown"
+        "es": "Markdown",
+        "pt": "Markdown"
     },
     "re_structured_text": {
         "en": "Re-Structured Text",
-        "es": "Re-Structured Text"
+        "es": "Re-Structured Text",
+        "pt": "Re-Structured Text"
     },
     "asciidoc": {
         "en": "AsciiDoc",
-        "es": "AsciiDoc"
+        "es": "AsciiDoc",
+        "pt": "AsciiDoc"
     },
     "spice": {
         "en": "SPICE",
-        "es": "SPICE"
+        "es": "SPICE",
+        "pt": "SPICE"
     },
     "vhdl_ams": {
         "en": "VHDL-AMS",
-        "es": "VHDL-AMS"
+        "es": "VHDL-AMS",
+        "pt": "VHDL-AMS"
     },
     "ltspice": {
         "en": "LTSpice",
-        "es": "LTSpice"
+        "es": "LTSpice",
+        "pt": "LTSpice"
     },
     "orcad_pspice": {
         "en": "OrCAD / PSpice",
-        "es": "OrCAD / PSpice"
+        "es": "OrCAD / PSpice",
+        "pt": "OrCAD / PSpice"
     },
     "ngspice": {
         "en": "NGSpice",
-        "es": "NGSpice"
+        "es": "NGSpice",
+        "pt": "NGSpice"
     },
     "proteus": {
         "en": "Proteus",
-        "es": "Proteus"
+        "es": "Proteus",
+        "pt": "Proteus"
     },
     "kicad": {
         "en": "KiCAD",
-        "es": "KiCAD"
+        "es": "KiCAD",
+        "pt": "KiCAD"
     },
     "altium": {
         "en": "Altium",
-        "es": "Altium"
+        "es": "Altium",
+        "pt": "Altium"
     },
     "eagle": {
         "en": "Eagle",
-        "es": "Eagle"
+        "es": "Eagle",
+        "pt": "Eagle"
     },
     "vhdl": {
         "en": "VHDL",
-        "es": "VHDL"
+        "es": "VHDL",
+        "pt": "VHDL"
     },
     "verilog": {
         "en": "Verilog",
-        "es": "Verilog"
+        "es": "Verilog",
+        "pt": "Verilog"
     },
     "systemc": {
         "en": "SystemC",
-        "es": "SystemC"
+        "es": "SystemC",
+        "pt": "SystemC"
     },
     "freecad": {
         "en": "FreeCAD",
-        "es": "FreeCAD"
+        "es": "FreeCAD",
+        "pt": "FreeCAD"
     },
     "inkscape": {
         "en": "Inkscape",
-        "es": "Inkscape"
+        "es": "Inkscape",
+        "pt": "Inkscape"
     },
     "gimp": {
         "en": "Gimp",
-        "es": "Gimp"
+        "es": "Gimp",
+        "pt": "Gimp"
     },
     "gnu_linux": {
         "en": "GNU / Linux",
-        "es": "GNU / Linux"
+        "es": "GNU / Linux",
+        "pt": "GNU / Linux"
     },
     "vivado": {
         "en": "Vivado",
-        "es": "Vivado"
+        "es": "Vivado",
+        "pt": "Vivado"
     },
     "quartus": {
         "en": "Quartus",
-        "es": "Quartus"
+        "es": "Quartus",
+        "pt": "Quartus"
     },
     "insert_image_document_string": {
         "en": "Insert image in Document",
-        "es": "Insertar imagen en Documento"
+        "es": "Insertar imagen en Documento",
+        "pt": "Insira a imagem no documento"
     },
     "generator_docs_string": {
         "en": "Google Docs generator from SpreadSheets",
-        "es": "Generador de Google Docs desde SpreadSheets"
+        "es": "Generador de Google Docs desde SpreadSheets",
+        "pt": "Gerador do Google Docs a partir de SpreadSheets"
     },
     "isfet_board_arduino_string": {
         "en": "ISFETBoard library for Arduino",
-        "es": "Librería ISFETBoard para Arduino"
+        "es": "Librería ISFETBoard para Arduino",
+        "pt": "Biblioteca ISFETboard para Arduino"
     },
     "iot_platform_string": {
         "en": "IoT Platform for INICTEL-UNI",
-        "es": "Plataforma IoT para INICTEL-UNI"
+        "es": "Plataforma IoT para INICTEL-UNI",
+        "pt": "Plataforma de IoT para INICTEL-UNI"
     },
     "monitoring_system_characterization_isfet_string": {
         "en": "Monitoring system for ISFET characterization",
-        "es": "Sistema de monitoreo y caracterización para dispositivos ISFET"
+        "es": "Sistema de monitoreo y caracterización para dispositivos ISFET",
+        "pt": "Sistema de monitoramento para caracterização do ISFET"
     },
     "simulation_isfet_model_string": {
         "en": "Simulation software for ISFET models",
-        "es": "Software de simulación para modelos de ISFET"
+        "es": "Software de simulación para modelos de ISFET",
+        "pt": "Software de simulação para modelos ISFET"
     },
     "covid_frame_string": {
         "en": "COVID-Frame: a framework to evaluate CNN for COVID-19 detection",
-        "es": "COVID-Frame: un framework para evaluar CNN en la detección de COVID-19"
+        "es": "COVID-Frame: un framework para evaluar CNN en la detección de COVID-19",
+        "pt": "Covid-frame: uma estrutura para avaliar a CNN para detecção de covid-19"
     },
     "simulation_respiration_monitoring_string": {
         "en": "Simulation software for respiration monitoring",
-        "es": "Software de simulación para monitoreo de respiración"
+        "es": "Software de simulación para monitoreo de respiración",
+        "pt": "Software de simulação para monitoramento da respiração"
     },
     "simulation_filters_string": {
         "en": "Simulation software for filter design",
-        "es": "Software de simulación para diseño de filtros"
+        "es": "Software de simulación para diseño de filtros",
+        "pt": "Software de simulação para design de filtro"
     },
     "deployment_automation_string": {
         "en": "Deployment automation on Linode / AWS / Google Cloud",
-        "es": "Automatización de despliegue en Linode / AWS / Google Cloud"
+        "es": "Automatización de despliegue en Linode / AWS / Google Cloud",
+        "pt": "Automação de implantação no Linode / AWS / Google Cloud"
     },
     "tlera_board_arduino_string": {
         "en": "TleraBoards library for Arduino",
-        "es": "Libería TleraBoard para Arduino"
+        "es": "Libería TleraBoard para Arduino",
+        "pt": "Biblioteca Tleraboards para Arduino"
     },
     "vfapp_web_mobile_string": {
         "en": "VF App for web and mobile",
-        "es": "VFApp para web y móviles"
+        "es": "VFApp para web y móviles",
+        "pt": "App VF para Web e Mobile"
     },
     "payload_generator_string": {
         "en": "Payload generator for Chirpstack simulator",
-        "es": "Generador de payload para simulador ChirpStack"
+        "es": "Generador de payload para simulador ChirpStack",
+        "pt": "Gerador de carga útil para simulador Chirpstack"
     },
     "devops_votu_string": {
         "en": "DevOps for votu platform",
-        "es": "DevOps para plataforma Votu"
+        "es": "DevOps para plataforma Votu",
+        "pt": "DevOps for Votu Platform"
     },
     "devops_tuku_string": {
         "en": "DevOps for tuku platform",
-        "es": "DevOps para plataforma Tuku"
+        "es": "DevOps para plataforma Tuku",
+        "pt": "DevOps for Tuku Platform"
     },
     "cv_template_string": {
         "en": "LaTeX CV template",
-        "es": "Formato de CV en LaTeX"
+        "es": "Formato de CV en LaTeX",
+        "pt": "Modelo de CV de LATEX"
     },
     "monitor_vital_signals_review_string": {
         "en": "Monitor for vital signals review",
-        "es": "Revisión de monitor de signos vitales"
+        "es": "Revisión de monitor de signos vitales",
+        "pt": "Monitor para revisão dos sinais vitais"
     },
     "adc_driver_development_string": {
         "en": "ADC driver development based on IIO driver",
-        "es": "Desarrollo de driver para ADC con IIO driver"
+        "es": "Desarrollo de driver para ADC con IIO driver",
+        "pt": "Desenvolvimento de driver ADC com base no driver da IIO"
     },
     "wm_configuration_string": {
         "en": "GNU/Linux configuration for software development",
-        "es": "Configuración de GNU/Linux para desarrollo de software"
+        "es": "Configuración de GNU/Linux para desarrollo de software",
+        "pt": "Configuração GNU/Linux para desenvolvimento de software"
     },
     "course_iot_string": {
         "en": "Course of Introduction to IoT",
-        "es": "Curso de Introducción al IoT"
+        "es": "Curso de Introducción al IoT",
+        "pt": "Curso de introdução à IoT"
     },
     "course_swdev_string": {
         "en": "Course of Software Development Technologies",
-        "es": "Curso de Tecnologías de Desarrollo de Software"
+        "es": "Curso de Tecnologías de Desarrollo de Software",
+        "pt": "Curso das tecnologias de desenvolvimento de software"
     },
     "inictel_assitant_position": {
         "en": "Assistant on Technological Applications",
-        "es": "Asistente en Aplicaciones Tecnológicas"
+        "es": "Asistente en Aplicaciones Tecnológicas",
+        "pt": "Assistente de aplicações tecnológicas"
     },
     "inictel_third_party_position": {
         "en": "Assistant on Research Projects",
-        "es": "Asistente en proyectos de investigación"
+        "es": "Asistente en proyectos de investigación",
+        "pt": "Assistente de Projetos de Pesquisa"
     },
     "inictel_apprentice_position": {
         "en": "Apprentice on Embedded Systems for Wireless Sensor Network",
-        "es": "Practicante en sistemas embebidos y redes de sensores inalámbricos"
+        "es": "Practicante en sistemas embebidos y redes de sensores inalámbricos",
+        "pt": "Aprendiz em sistemas embarcados para rede de sensores"
     },
     "bmatic_support_position": {
         "en": "Technical Support and Training Engineer",
-        "es": "Ingeniero de soporte técnico y mantenimiento"
+        "es": "Ingeniero de soporte técnico y mantenimiento",
+        "pt": "Suporte técnico e engenheiro de treinamento"
     },
     "thesis_string": {
         "en": "Thesis",
-        "es": "Tesis"
+        "es": "Tesis",
+        "pt": "Tese"
     },
     "article-journal_string": {
         "en": "Journal Article",
-        "es": "Artículo en revista"
+        "es": "Artículo en revista",
+        "pt": "Artigo de jornal"
     },
     "paper-conference_string": {
         "en": "Conference Paper",
-        "es": "Artículo en conferencia"
+        "es": "Artículo en conferencia",
+        "pt": "Artigo da conferência"
     },
     "engineer_researcher_profile_string": {
         "en": "General profile",
-        "es": "Perfil general como ingeniero"
+        "es": "Perfil general como ingeniero",
+        "pt": "Perfil geral"
     },
     "analog_design_profile_string": {
         "en": "Analog IC design engineer profile",
-        "es": "Perfil como diseñador de circuitos integrados analógicos"
+        "es": "Perfil como diseñador de circuitos integrados analógicos",
+        "pt": "Perfil de engenheiro de desenho analógico de IC"
     },
     "embedded_systems_profile_string": {
         "en": "Embedded systems engineer profile",
-        "es": "Perfil como ingeniero de sistemas embebidos"
+        "es": "Perfil como ingeniero de sistemas embebidos",
+        "pt": "Perfil de engenheiro de sistemas embarcados"
     },
     "developer_profile_string": {
         "en": "Developer profile",
-        "es": "Perfil como programador"
+        "es": "Perfil como programador",
+        "pt": "Perfil do desenvolvedor"
     },
     "business_mail_string": {
         "en": "Business mail",
-        "es": "Correo profesional"
+        "es": "Correo profesional",
+        "pt": "Correio de negócios"
     },
     "personal_mail_string": {
         "en": "Personal mail",
-        "es": "Correo personal"
+        "es": "Correo personal",
+        "pt": "Correio pessoal"
     },
     "twitter_string": {
         "en": "Twitter",
-        "es": "Twitter"
+        "es": "Twitter",
+        "pt": "Twitter"
     },
     "linkedin_string": {
         "en": "LinkedIn",
-        "es": "LinkedIn"
+        "es": "LinkedIn",
+        "pt": "LinkedIn"
     },
     "discord_string": {
         "en": "Discord",
-        "es": "Discord"
+        "es": "Discord",
+        "pt": "Discord"
     },
     "github_string": {
         "en": "GitHub",
-        "es": "GitHub"
+        "es": "GitHub",
+        "pt": "GitHub"
     },
     "gitlab_string": {
         "en": "GitLab",
-        "es": "GitLab"
+        "es": "GitLab",
+        "pt": "GitLab"
     },
     "pipy_string": {
         "en": "Pypi",
-        "es": "Pypi"
+        "es": "Pypi",
+        "pt": "Pypi"
     },
     "npm_string": {
         "en": "npm",
-        "es": "npm"
+        "es": "npm",
+        "pt": "npm"
     },
     "docker_string": {
         "en": "Docker Hub",
-        "es": "Docker Hub"
+        "es": "Docker Hub",
+        "pt": "Docker Hub"
     },
     "stackoverflow_string": {
         "en": "Stack Overflow",
-        "es": "Stack Overflow"
+        "es": "Stack Overflow",
+        "pt": "Stack Overflow"
     },
     "researchgate_string": {
         "en": "Research Gate",
-        "es": "Research Gate"
+        "es": "Research Gate",
+        "pt": "Research Gate"
     },
     "orcid_string": {
         "en": "ORCID",
-        "es": "ORCID"
+        "es": "ORCID",
+        "pt": "ORCID"
     },
     "concytec_dina_string": {
         "en": "CTIVitae ID",
-        "es": "CTIVitae ID"
+        "es": "CTIVitae ID",
+        "pt": "CTIVitae ID"
     },
     "scopus_id_string": {
         "en": "Scopus ID",
-        "es": "Scopus ID"
+        "es": "Scopus ID",
+        "pt": "Scopus ID"
     },
     "youtube_string": {
         "en": "Youtube",
-        "es": "Youtube"
+        "es": "Youtube",
+        "pt": "Youtube"
     },
     "send_mail_string": {
         "en": "Send me an email",
-        "es": "Envíame un correo"
+        "es": "Envíame un correo",
+        "pt": "Mande-me um email"
     },
     "connect_with_me_string": {
         "en": "Connect with me",
-        "es": "Conéctate conmigo"
+        "es": "Conéctate conmigo",
+        "pt": "Conecte-se comigo"
     },
     "open_politica_devops_position": {
         "en": "DevOps",
-        "es": "DevOps"
+        "es": "DevOps",
+        "pt": "DevOps"
     }
 }

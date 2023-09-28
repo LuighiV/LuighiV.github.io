@@ -1,138 +1,172 @@
 {
     "expertise_level": {
         "en": "Expertise level",
-        "es": "Nivel de experiencia"
+        "es": "Nivel de experiencia",
+        "pt": "Nível de experiência"
     },
     "development_stage": {
         "en": "Development stage",
-        "es": "Estado del desarrollo"
+        "es": "Estado del desarrollo",
+        "pt": "Estágio de desenvolvimento"
     },
     "type": {
         "en": "Type",
-        "es": "Tipo"
+        "es": "Tipo",
+        "pt": "Tipo"
     },
     "owner": {
         "en": "Owner",
-        "es": "Propietario"
+        "es": "Propietario",
+        "pt": "Proprietário"
     },
     "documentation": {
         "en": "Documentation",
-        "es": "Documentación"
+        "es": "Documentación",
+        "pt": "Documentação"
     },
     "webpage": {
         "en": "Webpage",
-        "es": "Página web"
+        "es": "Página web",
+        "pt": "Site da Internet"
     },
     "projects": {
         "en": "Projects",
-        "es": "Proyectos"
+        "es": "Proyectos",
+        "pt": "Projetos"
     },
     "courses": {
         "en": "Courses",
-        "es": "Cursos"
+        "es": "Cursos",
+        "pt": "Cursos"
     },
     "repositories": {
         "en": "Repositories",
-        "es": "Repositorios"
+        "es": "Repositorios",
+        "pt": "Repositórios"
     },
     "highlighted_projects": {
         "en": "Highlighted projects",
-        "es": "Proyectos destacados"
+        "es": "Proyectos destacados",
+        "pt": "Projetos destacados"
     },
     "other_projects": {
         "en": "Other projects",
-        "es": "Otros proyectos"
+        "es": "Otros proyectos",
+        "pt": "Outros projetos"
     },
     "contribution": {
         "en": "Contribution",
-        "es": "Contribución"
+        "es": "Contribución",
+        "pt": "Contribuição"
     },
     "year": {
         "en": "Year",
-        "es": "Año"
+        "es": "Año",
+        "pt": "Ano"
     },
     "release": {
         "en": "Release",
-        "es": "Publicación"
+        "es": "Publicación",
+        "pt": "Lançamento"
     },
     "skills": {
         "en": "Skills",
-        "es": "Aptitudes"
+        "es": "Aptitudes",
+        "pt": "Competências"
     },
     "see_more": {
         "en": "See more",
-        "es": "Ver más"
+        "es": "Ver más",
+        "pt": "Veja mais"
     },
     "see_less": {
         "en": "See less",
-        "es": "Ver menos"
+        "es": "Ver menos",
+        "pt": "Veja menos"
     },
     "highlighted_courses": {
         "en": "Highlighted courses",
-        "es": "Cursos destacados"
+        "es": "Cursos destacados",
+        "pt": "Cursos destacados"
     },
     "other_courses": {
         "en": "Other courses",
-        "es": "Otros cursos"
+        "es": "Otros cursos",
+        "pt": "Outros cursos"
     },
     "experience": {
         "en": "Experience",
-        "es": "Experiencia"
+        "es": "Experiencia",
+        "pt": "Experiência"
     },
     "link": {
         "en": "Link",
-        "es": "Enlace"
+        "es": "Enlace",
+        "pt": "Link"
     },
     "publications": {
         "en": "Publications",
-        "es": "Publicaciones"
+        "es": "Publicaciones",
+        "pt": "Publicações"
     },
     "interest_topics": {
         "en": "Topics of interest",
-        "es": "Temas de interés"
+        "es": "Temas de interés",
+        "pt": "Tópicos de interesse"
     },
     "see_profile": {
         "en": "See profile",
-        "es": "Ver perfil"
+        "es": "Ver perfil",
+        "pt": "Veja o perfil"
     },
     "related_profiles": {
         "en": "Related profiles",
-        "es": "Perfiles relacionados"
+        "es": "Perfiles relacionados",
+        "pt": "Perfis relacionados"
     },
     "contact_me": {
         "en": "Contact me",
-        "es": "Contáctame"
+        "es": "Contáctame",
+        "pt": "Contate-me"
     },
     "now": {
         "en": "Now",
-        "es": "Actualidad"
+        "es": "Actualidad",
+        "pt": "Agora"
     },
     "volunteering": {
         "en": "Volunteering",
-        "es": "Voluntariado"
+        "es": "Voluntariado",
+        "pt": "Voluntário"
     },
     "share_on": {
         "en": "Share on",
-        "es": "Compartir en"
+        "es": "Compartir en",
+        "pt": "Compartilhar no"
     },
     "share_this_on": {
         "en": "Share this on",
-        "es": "Compartir esto en"
+        "es": "Compartir esto en",
+        "pt": "Compartilhe isso em"
     },
     "share_this_through": {
         "en": "Share this through",
-        "es": "Compartir esto a través de"
+        "es": "Compartir esto a través de",
+        "pt": "Compartilhe isso através"
     },
     "email": {
         "en": "Email",
-        "es": "Correo electrónico"
+        "es": "Correo electrónico",
+        "pt": "E-mail"
     },
     "home": {
         "en": "Home",
-        "es": "Inicio"
+        "es": "Inicio",
+        "pt": "Início"
     },
     "permalink": {
         "en": "Permalink",
-        "es": "Enlace permanente"
+        "es": "Enlace permanente",
+        "pt": "Permalink"
     }
 }

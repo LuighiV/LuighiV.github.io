@@ -38,6 +38,7 @@ plugins:
 exclude:
   - .sass-cache/
   - .jekyll-cache/
+  - env/
   - gemfiles/
   - Gemfile
   - Gemfile.lock
@@ -68,6 +69,16 @@ header_pages:
     - es/publications.md
     - es/volunteering.md
     - es/contact.md
+  pt:
+    - pt/index.md
+    - pt/profile.md
+    - pt/skills.md
+    - pt/experience.md
+    - pt/projects/index.md
+    - pt/courses.md
+    - pt/publications.md
+    - pt/volunteering.md
+    - pt/contact.md
 
 defaults:
     -
@@ -81,6 +92,17 @@ defaults:
             profesional y los proyectos que he desarrollado.
          tagline: Página web personal de Luighi Vitón Zorrilla
          image: /images/banner-es.png
+    -
+     scope:
+         path: pt
+     values:
+         lang: pt
+         base_url: "/pt/"
+         description: >-
+            Este é meu site pessoal. Esta página descreve minha trajetória
+            profissional e os projetos que desenvolvi.
+         tagline: Site pessoal de Luighi Vitón Zorrilla
+         image: /images/banner-pt.png
     -
      scope:
          path: en

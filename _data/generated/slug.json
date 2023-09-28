@@ -1,422 +1,557 @@
 {
     "final_product_string": {
         "en": "final-product",
-        "es": "producto-final"
+        "es": "producto-final",
+        "pt": "produto-final"
     },
     "prototype_string": {
         "en": "prototype",
-        "es": "prototipo"
+        "es": "prototipo",
+        "pt": "prototipo"
     },
     "in_development_string": {
         "en": "in-development",
-        "es": "en-desarrollo"
+        "es": "en-desarrollo",
+        "pt": "em-desenvolvimento"
     },
     "stand_by_string": {
         "en": "stand-by",
-        "es": "en-pausa"
+        "es": "en-pausa",
+        "pt": "pausa"
+    },
+    "active_string": {
+        "en": "active",
+        "es": "activo",
+        "pt": "ativo"
+    },
+    "archived_string": {
+        "en": "archived",
+        "es": "archivado",
+        "pt": "arquivado"
     },
     "research_engineering_string": {
         "en": "research--engineering",
-        "es": "investigacion--ingenieria"
+        "es": "investigacion--ingenieria",
+        "pt": "pesquisa--engenharia"
     },
     "development_programming_string": {
         "en": "development--programming",
-        "es": "desarrollo--programacion"
+        "es": "desarrollo--programacion",
+        "pt": "desenvolvimento--programacao"
     },
     "programming_languages_string": {
         "en": "programming-languages",
-        "es": "lenguajes-de-programacion"
+        "es": "lenguajes-de-programacion",
+        "pt": "linguagens-de-programacao"
     },
     "documentation_languages_string": {
         "en": "documentation-languages",
-        "es": "lenguajes-para-documentacion"
+        "es": "lenguajes-para-documentacion",
+        "pt": "linguagens-de-documentacao"
     },
     "cloud_computing_string": {
         "en": "cloud-computing-technologies",
-        "es": "tecnologias-de-computacion-en-la-nube"
+        "es": "tecnologias-de-computacion-en-la-nube",
+        "pt": "tecnologias-de-computacao-em-nuvem"
     },
     "ci_cd_string": {
         "en": "ci--cd-tecnologies",
-        "es": "tecnologias-de-ci--cd"
+        "es": "tecnologias-de-ci--cd",
+        "pt": "tecnologias-ci--cd"
     },
     "database_management_string": {
         "en": "database-management",
-        "es": "gestion-de-bases-de-datos"
+        "es": "gestion-de-bases-de-datos",
+        "pt": "gerenciamento-de-bases-de-dados"
     },
     "simulation_languages_string": {
         "en": "simulation-languages",
-        "es": "lenguages-de-simulacion"
+        "es": "lenguages-de-simulacion",
+        "pt": "linguagens-de-simulacao"
     },
     "simulation_software_string": {
         "en": "simulation-software",
-        "es": "software-de-simulacion"
+        "es": "software-de-simulacion",
+        "pt": "software-de-simulacao"
     },
     "pcb_design_software_string": {
         "en": "pcb-design-software",
-        "es": "sofrware-de-diseno-de-pcb"
+        "es": "software-de-diseno-de-pcb",
+        "pt": "software-de-desenho-de-pcb"
     },
     "digital_hardware_design_software_string": {
-        "en": "digital-hardware-design-sofware-fpga",
-        "es": "software-para-diseno-de-hardware-digital-fpga"
+        "en": "digital-hardware-design-software-fpga",
+        "es": "software-para-diseno-de-hardware-digital-fpga",
+        "pt": "software-de-desenho-de-hardware-digital-fpga"
     },
     "hardware_description_languages_string": {
         "en": "hardware-description-language",
-        "es": "lenguages-de-descripcion-de-hardware"
+        "es": "lenguages-de-descripcion-de-hardware",
+        "pt": "linguagem-de-descricao-de-hardware"
     },
     "modeling_design_software_string": {
         "en": "modeling-and-design-software",
-        "es": "software-de-diseno-y-modelamiento"
+        "es": "software-de-diseno-y-modelamiento",
+        "pt": "software-de-modelagem-e-desenho"
     },
     "operating_systems_string": {
         "en": "operating-systems",
-        "es": "sistemas-operativos"
+        "es": "sistemas-operativos",
+        "pt": "sistemas-operacionais"
     },
     "python": {
         "en": "python",
-        "es": "python"
+        "es": "python",
+        "pt": "python"
     },
     "bash": {
         "en": "bash",
-        "es": "bash"
+        "es": "bash",
+        "pt": "bash"
     },
     "c_c_plus_plus": {
         "en": "cc",
-        "es": "cc"
+        "es": "cc",
+        "pt": "cc"
     },
     "javascript": {
         "en": "javascript",
-        "es": "javascript"
+        "es": "javascript",
+        "pt": "javascript"
     },
     "c_sharp": {
         "en": "c",
-        "es": "c"
+        "es": "c",
+        "pt": "c"
     },
     "matlab": {
         "en": "matlab",
-        "es": "matlab"
+        "es": "matlab",
+        "pt": "matlab"
     },
     "go": {
         "en": "go",
-        "es": "go"
+        "es": "go",
+        "pt": "go"
     },
     "docker_docker_compose": {
         "en": "docker--docker-compose",
-        "es": "docker--docker-compose"
+        "es": "docker--docker-compose",
+        "pt": "docker--docker-compose"
     },
     "terraform": {
         "en": "terraform",
-        "es": "terraform"
+        "es": "terraform",
+        "pt": "terraform"
     },
     "google_cloud": {
         "en": "google-cloud",
-        "es": "google-cloud"
+        "es": "google-cloud",
+        "pt": "google-cloud"
     },
     "aws": {
         "en": "amazon-web-services",
-        "es": "amazon-web-services"
+        "es": "amazon-web-services",
+        "pt": "amazon-web-services"
     },
     "linode": {
         "en": "linode",
-        "es": "linode"
+        "es": "linode",
+        "pt": "linode"
     },
     "git": {
         "en": "git",
-        "es": "git"
+        "es": "git",
+        "pt": "git"
     },
     "github": {
         "en": "github-and-github-actions",
-        "es": "github-y-github-actions"
+        "es": "github-y-github-actions",
+        "pt": "github-y-github-actions"
     },
     "gitlab": {
         "en": "gitlab-and-gitlab-cicd",
-        "es": "gitlab-y-gitlab-cicd"
+        "es": "gitlab-y-gitlab-cicd",
+        "pt": "gitlab-y-gitlab-cicd"
     },
     "jenkins": {
         "en": "jenkins",
-        "es": "jenkins"
+        "es": "jenkins",
+        "pt": "jenkins"
     },
     "mariadb_mysql": {
         "en": "maria-db--mysql",
-        "es": "maria-db--mysql"
+        "es": "maria-db--mysql",
+        "pt": "maria-db--mysql"
     },
     "postgresql": {
         "en": "postgresql",
-        "es": "postgresql"
+        "es": "postgresql",
+        "pt": "postgresql"
     },
     "tex_latex": {
         "en": "tex--latex",
-        "es": "tex--latex"
+        "es": "tex--latex",
+        "pt": "tex--latex"
     },
     "markdown": {
         "en": "markdown",
-        "es": "markdown"
+        "es": "markdown",
+        "pt": "markdown"
     },
     "re_structured_text": {
         "en": "re-structured-text",
-        "es": "re-structured-text"
+        "es": "re-structured-text",
+        "pt": "re-structured-text"
     },
     "asciidoc": {
         "en": "asciidoc",
-        "es": "asciidoc"
+        "es": "asciidoc",
+        "pt": "asciidoc"
     },
     "spice": {
         "en": "spice",
-        "es": "spice"
+        "es": "spice",
+        "pt": "spice"
     },
     "vhdl_ams": {
         "en": "vhdl-ams",
-        "es": "vhdl-ams"
+        "es": "vhdl-ams",
+        "pt": "vhdl-ams"
     },
     "ltspice": {
         "en": "ltspice",
-        "es": "ltspice"
+        "es": "ltspice",
+        "pt": "ltspice"
     },
     "orcad_pspice": {
         "en": "orcad--pspice",
-        "es": "orcad--pspice"
+        "es": "orcad--pspice",
+        "pt": "orcad--pspice"
     },
     "ngspice": {
         "en": "ngspice",
-        "es": "ngspice"
+        "es": "ngspice",
+        "pt": "ngspice"
     },
     "proteus": {
         "en": "proteus",
-        "es": "proteus"
+        "es": "proteus",
+        "pt": "proteus"
     },
     "kicad": {
         "en": "kicad",
-        "es": "kicad"
+        "es": "kicad",
+        "pt": "kicad"
     },
     "altium": {
         "en": "altium",
-        "es": "altium"
+        "es": "altium",
+        "pt": "altium"
     },
     "eagle": {
         "en": "eagle",
-        "es": "eagle"
+        "es": "eagle",
+        "pt": "eagle"
     },
     "vhdl": {
         "en": "vhdl",
-        "es": "vhdl"
+        "es": "vhdl",
+        "pt": "vhdl"
     },
     "verilog": {
         "en": "verilog",
-        "es": "verilog"
+        "es": "verilog",
+        "pt": "verilog"
     },
     "systemc": {
         "en": "systemc",
-        "es": "systemc"
+        "es": "systemc",
+        "pt": "systemc"
     },
     "freecad": {
         "en": "freecad",
-        "es": "freecad"
+        "es": "freecad",
+        "pt": "freecad"
     },
     "inkscape": {
         "en": "inkscape",
-        "es": "inkscape"
+        "es": "inkscape",
+        "pt": "inkscape"
     },
     "gimp": {
         "en": "gimp",
-        "es": "gimp"
+        "es": "gimp",
+        "pt": "gimp"
     },
     "gnu_linux": {
         "en": "gnu--linux",
-        "es": "gnu--linux"
+        "es": "gnu--linux",
+        "pt": "gnu--linux"
     },
     "vivado": {
         "en": "vivado",
-        "es": "vivado"
+        "es": "vivado",
+        "pt": "vivado"
     },
     "quartus": {
         "en": "quartus",
-        "es": "quartus"
+        "es": "quartus",
+        "pt": "quartus"
     },
     "insert_image_document_string": {
         "en": "insert-image-in-document",
-        "es": "insertar-imagen-en-documento"
+        "es": "insertar-imagen-en-documento",
+        "pt": "insira-a-imagem-no-documento"
     },
     "generator_docs_string": {
         "en": "google-docs-generator-from-spreadsheets",
-        "es": "generador-de-google-docs-desde-spreadsheets"
+        "es": "generador-de-google-docs-desde-spreadsheets",
+        "pt": "gerador-do-google-docs-a-partir-de-spreadsheets"
     },
     "isfet_board_arduino_string": {
         "en": "isfetboard-library-for-arduino",
-        "es": "libreria-isfetboard-para-arduino"
+        "es": "libreria-isfetboard-para-arduino",
+        "pt": "biblioteca-isfetboard-para-arduino"
     },
     "iot_platform_string": {
         "en": "iot-platform-for-inictel-uni",
-        "es": "plataforma-iot-para-inictel-uni"
+        "es": "plataforma-iot-para-inictel-uni",
+        "pt": "plataforma-de-iot-para-inictel-uni"
     },
     "monitoring_system_characterization_isfet_string": {
         "en": "monitoring-system-for-isfet-characterization",
-        "es": "sistema-de-monitoreo-y-caracterizacion-para-dispositivos-isfet"
+        "es": "sistema-de-monitoreo-y-caracterizacion-para-dispositivos-isfet",
+        "pt": "sistema-de-monitoramento-para-caracterizacao-do-isfet"
     },
     "simulation_isfet_model_string": {
         "en": "simulation-software-for-isfet-models",
-        "es": "software-de-simulacion-para-modelos-de-isfet"
+        "es": "software-de-simulacion-para-modelos-de-isfet",
+        "pt": "software-de-simulacao-para-modelos-isfet"
     },
     "covid_frame_string": {
         "en": "covid-frame-a-framework-to-evaluate-cnn-for-covid-19-detection",
-        "es": "covid-frame-un-framework-para-evaluar-cnn-en-la-deteccion-de-covid-19"
+        "es": "covid-frame-un-framework-para-evaluar-cnn-en-la-deteccion-de-covid-19",
+        "pt": "covid-frame-uma-estrutura-para-avaliar-a-cnn-para-deteccao-de-covid-19"
     },
     "simulation_respiration_monitoring_string": {
         "en": "simulation-software-for-respiration-monitoring",
-        "es": "software-de-simulacion-para-monitoreo-de-respiracion"
+        "es": "software-de-simulacion-para-monitoreo-de-respiracion",
+        "pt": "software-de-simulacao-para-monitoramento-da-respiracao"
     },
     "simulation_filters_string": {
         "en": "simulation-software-for-filter-design",
-        "es": "software-de-simulacion-para-diseno-de-filtros"
+        "es": "software-de-simulacion-para-diseno-de-filtros",
+        "pt": "software-de-simulacao-para-design-de-filtro"
     },
     "deployment_automation_string": {
         "en": "deployment-automation-on-linode--aws--google-cloud",
-        "es": "automatizacion-de-despliegue-en-linode--aws--google-cloud"
+        "es": "automatizacion-de-despliegue-en-linode--aws--google-cloud",
+        "pt": "automacao-de-implantacao-no-linode--aws--google-cloud"
     },
     "tlera_board_arduino_string": {
         "en": "tleraboards-library-for-arduino",
-        "es": "liberia-tleraboard-para-arduino"
+        "es": "liberia-tleraboard-para-arduino",
+        "pt": "biblioteca-tleraboards-para-arduino"
     },
     "vfapp_web_mobile_string": {
         "en": "vf-app-for-web-and-mobile",
-        "es": "vfapp-para-web-y-moviles"
+        "es": "vfapp-para-web-y-moviles",
+        "pt": "app-vf-para-web-e-mobile"
     },
     "payload_generator_string": {
         "en": "payload-generator-for-chirpstack-simulator",
-        "es": "generador-de-payload-para-simulador-chirpstack"
+        "es": "generador-de-payload-para-simulador-chirpstack",
+        "pt": "gerador-de-carga-util-para-simulador-chirpstack"
     },
     "devops_votu_string": {
         "en": "devops-for-votu-platform",
-        "es": "devops-para-plataforma-votu"
+        "es": "devops-para-plataforma-votu",
+        "pt": "devops-for-votu-platform"
     },
     "devops_tuku_string": {
         "en": "devops-for-tuku-platform",
-        "es": "devops-para-plataforma-tuku"
+        "es": "devops-para-plataforma-tuku",
+        "pt": "devops-for-tuku-platform"
     },
     "cv_template_string": {
         "en": "latex-cv-template",
-        "es": "formato-de-cv-en-latex"
+        "es": "formato-de-cv-en-latex",
+        "pt": "modelo-de-cv-de-latex"
     },
     "monitor_vital_signals_review_string": {
         "en": "monitor-for-vital-signals-review",
-        "es": "revision-de-monitor-de-signos-vitales"
+        "es": "revision-de-monitor-de-signos-vitales",
+        "pt": "monitor-para-revisao-dos-sinais-vitais"
     },
     "adc_driver_development_string": {
         "en": "adc-driver-development-based-on-iio-driver",
-        "es": "desarrollo-de-driver-para-adc-con-iio-driver"
+        "es": "desarrollo-de-driver-para-adc-con-iio-driver",
+        "pt": "desenvolvimento-de-driver-adc-com-base-no-driver-da-iio"
     },
     "wm_configuration_string": {
         "en": "gnulinux-configuration-for-software-development",
-        "es": "configuracion-de-gnulinux-para-desarrollo-de-software"
+        "es": "configuracion-de-gnulinux-para-desarrollo-de-software",
+        "pt": "configuracao-gnulinux-para-desenvolvimento-de-software"
+    },
+    "course_iot_string": {
+        "en": "course-of-introduction-to-iot",
+        "es": "curso-de-introduccion-al-iot",
+        "pt": "curso-de-introducao-a-iot"
+    },
+    "course_swdev_string": {
+        "en": "course-of-software-development-technologies",
+        "es": "curso-de-tecnologias-de-desarrollo-de-software",
+        "pt": "curso-das-tecnologias-de-desenvolvimento-de-software"
     },
     "inictel_assitant_position": {
         "en": "assistant-on-technological-applications",
-        "es": "asistente-en-aplicaciones-tecnologicas"
+        "es": "asistente-en-aplicaciones-tecnologicas",
+        "pt": "assistente-de-aplicacoes-tecnologicas"
     },
     "inictel_third_party_position": {
         "en": "assistant-on-research-projects",
-        "es": "asistente-en-proyectos-de-investigacion"
+        "es": "asistente-en-proyectos-de-investigacion",
+        "pt": "assistente-de-projetos-de-pesquisa"
     },
     "inictel_apprentice_position": {
         "en": "apprentice-on-embedded-systems-for-wireless-sensor-network",
-        "es": "practicante-en-sistemas-embebidos-y-redes-de-sensores-inalambricos"
+        "es": "practicante-en-sistemas-embebidos-y-redes-de-sensores-inalambricos",
+        "pt": "aprendiz-em-sistemas-embarcados-para-rede-de-sensores"
     },
     "bmatic_support_position": {
         "en": "technical-support-and-training-engineer",
-        "es": "ingeniero-de-soporte-tecnico-y-mantenimiento"
+        "es": "ingeniero-de-soporte-tecnico-y-mantenimiento",
+        "pt": "suporte-tecnico-e-engenheiro-de-treinamento"
     },
     "thesis_string": {
         "en": "thesis",
-        "es": "tesis"
+        "es": "tesis",
+        "pt": "tese"
     },
     "article-journal_string": {
         "en": "journal-article",
-        "es": "articulo-en-revista"
+        "es": "articulo-en-revista",
+        "pt": "artigo-de-jornal"
     },
     "paper-conference_string": {
         "en": "conference-paper",
-        "es": "articulo-en-conferencia"
+        "es": "articulo-en-conferencia",
+        "pt": "artigo-da-conferencia"
     },
     "engineer_researcher_profile_string": {
-        "en": "engineer-profile",
-        "es": "perfil-como-ingeniero"
+        "en": "general-profile",
+        "es": "perfil-general-como-ingeniero",
+        "pt": "perfil-geral"
+    },
+    "analog_design_profile_string": {
+        "en": "analog-ic-design-engineer-profile",
+        "es": "perfil-como-disenador-de-circuitos-integrados-analogicos",
+        "pt": "perfil-de-engenheiro-de-desenho-analogico-de-ic"
+    },
+    "embedded_systems_profile_string": {
+        "en": "embedded-systems-engineer-profile",
+        "es": "perfil-como-ingeniero-de-sistemas-embebidos",
+        "pt": "perfil-de-engenheiro-de-sistemas-embarcados"
     },
     "developer_profile_string": {
         "en": "developer-profile",
-        "es": "perfil-como-programador"
+        "es": "perfil-como-programador",
+        "pt": "perfil-do-desenvolvedor"
     },
     "business_mail_string": {
         "en": "business-mail",
-        "es": "correo-profesional"
+        "es": "correo-profesional",
+        "pt": "correio-de-negocios"
     },
     "personal_mail_string": {
         "en": "personal-mail",
-        "es": "correo-personal"
+        "es": "correo-personal",
+        "pt": "correio-pessoal"
     },
     "twitter_string": {
         "en": "twitter",
-        "es": "twitter"
+        "es": "twitter",
+        "pt": "twitter"
     },
     "linkedin_string": {
         "en": "linkedin",
-        "es": "linkedin"
+        "es": "linkedin",
+        "pt": "linkedin"
     },
     "discord_string": {
         "en": "discord",
-        "es": "discord"
+        "es": "discord",
+        "pt": "discord"
     },
     "github_string": {
         "en": "github",
-        "es": "github"
+        "es": "github",
+        "pt": "github"
     },
     "gitlab_string": {
         "en": "gitlab",
-        "es": "gitlab"
+        "es": "gitlab",
+        "pt": "gitlab"
     },
     "pipy_string": {
         "en": "pypi",
-        "es": "pypi"
+        "es": "pypi",
+        "pt": "pypi"
     },
     "npm_string": {
         "en": "npm",
-        "es": "npm"
+        "es": "npm",
+        "pt": "npm"
     },
     "docker_string": {
         "en": "docker-hub",
-        "es": "docker-hub"
+        "es": "docker-hub",
+        "pt": "docker-hub"
     },
     "stackoverflow_string": {
         "en": "stack-overflow",
-        "es": "stack-overflow"
+        "es": "stack-overflow",
+        "pt": "stack-overflow"
     },
     "researchgate_string": {
         "en": "research-gate",
-        "es": "research-gate"
+        "es": "research-gate",
+        "pt": "research-gate"
     },
     "orcid_string": {
         "en": "orcid",
-        "es": "orcid"
+        "es": "orcid",
+        "pt": "orcid"
     },
     "concytec_dina_string": {
         "en": "ctivitae-id",
-        "es": "ctivitae-id"
+        "es": "ctivitae-id",
+        "pt": "ctivitae-id"
     },
     "scopus_id_string": {
         "en": "scopus-id",
-        "es": "scopus-id"
+        "es": "scopus-id",
+        "pt": "scopus-id"
     },
     "youtube_string": {
         "en": "youtube",
-        "es": "youtube"
+        "es": "youtube",
+        "pt": "youtube"
     },
     "send_mail_string": {
         "en": "send-me-an-email",
-        "es": "enviame-un-correo"
+        "es": "enviame-un-correo",
+        "pt": "mande-me-um-email"
     },
     "connect_with_me_string": {
         "en": "connect-with-me",
-        "es": "conectate-conmigo"
+        "es": "conectate-conmigo",
+        "pt": "conecte-se-comigo"
     },
     "open_politica_devops_position": {
         "en": "devops",
-        "es": "devops"
+        "es": "devops",
+        "pt": "devops"
     }
 }

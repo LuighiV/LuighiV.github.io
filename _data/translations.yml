@@ -1,9 +1,11 @@
 differentLanguage:
   en: "Read this page in a different language"
   es: "Lea esta página en un idioma diferente"
+  pt: "Leia esta página em uma lingua diferente"
 title:
   en: "Luighi Viton-Zorrilla"
   es: "Luighi Vitón Zorrilla" 
+  pt: "Luighi Vitón Zorrilla" 
 description:
   en: >-
     This is is my personal web page. It describes my professional 
@@ -11,3 +13,6 @@ description:
   es: >-
     Esta es mi página web personal. Esta página describe mi trayectoria 
     profesional y los proyectos que he desarrollado.
+  pt: >-
+    Este é meu site pessoal. Esta página descreve minha trajetória
+    profissional e os projetos que desenvolvi.
