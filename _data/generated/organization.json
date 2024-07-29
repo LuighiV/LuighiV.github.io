@@ -21,5 +21,11 @@
         "org_name": "Luighi Viton-Zorrilla",
         "org_short_name": "Luighi Viton",
         "org_url": "https://luighiviton.com/"
+    },
+    {
+        "org_id": "hcltech",
+        "org_name": "HCLTech",
+        "org_short_name": "HCLTech",
+        "org_url": "https://www.hcltech.com/"
     }
 ]

@@ -1,5 +1,14 @@
 [
     {
+        "experience_id": "hcltech_staff",
+        "start_date": 2022,
+        "end_date": "",
+        "organization_id": "hcltech",
+        "department": "Analog Design Brazil",
+        "position": "hcltech_staff_position",
+        "description": "hcltech_staff_description"
+    },
+    {
         "experience_id": "inictel_assitant",
         "start_date": 2019,
         "end_date": 2021,

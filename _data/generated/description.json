@@ -314,6 +314,11 @@
         "es": "Estaba a cargo de todo el diseño y la implementación de ADC en el FPGA. Esto incluye el desarrollo del controlador para el Linux incorporado en el procesador ARM (Linaro), también en la FPGA.",
         "pt": "Eu estava encarregado de todo o design e implementação do ADC no FPGA. Isso inclui o desenvolvimento do driver para o Linux incorporado no processador ARM, como no FPGA."
     },
+    "hcltech_staff_description": {
+        "en": "Design of analogue integrated circuits in different technologies (TSMC28nm, GF40nm and GF130nm) for power management (bandgap, reference current generation, comparators, POR) and IO interface development (GPIO/I2C/I3C).",
+        "es": "Diseño de circuitos integrados analógicos en diferentes tecnologías (TSMC28nm, GF40nm and GF130nm) para gestión de energía (bandgap, generación de corriente de referencia, comparadores, POR) y desarrollo de interfaz IO (GPIO/I2C/I3C).",
+        "pt": "Projeto de circuitos integrados analógicos em diferentes tecnologias (TSMC28nm, GF40nm e GF130nm) para gerenciamento de energia (bandgap, geração de corrente de referência, comparadores, POR) e desenvolvimento de interface IO (GPIO/I2C/I3C)."
+    },
     "inictel_assitant_description": {
         "en": "I was in charge of developing applications for Internet of Things (IoT) technologies and preparing the technical material for training sessions on this topic. Here I have the chance to lead a project named \"IoT Platform for INICTEL-UNI\" that could be used for the technical areas in the institution with the potential to be employed to provide IoT services to small companies. I have also proposed a telemedicine project in the context of COVID-19 to prepare for the progressive return to on-site activities.",
         "es": "Estaba a cargo de desarrollar aplicaciones para las tecnologías de Internet de las cosas (IoT) y preparar el material técnico para las sesiones de capacitación para este tema. Aquí tengo la oportunidad de liderar un proyecto llamado \"IoT Plataforma para Inictel-Uni\" que podría usarse para las áreas técnicas de la institución con potencial de emplearse para proporcionar servicios de IoT a pequeñas empresas. También he propuesto un proyecto de telemedicina en el contexto de COVID-19 para preparar el retorno progresivo a las actividades en el lugar.",
